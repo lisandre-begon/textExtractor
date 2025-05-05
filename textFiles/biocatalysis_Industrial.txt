@@ -1,0 +1,4572 @@
+Enzyme Catalysis
+
+Reviews
+
+Angewandte
+
+Chemie
+
+How to cite:
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+International Edition: doi.org/10.1002/anie.202006648
+doi.org/10.1002/ange.202006648
+German Edition:
+
+Biocatalysis: Enzymatic Synthesis for Industrial Appli-
+cations
+Shuke Wu, Radka Snajdrova, Jeffrey C. Moore, Kai Baldenius,* and
+Uwe T. Bornscheuer*
+
+Keywords:
+biocatalysis · enzyme catalysis ·
+industrial catalysis ·
+organic synthesis ·
+stereoselectivity
+
+Angewandte
+
+Chemie
+
+88
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Biocatalysis has found numerous applications in various fields as an
+alternative to chemical catalysis. The use of enzymes in organic
+synthesis, especially to make chiral compounds for pharmaceuticals as
+well for the flavors and fragrance industry, are the most prominent
+examples. In addition, biocatalysts are used on a large scale to make
+specialty and even bulk chemicals. This review intends to give illus-
+trative examples in this field with a special focus on scalable chemical
+production using enzymes. It also discusses the opportunities and
+limitations of enzymatic syntheses using distinct examples and
+provides an outlook on emerging enzyme classes.
+
+From the Contents
+
+1. Introduction
+
+2. Alcohols
+
+3. Amines
+
+4. Carbonyls, Carboxylic Acids and
+
+Derivatives
+
+5. Glycosylation
+
+6. Complex Molecules
+
+7. Biocatalytic Reactions for
+Potential Industrialization
+
+8. Conclusion and Outlook
+
+89
+
+91
+
+95
+
+98
+
+104
+
+107
+
+109
+
+112
+
+Here, the NHase from Rhodococcus rhodochrous J1—used
+in a whole-cell system to avoid enzyme isolation as no
+undesired side reactions occur and stability is higher—
+exhibits outstanding catalytic efficiency as up to 7 kg acryl-
+amide can be produced per gram cells with product concen-
+trations exceeding 500 g per liter reactor volume and space-
+time-yields (STY) exceeding 0.1 kg L@1 h@1.
+
+In the meantime, many more enzymes made it into large
+scale biocatalytic processes for which several examples are
+given in this review. One reason is faster and straight forward
+discovery and engineering of suitable biocatalysts (the 3rd[1a]
+and 4th[6] “wave”). This includes access to a plethora of novel
+enzymes via protein sequence and structure databases, their
+
+[*] Dr. S. Wu, Prof. Dr. U. T. Bornscheuer
+
+Institute of Biochemistry, Dept. of Biotechnology & Enzyme
+Catalysis, Greifswald University
+Felix-Hausdorff-Strasse 4, 17487 Greifswald (Germany)
+E-mail: uwe.bornscheuer@uni-greifswald.de
+Homepage: http://biotech.uni-greifswald.de/
+
+Dr. R. Snajdrova
+Novartis Institutes for BioMedical Research, Global Discovery
+Chemistry, 4056 Basel (Switzerland)
+
+Dr. J. C. Moore
+Process Research and Development, Merck & Co., Inc.
+126 E. Lincoln Ave, Rahway, NJ 07065 (USA)
+
+Dr. K. Baldenius
+Baldenius Biotech Consulting
+Hafenstr. 31, 68159 Mannheim (Germany)
+E-mail: kai@baldenius.com
+Homepage: http://www.baldenius-biotech.com
+
+The ORCID identification numbers for the authors of this article can
+be found under https://doi.org/10.1002/anie.202006648.
+
+T 2020 The Authors. Published by Wiley-VCH GmbH. This is an
+open access article under the terms of the Creative Commons
+Attribution Non-Commercial NoDerivs License, which permits use
+and distribution in any medium, provided the original work is
+properly cited, the use is non-commercial, and no modifications or
+adaptations are made.
+
+1. Introduction
+
+Biocatalysis has developed in the last two decades into
+a rather mature and widely used technology.[1] With a few
+noticeable exceptions, biocatalysis in the early 2000s kept
+hiding in niche applications and focused on the synthesis or
+resolution of optically active intermediates.[2] Since then,
+biocatalysis has evolved more and more into a broadly
+applicable tool for chemical synthesis and manufacturing as
+documented in many books.[3] Important driving forces are
+the rapid discovery of new enzyme variants by modern
+bioinformatics and computer modelling supported enzyme
+engineering.[4] While the tremendous catalytic activity of
+enzymes is widely recognized, often their stability and cost are
+considered a limitation. In this review we will focus on
+biocatalysis suitable for scalable chemical production and
+discuss the opportunities and limitations of enzymatic syn-
+theses using distinct examples.
+
+A search in ScopusU (Elsevier) for reviews on “Biocatal-
+ysis” reveals more than 2000 hits; in SciFinderU (Chemical
+Abstract Service, CAS) with a less stringent definition of
+“review” more than 5000 articles are documented. Our aim
+shall not be to add yet another review simply summarizing the
+latest achievements in the biocatalysis field. Instead, we
+rather intend to give guidance to synthetic chemists which
+biocatalytic conversion technology may serve his/her manu-
+facturing challenge best. For this purpose, important key
+performance indicators (KPIs) will be applied to provide
+efficiency considerations that qualify new biocatalytic pro-
+cesses for industrial scale-up and commercialization. While
+we will give reference to more specialized reviews of the
+individual biotransformations, our comprehensive approach
+shall help synthetic chemists navigate to the most efficient
+route for a multistep synthesis involving biocatalysis.
+
+When in the early 2000s seminal reviews appeared,[2]
+biocatalysis was still mostly using hydrolases (such as lipase
+CAL-B) or amidases (such as penicillin acylase and Subtili-
+sin), predominantly for the kinetic resolution of chiral
+primary and secondary alcohols, amines or carboxylic acids.
+Ketoreductases (KREDs, as a subgroup of alcohol dehydro-
+genases, ADHs) were employed to make chiral secondary
+alcohols via asymmetric reduction of prochiral ketones.
+Probably the most prominent large scale industrial biocata-
+lytic process was the long-established nitrile hydratase
+(NHase) process to make acrylamide from acrylonitrile.[5]
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+89
+
+Reviews
+
+Angewandte
+
+Chemie
+
+improvement guided by bioinformatic tools in combination
+with rational design or directed evolution, high-throughput
+screening tools as well as a range of design methods as
+summarized in reviews.[7] Especially directed evolution rep-
+resents a key technology for which Frances H. Arnold was
+awarded the Nobel prize in Chemistry in 2018.[8] The major
+acceleration of biocatalyst development in recent years stems
+from the cheap availability of synthetic genes that allow for
+rapid, affordable screening of a diverse set of enzyme variants.
+In addition, the strategic planning of enzymatic routes has
+been facilitated as several reviews[9] and a book[10] now cover
+retrosynthesis concepts for biocatalysis, which should ease the
+decision of which type of enzyme (class) and reaction is most
+suitable for a targeted product. Also, the combination of
+biocatalysis with chemical catalysis (metal-, organo-, photo-,
+electro-catalysis) became more mature in the past decade.[3b]
+
+Still, not every new biocatalytic reaction (theoretically)
+possible or working on small scale makes it into an industrial
+process for various reasons, as also pointed out by Hauer very
+recently.[11] Many of these reasons also apply to new chemical
+reactions, which never make it into production. For instance,
+it can be difficult to get a new process implemented simply
+because this requires new investments into a factory while an
+old process in a depreciated production site is still running
+profitably. Furthermore, despite the achievements made in
+enzyme discovery and engineering, the “need for speed” can
+still be an issue, as timelines for biocatalyst development
+especially in the pharmaceutical industry are often very short
+as stated in an excellent recent publication.[12] Other aspects
+are given in Table 1. On the other hand, biocatalytic reactions
+have the advantage that no special equipment is required and
+
+Kai Baldenius studied chemistry in Hamburg
+and Southampton. He received his PhD for
+research in asymmetric organometallic catal-
+ysis, supervised by H. tom Dieck and H. B.
+Kagan. After his postdoc on natural product
+synthesis with K. C. Nicolaou at the Scripps
+Research Institute he joined BASF in 1993.
+Kai served BASF in various functions (R&D,
+production, marketing, sales) before he took
+the lead of BASF’s biocatalysis research for
+almost a defcade. He left BASF to become
+a free-lancing consultant in 2019 and in
+2020 he has founded Baldenius Biotech
+Consulting.
+
+Uwe T. Bornscheuer studied chemistry and
+received his PhD in 1993 at Hannover
+University followed by a postdoc at Nagoya
+University (Japan). In 1998, he completed
+his Habilitation at Stuttgart University
+about the use of lipases and esterases in
+organic synthesis. He has been Professor at
+the Institute of Biochemistry at Greifswald
+University since 1999. Beside other awards,
+he received in 2008 the BioCat2008 Award.
+He was just recognized as “Chemistry
+Europe Fellow”. His current research interest
+focuses on the discovery and engineering of
+
+enzymes from various classes for applications in organic synthesis, lipid
+modification, degradation of plastics or complex marine polysaccharides.
+
+Shuke Wu obtained his PhD from the
+National University of Singapore (2015)
+with Prof. Zhi Li (NUS) and Prof. Daniel I.
+C. Wang (MIT). In 2017, he moved to
+Switzerland to work with Prof. Thomas R.
+Ward at the University of Basel sponsored by
+a Swiss government excellence scholarship.
+Currently, he is working with Prof. Uwe T.
+Bornscheuer at the University of Greifswald
+as an Alexander von Humboldt fellow.
+
+Radka Snajdrova obtained her PhD from
+Vienna University of Technology in 2007,
+followed by postdoctoral studies at York
+University (UK) and Greifswald University
+(Germany). In 2010, she transitioned to
+industry applying and developing biocatalytic
+technologies at Novacta in the UK, prior to
+joining Chemical Process Development at
+GSK, with responsibility for the development
+and implementation of new biocatalytic
+technology in both pre- and post-commerci-
+alization routes. Since Dec. 2016, Radka is
+leading the Bioreactions group in GDC at
+the Novartis Institute for Biomedical
+Research in Basel, Switzerland.
+
+Jeffrey Moore obtained his PhD in Chemical
+Engineering from the California Institute of
+Technology in 1996 as Frances Arnold’s first
+Directed Evolution graduate student. His
+foundational work led to an evolved p-nitro-
+benzyl esterase and the Lonza Centenary
+Prize (1997). In 1996, he joined the Bioca-
+talysis Group of Merck & Co.in Rahway NJ,
+spending two decades inventing new
+enzymes and new enzymatic processes. In
+2018, he transitioned to the Merck Protein
+Engineering Group responsible for evolving
+enzymes for the discovery, development and
+
+commercial scale manufacture of medicines. He has been awarded a US
+Presidential Green Chemistry Award (2010), the BioCat2012 Award
+(2012) and the Thomas Edison Inventorship Award (2014).
+
+90
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Table 1: Problem statements and solutions.
+
+Problem statements
+
+Solutions
+
+Enzymes are expensive, not all are available Recombinant expression in a suitable (microbial) host, either in-house or with specialized enzyme
+
+producer company, immobilization to facilitate re-use and cost reduction
+
+Enzymes are unstable
+
+Enzyme engineering via rational design or directed evolution, immobilization to enhance stability
+
+Dependency on expensive cofactors
+
+For NADH, NADPH and more recently also for ATP, efficient recycling systems are available and
+demonstrated on industrial scale
+
+Development time is too long
+
+Use interdisciplinary teams for planning of best chemical route for integrated enzyme engineering and
+process development early enough
+
+Process development and down-stream
+processing are difficult
+
+Numerous examples and concepts for bioreaction engineering are available
+
+reactors commonly applied for chemical synthesis can be
+used.
+
+An interesting example where an initially considered
+“expensive” enzymatic process has replaced a “simple and
+cheap” chemical reaction has been developed by the company
+Goldschmidt (now Evonik) is in the synthesis of emollient
+esters (e.g., myristyl myristate or coconut oil esters): despite
+the use of a rather expensive enzyme (immobilized lipase
+CAL-B, which is recycled multiple times to reduce costs),
+especially consideration of the entire process and not only the
+ester synthesis step made the enzymatic route cost-efficient.
+The chemical process took place at high temperatures
+(> 180 88C), which beside higher energy costs compared to
+the lipase-catalyzed process (60–80 88C) caused formation of
+(smelly and coloured) by-products. This required several
+downstream processing steps such as deodorization and
+bleaching to access emollient esters for the cosmetic market
+as desired white odorless product.[13]
+
+Actual production costs depend very much on the
+available production infrastructure and company accounting
+standards. Thus, we cannot deliver cost estimates here. The
+largest contributors to cost are the choice of starting materials
+and the yield of the chemical transformation. Biocatalytic
+approaches may open entirely new avenues (see the Islatravir
+example, Chapter 6.1.3), which are found with a more open
+retrosynthetic view.[10] Variable costs are further dependent
+on the amount of catalyst employed. Fixed costs largely
+depend on the space-time-yield (STY) of the transformation
+and the subsequent downstream processing. While the cost
+calculation will remain a case-by-case study, we intend to
+facilitate early on estimates by giving the following key
+performance indicators (KPIs) for as many examples as
+possible:
+· Yield (%) and/or selectivity/enantiomeric excess (%ee)
+· Substrate loading or product titer (g L@1 reactor volume)
+· Space-time-yield (STY, g L@1 h@1)
+· Catalyst consumption/load (i.e., g enzyme kg@1 product)
+
+Looking at the sheer numbers, one can quickly appreciate
+that enzyme cost can range between single-digit cents kg@1
+(for most efficient hydratase or isomerase processes) to
+several hundred E kg@1 (for some cytochrome P450 applica-
+tions). The KPIs should hence help the process developer set
+
+targets and estimate the probability of success. Researchers at
+Codexis have exemplified this for the enzymatic reduction of
+a prochiral ketone (Table 2), which indicates the boundaries
+for a new process as well as the achievements made through
+enzyme engineering to finally reach these targets.
+
+Table 2: Benchmark goals for a typical biocatalytic reaction, the
+reduction of a prochiral ketone to a chiral alcohol using a ketoreductase
+(KRED) and a glucose dehydrogenase (GDH) for cofactor recycling.[14]
+
+Parameter
+
+Desired value Initial process Final process
+
+Substrate loading [g L@1] > 160
+< 10
+Reaction time [h]
+Catalyst loading [g L@1]
+< 1
+> 90
+Isolated yield [%]
+STY[a] [g L@1 h@1]
+> 16
+
+[a] STY, space-time-yield.
+
+80
+24
+9
+85
+3.3
+
+160
+8
+0.9
+95
+20
+
+In the following chapters, we exemplify the most impor-
+tant developments for the use of biocatalysis in industrial
+applications for various target chemicals. The chapters are
+ordered by the key functionalities (alcohols, amines, carbox-
+ylic acids, etc.) created by enzymes as well as for glycosyla-
+tions, more complex molecules and finally novel biocatalytic
+reactions which have the potential for industrial scale-up.
+
+2. Alcohols
+
+Chiral alcohols are important structural and functional
+motifs in many pharmaceuticals, fine chemicals and agro-
+chemicals.[15] In the pharma industry, building blocks with
+chiral hydroxyl moieties are key intermediates of multiple
+APIs of drug candidates.[16] The rationale, and hence popular-
+ity, of accessing chiral alcohols by biocatalysis is obvious—
+stereocontrol in the synthesis, mild conditions, absence of
+metal-based catalysts and a reduced environmental footprint.
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+91
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Kinetic resolution by lipases or asymmetric synthesis by
+KREDs are likely the most abundant enzymatic methods to
+make chiral alcohols and this will be illustrated in individual
+case studies below. The increasing popularity of
+these
+enzymatic reactions is reflected in a recent survey on patent
+activities, conducted in 2014–2019.[17] One aspect when using
+KREDs is the stoichiometric requirement of the expensive
+cofactors NADH or NADPH. This can now be considered
+solved also on industrial scale as efficient recycling of NADH
+is simply performed using isopropanol as hydride donor
+the requirement of a second enzyme, whereas
+without
+NADPH recycling is commonly based on the use of a glucose
+dehydrogenase (GDH) where glucose serves as co-substrate.
+Hydroxylating enzymes will be discussed as an alternative.
+
+access to LNP023, which is used as a treatment for patients
+with kidney disease caused by inflammation (further indica-
+tions currently under review in clinical trials). One of the
+drawbacks of the previous synthesis route was the use of
+hazardous chemicals (such as sodium hydride, or dimethyla-
+cetamide representing safety concerns on a larger scale) and
+the poor enantio- and diastereoselectivity of the steps, leading
+to unwanted stereoisomers.
+
+Enzymatic ketone reduction was introduced as a method
+to set one of the two stereocenters (Scheme 2).[28] Compared
+with the prior routes, incorporation of this KRED step leads
+to a more efficient process, with full selectivity, convergency
+and easy execution.
+
+2.1. Chiral Alcohols Produced by KREDs
+
+Dulox alcohol (S)-5 is a key precursor for the anti-
+depressant Duloxetine. BASF’s route takes advantage of the
+robust KREDs LbADH from Lactobacillus brevis[18] and
+EbN1 from Aromatoleum aromaticum[19] which both accept
+the labile chloro-ketone 3 and are highly selective for the
+reduction to the (S)-alcohol (S)-4.
+
+An evolved enzyme proved fast and robust in mixed
+solvent systems.[19b] It demonstrates reduced product inhib-
+ition and accepts rac-2-butanol or isopropanol
+for the
+recycling of NADH. (S)-4 can then be easily aminated to
+afford (S)-5 (Scheme 1). An alternative route starting from
+the more stable dimethylammonium-ketone 6 can be ach-
+ieved at 1m concentration and near-perfect enantioselectivity
+with the KRED RtSCR9 from Rhodosporidium toruloides
+(Scheme 1).[20] The primary shortcoming of this route is the
+subsequent N-demethylation of (S)-7. The use of glucose as
+terminal reductant has a low atom efficiency, but drives the
+equilibrium of the carbonyl reduction to completion—an
+advantage over the use of isopropanol, which even after
+prolonged distillative removal of acetone, struggles to reach
+quantitative conversion. The co-enzyme GDH is efficient and
+its consumption is usually insignificant compared to the lead
+KRED. A study comparing different ways of co-factor
+recycling and enzyme preparation has been published.[21]
+
+A variety of alternative routes has been scouted by
+Novartis scientists to secure efficient and stereoselective
+
+Scheme 2. Synthesis of the alcohol intermediate 10 of LNP023 by
+a KRED.[28]
+
+Industrial processes in which a combination of different
+biocatalysts are used to set multiple chiral centers are
+described in the literature and clearly demonstrate the
+power of enzymatic processes (see also Chapter 6). One
+such example is the preparation of a gamma secretase
+inhibitor designed by Pfizer scientists using a transaminase
+for the synthesis of the key chiral amine building block 13 and
+a KRED for the reduction of an a-ketoester, delivering both
+fragments with high stereopurity (Scheme 3).[29] The Pfizer
+team took advantage of commercially available enzymes for
+screening which provided confidence that the most successful
+hit would be available in suitable quantities for the multi-kg
+scale and with sufficient stability to be immediately applied.
+More applications of transaminases and their synthetic read-
+iness are discussed in Chapter 3.1.
+
+Scheme 3. A route to the chiral intermediate 13 of a gamma-secretase
+inhibitor using a KRED and a transaminase.[29]
+
+Scheme 1. Routes to key precursor (S)-5 for the anti-depressant
+Duloxetine using KREDs.[18a, 19a, 20].
+
+Recently, the Xu and Zheng group reported the directed
+evolution of KREDs for the synthesis of several important
+
+92
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+and
+
+precursor
+
+an Atorvastatin
+
+chiral alcohols with high STY,
+including an Imbruvica
+precursor (25 g L@1 h@1),[31] an (R)-a-lipoic acid precursor
+(24 g L@1 h@1),[32]
+17
+(44 g L@1 h@1, Scheme 4).[30] For the production of 17, a route
+initially developed by Codexis was followed.[14] A KRED
+(LbCR) from Lactobacillus brevis was subjected to directed
+evolution to improve thermostability and activity. Synergistic
+effects were found by combining the beneficial mutants, thus
+leading to LbCRM8 with 1900-fold increased half-life at 40 88C
+and a 3.2-fold increase in kcat/KM. Using E. coli cells
+(1 g CDW L@1) co-expressing this mutant and GDH, (5R)-16
+(300 g L@1) was fully reduced to (3R, 5R)-17 in 6 h with a STY
+of 44 g L@1 h@1. Clearly, this KRED process is highly efficient
+for the industrial production of the chiral alcohol moiety for
+Atorvastatin.
+
+Scheme 4. An improved KRED process[30] for the synthesis of t-butyl 6-
+cyano-(3R,5R)-dihydroxyhexanoate 17 for the production of Atorvasta-
+tin 18.
+
+KREDs can be applied in desymmetrization as shown by
+Chen et al. for desymmetrization of ethyl secodione 19 to
+(13R,17S)-ethyl secol 20 (Scheme 5), which is a key chiral
+intermediate in the production of several steroidal drugs.[33]
+The reduction is also highly demanding in regio- and
+stereoselectivity as only one keto function must be reduced
+and four diastereomers can be formed. Starting from an
+alcohol dehydrogenase (RasADH) from Ralstonia sp., sev-
+eral runs of directed evolution were performed to obtain
+a RasADH-F12 mutant with excellent selectivity towards
+(13R,17S)-20 and 183-fold activity compared to the wild-type.
+Using E. coli cells (20 g CWW L@1) co-expressing RasADH-
+F12 and GDH, 19 (20 g L@1) was fully converted to (13R,17S)-
+20 in 6 h on a 1 L scale. The enzyme and process are promising
+for further improvement for industrial implementation.
+
+Scheme 5. KRED-catalyzed desymmetrization of ethyl secodione 19 for
+the synthesis of intermediates for steroidal drugs.[33]
+
+2.2. Chiral Alcohols Produced by Lipases
+
+The lipase-catalyzed synthesis of chiral alcohols via
+kinetic resolution of racemates is well documented in multiple
+reviews, book chapters and even a whole book.[2a, 3a–i] Since the
+discovery and development of KREDs for enantioselective
+reduction of ketones and KREDs availability from many
+commercial sources, lipase-mediated resolution lost its pre-
+vious synthetic importance, unless the synthetic route gives
+opportunity for dynamic kinetic resolution, desymmetrization
+of prochiral material or if both enantiomers from kinetic
+resolutions are valuable products. For the purpose of this
+review, we selected a couple of examples to demonstrate that
+lipases still have their place in organic synthesis[34] and are
+important biocatalysts especially for the regioselective syn-
+thesis of alcohols and in desymmetrization processes.
+
+One of the rather recent processes using lipase is the
+selective acylation of the cyclopentene diol 21 to access a key
+intermediate of prostaglandins (Scheme 6). After optimiza-
+tion with commercial enzymes as catalysts, the best conver-
+sion and selectivity was achieved with lipase QL from
+Alcaligenes sp.[26] The enzymatic process was carried out at
+the 200 kg scale of starting material. KPI parameters are
+summarized in Table 3, for comparison to other enzymatic
+reactions leading to chiral alcohols.
+
+Scheme 6. Selective mono-acylation of diol 21 by lipase QL.[26]
+
+2.3. Chiral Alcohols Produced by Enzymatic Hydroxylations
+
+The need for robust, regio- and stereoselective hydrox-
+ylations in the synthesis of enantiomerically pure secondary,
+and especially tertiary alcohols, on industrial scale, remains
+unmet. One of the most prominent enzyme class for these
+monohydroxylations are cytochrome P450 monooxygenases.
+P450 and similar flavin-dependent monooxygenases show
+very useful selectivities for individual hydroxylation products
+that are unmatched by conventional chemical methods.
+Although reports of applications for whole-cell biotransfor-
+mations of steroids, without
+identifying the responsible
+enzymes, were reported for the synthesis of pharmaceuticals
+many decades ago,[35] only little progress has been made in
+implementing recombinantly expressed P450 enzymes on
+kilogram scale synthesis and beyond. Two examples of DSM/
+Innosyn are intensively optimized processes based on P450-
+BM3 mutants on the 100 L scale for the oxidation of a-
+isophorone 23 to the (R)-4-hydroxy isophorone 24[24] and of
+diclofenac 25 to its 5-hydroxy-metabolite 26[25a] (Scheme 7).
+Despite careful process optimization, the consumption of
+biocatalyst remained too high (10 times more E. coli biomass
+than product) which disqualifies this oxidation methodology
+for fine chemical applications. Thus, the examples of success-
+ful transfer of monooxygenase-catalyzed hydroxylation of
+unactivated hydrocarbons remain very few: in the late 1990s
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+93
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Table 3: Key performance indicators (KPIs) of different processes yielding chiral alcohols.
+
+Product conc.
+[g L@1]
+
+STY
+[g L@1 h@1]
+
+TTN
+(estim.)[a]
+
+Catalyst load
+[g kg@1 product][b]
+
+Ref.
+
+Enzyme
+
+KREDs:
+EbN1 from Aromatoleum aromaticum
+RtSCR9 from Rhodosporidium toruloides
+
+P450-monooxygenases:
+Beauveria bassiana
+recomb. Candida tropicalis
+P450-BM3 var. in recomb. E. coli
+P450-BM3 var. in recomb. E. coli
+
+Lipase:
+Lipase QL
+
+Product
+
+(S)-4
+(S)-7
+
+HPOPS
+Dodecane diacid
+4-HO-isophorone
+5-HO-diclofenac
+
+22
+
+62
+186
+
+103
+150
+6
+3
+
+140
+
+8
+47
+
+0.5
+1.4
+1
+0.6
+
+40.000
+> 20.000
+
+13 (CDW)
+54 (CDW)
+
+[19a]
+[20]
+
+n. a.
+n. a.
+18000
+2750
+
+1 (CDW)
+100 (CDW)
+104 (CWW)
+104 (CWW)
+
+21.5
+
+n.a.
+
+49
+
+[22]
+[23]
+[24]
+[25]
+
+[26]
+
+[27]
+
+Oleate hydratase (OA):
+OA from Elizabethkingia meningoseptica in recomb. E. coli
+
+(R)-10-hydroxy-stearate 100
+
+4
+
+n.a.
+
+103 (CFE)
+
+[a] TTN, total turnover number; if no better data available: recombinant enzyme estimated to be 1/3 of CDW for E. coli fermentation [b] CDW: cell dry
+weight; CWW: cell wet weight; CFE, cell free extract.
+
+Scheme 7. Hydroxylation of a-isophorone 23 or diclofenac 25 by
+a P450-monooxygenase from Bacillus megaterium expressed in E.
+coli.[25a]
+
+BASF developed the p-hydroxylation of (R)-2-phenoxypro-
+pionic acid (POPS to HPOPS)[22b, 36] and Cathay successfully
+installed the oxidation of alkanes and fatty acids to the
+diacids, mechanistically starting with a P450-mediated termi-
+nal hydroxylation (Chapter 4.2.3).[23a,b] Both processes rely on
+the metabolic network of naturally potent eukaryotic strains,
+leading to better efficiencies than all examples using P450
+enzymes recombinantly expressed in E. coli (Table 3).
+
+There are reasons for the bad performance of P450s: while
+the usually poor expression level in E. coli may be overcome,
+the often observed low stability of the enzyme, as well as its
+complex mechanism (the catalytic cycle needs a reducing step
+requiring a coupled reductase and NAD(P)H prior to oxygen
+uptake) will always lead to slow turn-over and usually
+mediocre TTN.
+
+An appealing alternative strategy, rather than trying to
+overcome P450s catalytic limitations, could be the develop-
+ment of other enzyme classes: peroxygenases and a-ketoglu-
+tarate dependent oxygenases. Peroxygenases carry a catalytic
+heme moiety similar to P450 monooxygenases and can also
+perform selective hydroxylations and other oxidations.[37]
+Peroxygenases consume hydrogen peroxide (H2O2) as a pre-
+reduced form of oxygen and do not need a co-reductant.
+Hence, turnovers can be an order of magnitude faster than
+P450-catalyzed oxidations. Dosing H2O2 as a liquid is easier
+and faster to accomplish than aeration in many production
+set-ups, and the higher cost of H2O2 compared to O2 is
+insignificant for fine chemical applications. Hence, peroxyge-
+nases have a much brighter perspective to become industrially
+
+relevant catalysts than P450s. Unfortunately, most research
+work has dealt with just one so-called “unspecific peroxyge-
+nase” (UPO) from Agrocybe aegerita which has good general
+robustness but a low tolerance for higher H2O2 concentration.
+In situ H2O2 generation systems are being developed to
+overcome this stability issue and to make peroxygenase more
+useful and applicable.[38] These efforts are already reflected in
+higher TTN in comparison to P450s and with further enzyme
+discovery and protein engineering, this class of enzymes could
+become the next generation of hydroxylation biocatalyst.[39]
+Another enzyme class for C@H activations are the a-
+ketoglutarate-dependent oxygenases. During catalysis, oxida-
+tive decomposition of a-ketoglutarate yields a high energy
+Fe(IV)-oxo intermediate that
+is capable of performing
+homolysis of unactivated C@H bonds, yielding a hydroxylated
+product following a radical recombination.[40] The industrial
+application of these enzymes has been demonstrated in the
+hydroxylation of many amino acids.[41] For example, a number
+of hydroxylases able to catalyze conversion of l-proline to all
+four monohydroxy isomers have been discovered. Some of
+the biocatalysts have been engineered to suit better large
+scale production of 4-hydroxy prolines.[42] Examples were
+performed at 20–40 g L@1 of substrate. These reaction titers
+are already orders of magnitude higher than for a typical
+P450-catalyzed reaction.
+
+Another interesting enzyme class to form hydroxyl groups
+are hydratases, which add water to double bonds.[43] The most
+prominent examples are the flavin-dependent oleate hydra-
+tases (OA), which convert oleic acid in a regio- and
+stereoselective fashion into the corresponding (R)-10-
+hydroxystearic acid and product
+formations of up to
+100 g L@1 have been reported (Table 3).[27] The high activity
+of OAs also enabled cascade reactions to afford functional-
+ized fatty acid derivatives including long chain aliphatic
+amines.[44] Only a few years ago, the first structure of an oleate
+hydratase was solved for the OA from Elizabethkingia
+meningoseptica[45] that provided valuable insights into the
+mechanism of these enzymes. Moreover, this created the basis
+
+94
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+for protein engineering to enable asymmetric hydration of
+various terminal and internal alkenes, whereas the wildtype
+the carboxylic group
+enzyme requires the presence of
+function in fatty acids. This was overcome by using a carbox-
+ylic acid decoy molecule for activation of the enzyme from E.
+meningoseptica. Thus, the asymmetric hydration of unacti-
+vated alkenes was achieved on preparative scale with up to
+93 % conversion at excellent selectivity (> 99 %ee, > 95 %
+regioselectivity).[46]
+
+3. Amines
+
+Chiral amines are of great importance in the pharma-
+ceutical and agrochemical industry. More than 90% of current
+top-selling or newly approved small molecule drugs are
+amines or originate from amines. Most of them are chiral, and
+about 30 % of crop protection actives are chiral amine
+molecules.[47] Optically pure amines therefore have a special
+focus in biocatalysis.[48]
+
+3.1. Optically Active Amines
+
+The most versatile biocatalytic approach to primary
+amines is the transaminase reaction that converts carbonyl
+substrates in a reductive amination reaction to the target
+amine. Concomitantly, it requires a sacrificial amine donating
+source (Scheme 8). The full scope has been reviewed exten-
+
+sively[48b, 49] and tribute to its application on large-scale
+chemistry has been given.[48a, 49b]
+
+The use of the pyridoxal-5’-phosphate (PLP)-dependent
+transaminases for preparative synthesis of enantiomerically
+pure compounds has been pioneered by Celgene (later
+“Celgro”). Celgene initially applied the reversible transami-
+nase reaction in a de-amination mode to deracemize or polish
+chiral amines (e.g. 1-phenyl-3-aminobutane and 1-arylethyl-
+amines).[50] While the resolution worked well up to the scale
+of 160 L, the use of expensive amine acceptors like pyruvate
+or oxaloacetic acid hindered industrial application. The
+breakthrough for synthetic application came with CelgeneRs
+discovery of the particular advantages of isopropylamine as
+amine donor.[51] Celgene showed preparative usefulness of the
+transaminase technology for enantiopure l-alanine (from
+pyruvate) and (S)-Moipa ((S)-1-methoxy-isopropylamine, 28;
+Scheme 8) and (S)-2-amino-3-methylbutane from the respec-
+tive ketones. The latter amines serve as precursors for
+herbizides. Several thousand tons of (S)-Moipa are produced
+annually as building block for (S)-Dimethenamide 29 and
+could potentially serve for (S)-Metolachlor 30 (Scheme 9). A
+particularly remarkable achievement of CelgeneQs develop-
+ment was to overcome product inhibition by enzyme engi-
+neering.[52] Eventually, Celgene could make (S)-Moipa to
+almost 2 m concentration (Table 4). Nonetheless, transami-
+nase technology could not quite compete with lipase tech-
+nology for (S)-Moipa or with an intensely optimized Ir-
+catalyzed imine hydrogenation route to (S)-Metolachlor.[53]
+
+Scheme 8. Transaminase-catalyzed reductive amination exemplified for
+(S)-Moipa 28.
+
+Scheme 9. (S)-Dimethenamide 29 (BASF) and (S)-Metolachlor 30
+(Syngenta).
+
+Table 4: Key performance indicators (KPIs) of different processes yielding chiral amines.[a]
+
+Technology
+
+Product
+
+Product
+conc.
+[g L@1]
+
+STY
+[g L@1 h@1]
+
+TTN
+(estim.)
+
+Catalyst load
+[g kg@1 product]
+
+Crystallization of
+diasteromeric salts
+Lipase
+Transaminase
+Transaminase
+Transaminase
+
+Transaminase
+Transaminase
+Transaminase
+Lipase
+Transaminase
+Rh-cat enamine hydroge-
+nation
+RedAm
+Aspartase (lyase)
+
+(R)- or (S)-1-PEA 31
+
+50 (0.4 m)
+
+low
+
+1-PEA 31
+(S)-1-PEA (94 % conv.)
+(R)-1-PEA (80 % conv.)
+(R)- or (S)-1-PEA (> 90 %
+conv.)
+l-Alanine
+(S)-Moipa 28
+36
+(S)-Moipa 28
+Sitagliptin 34
+Sitagliptin 34
+
+42
+Aspartate
+
+(neat)
+6
+40
+50
+
+90 (1 m)
+170 (2 m)
+156
+(neat)
+190
+110
+
+35
+166
+
+> 1000
+1
+2
+3
+
+5
+25
+7.8
+300
+8
+7
+
+9
+140
+
+–
+
+107
+103
+–
+104
+
+n.d. (90–95 % recovery of mandelic acid
+reported)
+< 0.5 (immob Enzyme)
+800 (dry CFE)
+125 (dry CFE)
+100 (dry CFE)
+
+–
+105
+–
+107
+25000
+670
+
+50 (wet cells)
+20 CDW
+20 (lyophilized CFE)
+< 1.0 (immob Enzyme)
+32 (dry CFE)
+3 (Rh-cat with chiral ligand)
+
+–
+–
+
+8 CDW
+< 0.5 (immob E. coli)
+
+Ref.
+
+[64]
+
+[55]
+[65]
+[66]
+[67]
+
+[51a]
+[52]
+[63]
+[55, 68]
+[59]
+[60]
+
+[69]
+[70]
+
+[a] 1-PEA, 1-phenylethylamine; RedAm, reductive aminase; STY, space-time-yield; TTN, total turnover number; CDW, cell dry weight; CFE, cell free
+extract.
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+95
+
+Reviews
+
+Angewandte
+
+Chemie
+
+The reason for the success of lipase technology for the
+resolution of simple chiral amines is the extraordinarily high
+activity of some lipases. Burkholderia plantarii lipase (BPL)
+and Candida antarctica lipase B (CALB) immobilized on
+polyester resin very selectively acylate the (R)-enantiomer
+(Scheme 10—exemplified for 1-phenylethylamine, 1-PEA,
+31). Researchers at BASF and shortly later at Bayer noticed
+the high acceleration of the lipase catalysis when methoxy-
+acetic acid esters were used as acylation reagents, a break-
+through for this technology.[54]
+
+Scheme 10. Lipase-catalyzed kinetic resolution of racemic benzyl-
+amines exemplified for 1-phenylethylamine 31.[55]
+
+The full
+
+scope of
+
+the lipase technology has been
+reviewed.[55] For alkylbenzylamines, the (R)-enantiomer gets
+acylated with often very high selectivity (E > 1000), so that at
+50 % conversion of the racemate essentially both, (S)-amine
+and (R)-amide can be recovered at 99 %ee after distillative
+separation. (S)-Moipa, other substituted aminoalcohols, and
+a large number of chiral alkyl-benzylamines are now being
+separated with lipase technology on a several-thousand-tons
+per annum scale.
+
+Biocatalytic transamination and lipase technologies both
+show advantages compared to classical resolution of enan-
+tiomers by crystallization of diastereomeric salts. Most
+importantly: solid handling, i.e., centrifugation or particularly
+expensive filtration, are avoided—a big advantage for larger
+volume manufacturing. Products and by-products can be
+separated by distillation or extraction. The (S)-amide can be
+saponified without loss in optical purity.[56] In some cases, the
+lipase technology can be run entirely without solvent which
+further reduces recycling loops and leads to very high STY
+(Table 4). In addition, the acylation reagent is recycled[57]
+leading to minimal waste (only stoichiometric amounts of
+caustic soda and sulfuric acid are consumed). A frequently
+encountered disadvantage of racemate resolution, the loss of
+the less demanded enantiomer, has been solved in the BASF
+process as it can be returned to the initial (reductive)
+amination process which runs under racemizing conditions.[58]
+Transaminase technology has found its successful appli-
+cation in the syntheses of more complex pharma intermedi-
+ates, the most famous example being the synthesis of the
+diabetes drug Sitagliptin 34 by Merck & Co. from the
+prochiral precursor pro-Sitagliptin 33 (Scheme 11).[59] Starting
+from ATA-117, a close homologue of the wild-type enzyme,
+which had no detectable activity on the substrate, the first
+variant provided very low activity (0.2 % conversion of 2 g L@1
+substrate using 10 g L@1 enzyme) towards pro-Sitagliptin. The
+final variant created by several rounds of directed evolution
+converts 200 g L@1 ketone to Sitagliptin with excellent selec-
+tivity (99.95 %ee) at 92 % yield using simply isopropylamine
+
+Scheme 11. Asymmetric synthesis of Sitagliptin 34 using an engineered
+transaminase (ATA).[59]
+
+as amine donor. Compared to the previously used chemical
+process with a Rh-t-Bu-Josiphos catalyst for asymmetric
+hydrogenation at high pressure, the enzymatic route resulted
+in higher overall yield, 53 % higher productivity, reduced total
+waste and elimination of the transition metal catalyst.[60]
+
+As in the sitagliptin example, similar reasons led scientists
+at Novartis to explore novel routes for the synthesis of
+Sacubitril, one of the two active pharmaceutical ingredients of
+the supramolecular complex LCZ696, an angiotensin recep-
+tor neprilysin inhibitor.[61] The design of the novel route for
+the synthesis of Sacubitril was dictated by the potential for
+improved efficiency and green metrics—attributes which
+enzymes can affect significantly. The favorite retrosynthetic
+approach was a route using a transaminase for installation of
+a chiral amine functionality starting from the corresponding
+g-keto acid 35 (Scheme 12). Also in this case, the enzyme had
+to be evolved in multiple rounds, with a total 500,000 fold
+improvement over the parent enzyme[62] to accept the steri-
+cally challenging substrate and to perform the reaction at
+elevated temperature (58 88C). The transaminase process was
+introduced at commercial scale and delivered the key
+intermediate 36 for the synthesis of a blockbuster for
+cardiovascular treatment (for KPI parameters see Table 4),
+with reduction of the carbon footprint by factor 3.[63]
+
+Scheme 12. Transaminase-catalyzed asymmetric synthesis of an inter-
+mediate of a blockbuster for cardiovascular treatment.[63a]
+
+Despite the demonstrated robustness and versatility of
+transaminases in the preparation of chiral amines on indus-
+trial scale, the obvious downside is that only primary amines
+can be prepared by this enzyme class.
+
+Chiral amines (primary, secondary,
+
+tertiary) can be
+accessed via a chemo-enzymatic approach: monoamine
+oxidases (MAOs)-catalyzed enantioselective amine oxidation
+to imines and simultaneous non-selective chemical
+imine
+reduction.[71] The Turner group pioneered MAO-N from
+Aspergillus niger for the synthesis of several bulky APIs and
+natural products[72]
+including a chiral secondary amine
+intermediate for the drug Boceprevir by Merck & Co. and
+Codexis.[73]
+
+96
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Accessing secondary and tertiary amines can be achieved
+by imine reductases (IREDs) catalyzing reduction of a C=N
+bond with stoichiometric consumption of NADPH. IRED
+activity was first described in whole-cell systems[74] for stable,
+aromatic or cyclic imines with low titer and STY (8 g L@1 in
+84 h for (R)-2-methylpyrrolidine), and then identified as an
+NADPH consuming enzyme class with specific activity of
+3 U mg@1.[75] The synthetic use of IREDs has remained limited
+to cyclic imines, some aromatic imines which are stable in
+water,[76] and heterocyclic imines.[77] We are aware of only one
+example of enzymatic imine reduction on larger scale. Pfizer
+scientists use IREDs to get access to (S,S)-Sertraline 39 from
+the corresponding imine 38 (Scheme 13).[78]
+
+Scheme 13. IRED-mediated imine reduction for the synthesis of Sertra-
+line 39.[78]
+
+A far brighter perspective to imine reduction came with
+the discovery of structurally related reductive aminases
+(RedAms). Although Merck & Co. already had developed
+an efficient asymmetric synthesis route using a transami-
+nase[79] to make the drug Vernakalant, an antiarrhythmic
+agent, they also explored the use of IREDs. Starting from an
+opine dehydrogenase from Arthrobacter sp., eleven rounds of
+directed evolution afforded a variant with 29 mutations
+resulting in the desired product with 80 %de, notably the first
+example of an engineered “reductive aminase” (RedAm).[80]
+This was then followed by Aleku and Turner with the
+the AspRedAm reductive aminase.[81] This
+discovery of
+reductive aminase is highly homologous to IREDs and is
+similarly NADPH-dependent. These enzymes can catalyze
+imine formation simultaneously to its reduction, thus effec-
+tively making reductive amination possible.[82]
+
+for
+
+The full synthetic potential of RedAms became apparent
+in recent work by GSK in the process development towards
+an LSD1 inhibitor (GSK2879552).[69] Only three rounds of
+evolution were necessary to obtain a more active, more stable,
+and pH-adjusted RedAm-variant
+the resolution of
+racemic trans-tranylcypromine 40 in the reductive amination
+with aldehyde 41 to obtain the target
+intermediate 42
+(Scheme 14) in 84 % yield and excellent chemical (99.9 %)
+and optical purity (99.7 %ee). Compared to the previously
+executed conventional route, green metrics were greatly
+improved. Product titers, STY and catalyst consumption play
+in the same league as the best transaminases (Table 4). The
+RedAm catalyzes the key step in a very convergent synthesis,
+making this transformation particularly valuable.
+
+Scheme 14. Enzymatic reductive amination for the synthesis of the key
+intermediate 42 of the LSD1 inhibitor GSK2879552.[69]
+
+3.2. Achiral and Racemic Amines
+
+While biocatalysis has developed to the leading technol-
+ogy for the manufacturing of enantiomerically pure chiral
+amines, the by far largest volumes (and values) are achiral or
+racemic amines. Conventionally, alcohols and carbonyls are
+reacted with excess NH3 under H2-atmosphere at elevated
+temperature (150–250 88C) on a heterogenous transition metal
+catalyst (mostly Cu, Ni, Co on oxide support).[83] Typically,
+STY of 0.1–1 kg L@1 h@1 are achieved in gas-phase or liquid
+phase modus.
+
+The relatively low activity of the metal catalyst and the
+high temperatures needed limit the scope of the heteroge-
+neous amination. In recent years, biocatalytic approaches
+have succeeded to mimic the (redox neutral) alcohol amina-
+tion, either by a three-enzyme system based on an alcohol
+dehydrogenase, a transaminase and an alanine dehydrogen-
+ase)[84] or using a two-enzyme system[85] based on a mutated
+amino acid dehydrogenase.[86] Alternatively, fatty amines
+were produced from fatty acids in a one-pot tandem cascade
+using a combination of a carboxylic acid reductase (see
+Chapter 7) and a transaminase in up to 96 % conversion.[87]
+However, the total activity of the combined enzyme systems
+has so far remained too low to reach technical applicability.
+A review on the utilization of these enzymatic trans-
+formations in metabolically engineered microorganisms for
+amine derivatives has been published.[88] Performance param-
+eters for these whole-cell approaches are hardly encouraging.
+Nonetheless, Evonik has scaled the synthesis of w-amino-
+lauric acid from lauric acid in a whole-cell catalyst (compris-
+ing enzymatic oxidation and transamination) into the pilot
+scale.[89]
+
+3.3. Amino Acid Production by Lyases
+
+Processes for the synthesis of amino acids using lyases
+have been summarized in reviews and publications.[2a, 70, 90]
+Adding ammonia to fumarate with aspartase is the preferred
+method to make l-aspartic acid, not just of interest as amino
+acid itself, but also as precursor for the sweetener Aspartame.
+The subsequent enzymatic decarboxylation of l-aspartate to
+l-alanine catalyzed by an l-aspartate-b-decarboxylase is still
+a viable industrial route to l-alanine, despite the obvious
+atom inefficiency. The l-aspartate-a-decarboxylase is useful
+to make b-alanine from aspartate.[91a]
+
+The naturally highly specific aspartase was opened to
+promiscuity for other substrates by Vogel et al.[91b] using
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+97
+
+Reviews
+
+Angewandte
+
+Chemie
+
+conventional enzyme engineering and then by Janssen and
+Wu et al.[91c] with computational redesign to access several
+chiral b-amino acids with excellent regio- and enantioselec-
+tivity in up to 300 g L@1.[91c]
+
+EDDS-lyase is a related enzyme that degrades (or
+synthesizes) the strong natural chelator and siderophore
+(S,S)-ethylenediamine disuccinate (S,S-EDDS). Beyond its
+high natural reactivity, EDDS-lyase is of great interest for
+synthetic chemists as it shows a good promiscuity in the choice
+of the amine donor. The group of Poelarends has elucidated
+the structural basis for this promiscuity[92] and engineered
+mutants that open new synthetic approaches to the Aspar-
+tame related sweeteners Neotame and Advantame.[93]
+
+An interesting example for the combination of biocatal-
+ysis and homogeneous catalysis is the synthesis of (S)-2-
+indolinecarboxylic acid 45 (Scheme 15), a key intermediate in
+
+Scheme 15. A combination of an enzymatic reaction catalyzed by PAL
+with copper-catalyzed ring closure affords a key intermediate for
+angiotensin 1-converting enzyme inhibitors.[94]
+
+the production of angiotensin 1-converting enzyme inhibitors
+such as Indolapril and Perindopril. DSM developed a route
+using a phenylalanine ammonia lyase (PAL) from Rhodotor-
+ula glutinis using whole cells with the recombinant PAL
+expressed in E. coli.[94] The amino acid intermediate 44 was
+obtained at 91 % yield with 99 %ee. Optimization of the
+subsequent copper-catalyzed ring closure enabled to use
+4 mol % CuCl to obtain the final product after just 4 h in 95 %
+yield and 99 %ee. Notably, the bromo derivative underwent
+faster ring closure at only 0.01 mol % CuCl, but the bromo-
+derivative was a less good substrate in the PAL-catalyzed
+step. This process has been scaled up by DSM for ton scale
+production. A life cycle analysis revealed that the carbon
+footprint of this process is reduced by half compared to an
+older process, mostly because of substantially reduced usage
+of organic solvents.
+
+One of further examples is the use of an engineered PAL
+for hydroamination of the cinnamic acid derivative 46 to the
+corresponding phenylalanine analogue 47 (Scheme 16) which
+is then telescoped to a Pictet-Spengler reaction with formal-
+dehyde. The corresponding tetrahydroisoquinoline derivative
+48 was isolated in 60–70 % yield and with > 99.9 %ee.[95] In
+this case, the enzyme was engineered for enhanced activity
+and especially stability at high pH (9.5–10.5) and high
+
+Scheme 16. PAL-mediated synthesis of the key intermediate 47 for the
+production of EMA401.[95]
+
+concentration of ammonia (9–10 m) to push the reaction
+equilibrium and to maximize yield. After careful optimiza-
+tion, this process—scaled up to 2 kg at Novartis—was used for
+the preparation of EMA401, an angiotensin II type 2
+antagonist for treatment of postherpetic neuralgia and neuro-
+pathic pain. This is a more sustainable, shorter and more cost-
+effective alternative to the previous process.
+
+4. Carbonyls, Carboxylic Acids and Derivatives
+
+4.1. Carbonyls
+
+Aldehydes and ketones are common organic chemicals
+that are generally produced via chemical processes. However,
+biocatalytic methods may provide several advantages, such as
+customersQ preference of “all-natural production” in flavors
+and fragrances and high regioselectivity to produce ketoses.
+In general, alcohol oxidation by dehydrogenases or oxi-
+dases[96] and C@C bond formation by aldolases or lyases[97] are
+the two main approaches for efficient production of alde-
+hydes and ketones.
+
+Recently, the Hollmann group reported a highly efficient
+alcohol oxidation process to produce trans-2-hexen-1-al,
+a green note aroma (50, Scheme 17).[98] An aryl alcohol
+
+Scheme 17. Oxidation of trans-2-hexen-1-ol 49 to trans-2-hexen-1-al 50
+by an aryl alcohol oxidase.[98]
+
+oxidase from Pleurotus eryngii (PeAAOx, 0.75 mm) and
+a catalase (0.1 mm) were applied to convert 49 (500 mm) in
+a two-liquid-phase system. Full conversion to 50 (49 g L@1)
+was achieved within 24 h. Furthermore, the oxidation process
+could run with pure 49 as the organic phase: 255 g L@1 of 50
+was accumulated after 14-days with multiple additions of
+PeAAOx and catalase. Although the conversion is not
+complete (31 %), the TTN of PeAAOx reached 2.2 X 106.
+This study proves the very high catalytic efficiency of alcohol
+oxidases and demonstrates the potential for industrial pro-
+duction of aldehydes. For broad-scope oxidation, the Turner
+group recently engineered a choline oxidase to accept a wide
+range of primary alcohols.[99] Although the activity is not very
+high (< 1 U mg@1), the broad scope offers an excellent start
+for laboratory syntheses and directed evolution for industrial
+applications.
+
+Galactose oxidase (GalOx) is a well-known, efficient
+copper-based alcohol oxidase which shows some promiscuity
+beyond its natural sugar substrates.[101] Its oxidation with O2
+can usually be directed quite selectively to the aldehyde, but
+oxidation can go on to the acid if the aldehyde readily forms
+hydrates. A TTN of 106 has been achieved, qualifying GalOx
+as a suitable oxidase for large scale oxidation. A recent
+example is the oxidation of 5-hydroxymethylfurfural (51) to
+
+98
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Scheme 18. Oxidation of hydroxymethylfurfural to diformylfuran by
+galactose oxidase.[100]
+
+diformylfuran (52) (Scheme 18).[100] Almost quantitative yield
+can be achieved with decent STY (4 g L@1 h@1) at low enzyme
+load (2 g kg@1 of product). 52 can be further oxidized to the
+monomer 2,5-furan dicarboxylic acid (Chapter 4.2.3).
+
+A common problem for biocatalytic production of alde-
+hydes is the susceptibility for reduction/oxidation by native
+dehydrogenases in microbial cells.[103] Recently, the Xu group
+developed a facile solution by co-expressing thermophilic
+enzymes in E. coli and performing the cascade conversion of
+the lignin-derivative ferulic acid (53) into vanillin (55,
+Scheme 19) at elevated temperatures.[102, 104] Two thermophilic
+
+Scheme 19. Cascade conversion of ferulic acid 53 into vanillin 55 with
+thermophilic enzymes.[102]
+
+enzymes were identified: a phenolic acid decarboxylase
+(PAD) from Bacillus coagulans DSM1 and an aromatic
+dioxygenase (ADO) from Thermothelomyces thermophila.
+Conversion of 53 (100 mm) with E. coli co-expressing PAD
+and ADO produced 55 (87 mm, 13.3 g L@1) in 18 h at 50 88C and
+pH 9.5. This biocatalytic process has the potential
+for
+industrial application because this route (bio-based substrates
+and enzyme cascade) matches the customersQ preference for
+bio-vanillin production.
+
+Due to high regioselectivity, enzymes are particularly
+suitable for oxidation of polyols and sugars to produce
+polyhydroxylated ketones and ketoses.[105–106] The Chaiyen
+group reported the production of l-ribulose from l-arabinose
+by combining an engineered pyranose 2-oxidase, xylose
+reductase, and assisting enzymes.[106] For practical synthesis,
+the Ouyang group reported efficient oxidation of galactitol
+(56) to d-tagatose (57) by a robust polyol dehydrogenase
+(PdPDH) and an NADH oxidase (StNOX, Scheme 20).[105]
+The biocatalytic process was performed on a 2 L scale using
+two lyophilized E. coli cells (total: 9.7 g) containing PdPDH
+and StNOX, respectively. 56 (200 g) was fully converted to 57
+
+Scheme 20. Oxidation of galactitol 56 to d-tagatose 57 by a polyol
+dehydrogenase.[105]
+
+in 15 h with a STY of 6.7 g L@1 h@1. Further work-up offered
+pure 57 in 91 % yield. This study demonstrated the potential
+of biocatalytic oxidation of polyols to produce high-value
+ketoses.
+
+Besides oxidation, polyhydroxylated ketones and ketoses
+could be produced via C@C bond formation by aldolases or
+lyases.[114–115] Fessner and Clapes engineered fructose-6-phos-
+phate aldolase (FSA) from E. coli to convert alkanones and
+alkanals into chiral b-hydroxyl ketones/aldehydes.[115a] FSA
+was also combined with a transketolase and a transaminase
+for sequential one-pot synthesis of l-ribulose, d-tagatose, and
+l-psicose.[115b] For a practical synthesis, the Sun group utilized
+FSA(A129S) in E. coli cells (30 g CDW L@1) to convert
+formaldehyde (58, 3 m) and dihydroxyacetone (59, 3 m) into l-
+erythrulose (60, Scheme 21).[114] The target compound 60
+(2.21m, 252 g L@1) was produced within 2 h with a STY of
+
+Scheme 21. Conversion of formaldehyde and dihydroxyacetone to l-
+erythrulose 60 by an aldolase.[114]
+
+126 g L@1 h@1, showing the potential of aldolases for industrial
+production of ketoses.
+
+Deoxyribose phosphate aldolase (DERA) has been used
+in several variations for industrial production, in particular for
+the statin side chains. DERA’s impressive applications have
+recently been reviewed.[116]
+
+4.2. Carboxylic Acids and Esters
+
+Carboxylic acids are widely used in the chemical, food,
+material, and pharmaceutical industries. Biocatalysis is most
+suitable for industrial production of high-value (chiral)
+carboxylic acids (Table 5). Due to the recent advances in
+directed evolution and enzyme cascades,[117] biocatalysis has
+shown potential at laboratory scale for the production of bulk
+carboxylic acids.
+
+4.2.1. Acid Production via Hydrolysis of Nitriles
+
+One of the most efficient biocatalytic approaches for
+carboxylic acids is hydrolysis of nitriles by nitrilases or nitrile
+hydratase-amidase system, because these enzymes are highly
+active without the requirement for external cofactors.[118]
+Nitrilase-based processes have been implemented in industry
+on the multi-ton scale for more than 20 years, such as the
+production of nicotinic acid (Lonza)[119] and (R)-mandelic
+acid ((R)-63 a, Scheme 22 a) (BASF and Mitsubishi Rayon).[2a]
+The process to produce (R)-mandelic acids is an elegant
+dynamic kinetic resolution due to the in situ racemization of
+cyanohydrins and offers the final products in 100 % theoret-
+ical yield (Scheme 22 a).[107, 120] One of the most productive
+processes has been reported by the Wei group using E. coli
+cells expressing a nitrilase (BCJ2315) from Burkholderia
+cenocepacia J2315.[107] By applying a continuous feeding of
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+99
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Table 5: Key performance indicators (KPIs) of different processes yielding chiral acids.
+
+Enzyme
+
+Nitrilase:
+BCJ2315 from Burkholderia cenocepacia J2315
+Nitrilase (A190 H) from a metagenomic library
+Nitrilase mutant from Acidovorax facilis ZJB09122
+
+Product
+
+(R)-63 a
+(R)-66
+74
+
+Hydrolase:
+Lipase from Thermomyces lanuginosus (TLL)
+Protease C from Bacillus subtilis
+Lipase B (I189K) from Candida antarctica (CALB)
+
+(S)-77
+(R)-79
+(2R, 3S)-81
+
+Product conc.
+[g L@1]
+
+STY
+[g L@1 h@1]
+
+TTN
+(estim.)[a]
+
+Catalyst load
+[g kg@1 product]
+
+350
+390
+220
+
+320
+87
+120
+
+15
+26
+37
+
+13.5
+4.6
+24
+
+60.000
+11.000
+10.000
+
+11 (CDW[b])
+26
+3.3 (CDW)
+
+10.000
+n.a.
+170.000
+
+15
+240
+0.83
+
+Hydroxynitrile lyases:
+PaHNL(A111G) from Prunus amygdalus
+
+(R)-62 b
+
+360
+
+60
+
+200.000
+
+0.2
+
+Ref.
+
+[107]
+[108]
+[109]
+
+[110]
+[111]
+[112]
+
+[113]
+
+[a] TTN, total turnover number; if no better data available: recombinant enzyme estimated to be 1/3 of CDW for E. coli fermentation [b]CDW: cell dry
+weight.
+
+(409 U mg@1) towards 61 b.[113] Biotransformation of 61 b
+(3 m) with this variant (0.1 g L@1) produced (R)-62 b (97 %ee)
+with 96 % isolated yield in 7 h. The STY reaches 60 g L@1 h@1
+and the product/catalyst ratio is more than 4000. Further
+evolving PaHNL led to variants with even higher activity and
+enantioselectivity.[121a] Asano et al. have recently described
+very active (8 kU mg@1), robust and enantioselective HNLs
+from millipedes for (R)-62 a synthesis[121b] and have shown
+how to engineer these for (R)-62 b.[121c] The HNL process
+shows favorable performance data for the synthesis of (R)-
+63 b.
+
+Another elegant example of nitrilase is the desymmetri-
+zation of 3-hydroxyglutaronitrile (65) to give (R)-4-cyano-3-
+hydroxybutyrate ((R)-66) for the synthesis of Atorvastatin as
+developed by Diversa (Scheme 23 a).[108, 123] Initially, a nitrilase
+from a metagenomic library produced (R)-66 in 98 % yield yet
+with reduced enantioselectivity with high substrate loa-
+ding.[123a] Directed evolution was applied to identify an
+A190G mutant with higher enantioselectivity.[108] With this
+improved nitrilase (10 g L@1) and high loading of 65 (3 m,
+330 g L@1), (R)-66 was produced in 96 % yield 98.5 %ee in 15 h
+with a STY of 26 g L@1 h@1.[123b] Recently, the Zhu and Wu
+group reported desymmetrization of 3-substituted glutaroni-
+triles followed by Curtius rearrangement and hydrolysis to
+prepare
+(Sche-
+and
+me 23 b).[124] For practical synthesis, they further engineered
+
+(S)-Pregabalin
+
+(R)-Baclofen
+
+69
+
+Scheme 23. Nitrilase processes (desymmetrization) for the synthesis of
+a) ethyl (R)-4-cyano-3-hydroxybutyrate 66 for the production of Atorva-
+statin 18[108, 123] and b) (S)-3-(4-chlorophenyl)-4-cyanobutanoic acid 68
+for the production of (R)-Baclofen 69.[124]
+
+Scheme 22. a) A nitrilase process (dynamic kinetic resolution)[107, 120]
+and b) a related hydroxynitrile lyase process[113, 121] for the synthesis of
+(R)-mandelic acid and (R)-o-chloromandelic acid for the production of
+Clopidogrel 64.
+
+mandelonitrile 62 a, (R)-63 a was produced at a concentration
+of 2.3 m (350 g L@1) with 97.4 %ee in 24 h on 10 L scale. After
+further work-up, (R)-63 a was isolated in 93 % yield and
+99.5 %ee. The high STY (15 g L@1 h@1) and low biocatalysts
+loading (3.9 g CDW L@1) demonstrate the potential for indus-
+trial implementation. (R)-o-Chloromandelic acid ((R)-63 b) is
+a key intermediate for the antiplatelet drug (S)-Clopidogrel
+64. However, due to the steric hindrance of the ortho-chloro
+substituent, most of the native nitrilases are inferior in terms
+of activity and/or enantioselectivity. A double mutant
+(I113M/Y199G) of the nitrilase BCJ2315 was engineered
+with higher activity and enantioselectivity.[120] Using E. coli
+cells expressing this mutant (3.9 g CDW L@1), (R)-63 b was
+produced at a concentration of 500 mm (93 g L@1) with
+98.7 %ee in 3 h. The STY reaches 31 g L@1 h@1 (Table 5).
+
+A related process for the production of a-hydroxy acids
+from aldehydes is based on hydroxynitrile lyases (HNL),
+which catalyze the asymmetric addition of HCN to carbon-
+yls.[122] HNL processes have been applied in industry for
+manufacturing of chiral mandelic acids for about 20 years by
+DSM and other companies (Scheme 22 b).[2a] Glieder et al.
+applied protein engineering to tailor PaHNL from Prunus
+amygdalus (Almond) for highly efficient synthesis of (R)-
+63 b.[113, 121a] Importantly, PaHNL is stable under acidic con-
+ditions with minimal racemization of cyanohydrins. PaHNL
+identified with very high activity
+variant A111G was
+
+100
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+a nitrilase from Synechocystis sp. PCC6803, and the best
+variant (P194A/I201A/F202V) showed 11 times higher activ-
+ity towards 67 and excellent enantioselectivity.[124b] Prepara-
+tion of (S)-68 in 91 % yield and 99 %ee was achieved by
+hydrolysis of 67 (100 mm) in 1 h with E. coli cells expressing
+the nitrilase variant. The STY reaches 20 g L@1 h@1 (Table 5).
+Nitrilase can be applied for kinetic resolution to produce
+chiral carboxylic acids, as shown in a recent process to
+produce Pregabalin (Scheme 24).[125] Highly regio- and enan-
+tioselective hydrolysis of isobutylsuccinonitrile (70, 100 g L@1)
+
+4.2.2. Acid Production via Hydrolysis of Esters/Amides
+
+Hydrolysis of esters and amides by esterase or lipase has
+been well-established for industrial production of chiral
+carboxylic acids for more than 20 years.[127] Currently, many
+lipases and esterases are commercially available, stable in
+organic solvents, and with high enantioselectivity for
+(dynamic) kinetic resolution or desymmetrization. Thus,
+they have been widely applied for the production of chiral
+acids as synthetic intermediates for pharmaceuticals.[128]
+
+For the production of Pregabalin, a team from Pfizer
+developed a second-generation process based on lipase-
+catalyzed resolution (Scheme 26).[110] The commercial Ther-
+
+Scheme 24. A nitrilase process (kinetic resolution) for the synthesis of
+(S)-3-cyano-5-methylhexanoic acid 71 for the production of Pregabalin,
+72.[125]
+
+with a nitrilase from Brassica rapa produced (S)-3-cyano-5-
+methylhexanoic acid ((S)-71) in 47.5 % conversion and
+98 %ee in 3 h.[125a] Noteworthily, the catalysts, immobilized
+E. coli cells, facilitated the downstream process and were re-
+used for 12 batches while maintaining performance (> 41.1 %
+conversion, > 98 %ee). The unreacted (R)-70 was isolated and
+racemized to starting material, while (S)-71 was easily
+hydrogenated to Pregabalin 72, offering much less waste
+compared to other routes. Based on this nitrilase, the same
+group further engineered a hybrid nitrilase with higher
+activity and excellent enantioselectivity for (S)-71: an even
+more practical synthesis of Pregabalin can be therefore
+expected.[125b]
+
+Regioselective hydrolysis of dinitriles by nitrilases can
+also provide useful achiral carboxylic acids, such as 1-
+cyanocyclohexane acetic acid (74), an intermediate for
+Gabapentin 75 (Scheme 25). The Zheng group engineered
+a mutant of a nitrilase from Acidovorax facilis ZJB09122 with
+improved activity, thermostability, and product tolerance.[109]
+Under the optimal conditions, 1.5 m 1-cyanocyclohexylaceto-
+nitrile (73, 222 g L@1) was completely hydrolyzed by E. coli
+expressing the nitrilase (14 g CDW L@1) in 6 h with a STY of
+37 g L@1 h@1 (Table 5). 74 was easily isolated in 88 % yield.
+Besides these well-developed drugs, nitrilases have been
+widely applied in the preparation of (chiral) carboxylic acids/
+nitriles for many drug candidates in development.[17, 126]
+Regio- and enantioselective hydrolysis of nitriles by nitrilases
+is thus a highly efficient and mature approach for industrial
+production of (chiral) carboxylic acids.
+
+Scheme 26. A lipase-catalyzed epimerization process (kinetic resolu-
+tion) for the synthesis of (S)-2-carboxyethyl-3-cyano-5-methyl hexanoic
+acid 77 for the production of Pregabalin 72.[110, 129]
+
+momyces lanuginosus lipase (TLL) showed very high (S)-
+enantioselectivity (E > 200) for hydrolysis of diester 76. In the
+optimized process, 76 (765 g L@1) was hydrolyzed by TLL
+(12 %) to give (S)-77 with 47.5 % conversion in 24 h. The STY
+reaches 13.5 g L@1 h@1. The process had been scaled up in
+manufacturing trials at 3.5 tons (8000 L reactor). However,
+due to the moderate activity of TLL, the enzyme loading is
+still
+the Zheng group engineered
+a TLL(S58L/S83T) mutant showing 5.5-fold higher specific
+activity than the wild-type TLL.[129] By applying E. coli whole
+cells (5 % w/v) expressing this TLL mutant, 3 m 76 (765 g L@1)
+was hydrolyzed to (S)-77 (96 %ee) with 45 % conversion in
+24 h (Table 5).
+
+too high. Recently,
+
+A team from USB Pharma developed a hydrolase-based
+process for the synthesis of the (R)-succinic acid derivative
+(R)-79 for the production of Brivaracetam (Scheme 27).[111] A
+protease C from Bacillus subtilis was identified for enantio-
+selective hydrolysis of racemic ester 78. Hydrolysis of 78
+(1 kg) was achieved with the protease C (10 %, w/w) in water
+
+Scheme 25. A nitrilase process (regioselective hydrolysis) for the syn-
+thesis of 1-cyanocyclohexane acetic acid 74 for the production of
+Gabapentin 75.[109]
+
+Scheme 27. A hydrolase-based kinetic resolution process for the syn-
+thesis of the (R)-succinic acid derivative 79 for the production of
+Brivaracetam 80.[111]
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+101
+
+Reviews
+
+Angewandte
+
+Chemie
+
+(4.5 L) to give (R)-79 (97 %ee) with 42 % isolated yield in
+19 h. The STY is about 4.6 g L@1 h@1, but the loading of enzyme
+(10 %, w/w) is too high for industrial application.
+
+The power of directed evolution of lipase was well-
+demonstrated in a recent report about the engineering of the
+Candida antarctica lipase B (CALB) for the resolution of cis-
+dimethyl-1-acetylpiperidine-2,3-dicarboxylate (cis-81) for the
+production of Moxifloxacin 82 (Scheme 28).[112] A single
+I189K mutation of CALB boosted its specific activity more
+than 200-fold while maintaining the excellent enantioselec-
+tivity in the hydrolysis of cis-81. With the purified CALB
+variant (I189K) (0.1 g L@1), 1m cis-81 (243 g L@1) was hydro-
+lyzed to give (2S, 3R)-81 with 49.9 % conversion in 5 h. The
+STY reaches 24 g L@1 h@1 with a high product/catalyst ratio of
+1200. Furthermore, this CALB variant (I189K) has been
+the resolution of cis-81
+immobilized and applied for
+(100 g L@1) in a stirred tank reactor for 50 cycles (average
+STY: 50 g L@1 h@1) or in a recirculating packed bed reactor for
+50 cycles (average STY: 59 g L@1 h@1).[130]
+
+Scheme 28. A lipase-based kinetic resolution process for the synthesis
+of the (2S, 3R)-dimethyl-1-acetylpiperidine-2,3-dicarboxylate 81 for the
+production of Moxifloxacin 82.[112, 130]
+
+4.2.3. Acid Production via Oxidation of Alcohols/Alka(e)nes
+
+Carboxylic acids can be potentially produced by oxidation
+of readily available alcohols or alkanes. Enzymatic oxidation
+often utilizes molecular oxygen as “green” oxidant and takes
+place under mild conditions, thus being a greener alternative
+to chemical oxidations.[39, 131] In comparison to hydrolysis,
+enzymatic oxidation is often less efficient, but with great
+potential due to advances in enzyme discovery and directed
+evolution. Biocatalytic oxidation has been employed in the
+food industry for oxidation of polyols and sugars to their
+corresponding acids, such as oxidation of glucose to d-
+gluconic acid by glucose oxidase.[2a]
+
+A recent practical process is the selective oxidation of
+glycerol (83) to d-glyceric acid ((R)-84) by acetic acid
+bacteria (Scheme 29). When growing Gluconobacter frateurii
+NBRC103465 in a medium with high initial glycerol concen-
+
+tration (170 g L@1), 137 g L@1 of (R)-84 (72 %ee) was accumu-
+lated in the culture broth in 6 days.[132] Using Acetobacter
+tropicalis NBRC16470 in a medium loaded with glycerol at
+the outset (220 g L@1), 102 g L@1 of (R)-84 (99 %ee) was
+accumulated over 6 days. The processes took much longer
+than a usual biocatalytic process because of the time required
+for strain cultivation.
+
+A very attractive reaction is the oxidation of 5-hydrox-
+ymethylfurfural (85) to 2,5-furan dicarboxylic acid (86,
+Scheme 30) as a building block for biobased polymers.[134]
+
+Scheme 30. Cascade oxidation of 5-hydroxymethylfurfural 85 to 2,5-
+furan dicarboxylic acid 86 by multiple enzymes (dehydrogenases and/
+or oxidases) in vitro or in whole cells.[133]
+
+Many enzymes and enzyme systems have been reported, yet
+most of them suffer from limited efficiency and relatively low
+substrate concentrations (, 100 mm, 16 g L@1).[133a–c] Using
+whole cells may provide a productive process.[133d–g] Koopman
+and Wierckx engineered a recombinant Pseudomonas putida
+S12 strain co-expressing an HMF/furfural oxidoreductase,
+a transporter and an aldehyde dehydrogenase.[133d,e] By using
+fed-batch cultivation of the engineered strain, more than
+150 g L@1 of 86 was produced from biotransformation of 85 in
+about 92 h. It will be interesting to see, whether such a whole-
+cell system or a combination of specialized (bio-) catalysts will
+eventually win the race to a commercial production of 86.
+
+Biocatalytic oxidation of cyclohexanol (87) can produce
+the polymer building block e-caprolactone (88) and its
+oligomers (89) (Scheme 31).[135] An initial study demonstrated
+the use of an alcohol dehydrogenase (ADH) and a Baeyer–
+Villiger monooxygenase (CHMO) to access 88, but with
+serious product inhibition at 60 mm.[135a] By using the unique
+acyltransferase activity of lipase CAL-A, 89 was produced at
+from 87 (200 mm).[135c] By using the
+more than 20 g L@1
+hydrolysis activity of lipase CAL-B, also 6-hydroxyhexanoic
+acid was produced at a concentration of 283 mm (37.4 g L@1)
+from 87 in 20 h.[135d] Recently, the Bornscheuer group showed
+that a process with E. coli co-expressing ADH and CHMO
+and CAL-B produced 89 (> 20 g L@1) in a 500-mL scale.[135e]
+The cascade has been extended to produce 6-aminohexanoic
+
+Scheme 29. Selective oxidation (desymmetrization) of glycerol 83 to d-
+glyceric acid 84 by whole cells of acetic acid bacteria.[132]
+
+Scheme 31. Cascade oxidation of cyclohexanol 87 to e-caprolactone
+oligomers 89 by a combination of an alcohol dehydrogenase,
+a Baeyer–Villiger monooxygenase, and a lipase with acyltransferase
+activity avoiding the formation of undesired 6-hydroxy hexanoic
+acid.[135]
+
+102
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+acid.[135b] w-Hydroxy acids and lactones were also produced by
+oxidation of diols with ADH or alcohol oxidase.[136]
+
+Besides oxidation from alcohols, acids can also be
+produced by biocatalytic oxidation of easily available hydro-
+carbons. The Park group developed the cascade oxidation of
+the C=C bond in oleic acid and linoleic acid into the diacids or
+w-hydroxy acids, yet at a relatively low concentration.[44, 137]
+The Li group reported the whole-cell cascade oxidation of
+styrene to (S)-mandelic acid, (S)- or (R)-phenylglycine, and
+phenylacetic acid in up to 140 mm ( & 20 g L@1).[138]
+
+a
+
+of
+
+these
+
+natural
+
+One of
+
+the most challenging chemical reactions is
+selective oxidation of non-activated C@H bond (see Chap-
+ter 2.1). One of the most efficient examples is the oxidation of
+long-chain alkanes and fatty acids to a,w-diacids by Candida
+tropicalis,
+compounds
+degrader
+(Scheme 32).[139] By deletion of four genes in the competing
+b-oxidation pathway, the C.
+tropicalis H5343 strain was
+engineered and employed for conversion of methyl myristate
+(90) to accumulate tetradecanedioic acid (92, 210 g L@1) in
+162 h.[139a] In a more recent study, 16 genes involving oxidation
+of the w-hydroxyacid 91 were deleted. With this engineered C.
+tropicalis DP428 strain, 174 g L@1 of 14-hydroxytetradecanoic
+acid (91) was accumulated by biotransformation of 90
+(200 g L@1) within 148 h.[139b] The production of long-chain
+diacids by oxidation of alkanes with C. tropicalis is currently
+implemented on a commercial scale (40,000 ton year@1) in
+China by Cathay Biotech.[23, 140] These examples illustrate the
+high efficiency of P450s for the conversion of the native
+substrates in the native host.
+
+Scheme 32. Cascade oxidation of methyl myristate 90 to the corre-
+sponding w-hydroxyacid 91 or a,w-diacid 92 by Candida tropicalis
+containing P450s, oxidases, and ADHs.[139]
+
+4.3. Amides
+
+Many small molecular pharmaceuticals contain amide
+bonds. Catalytic/direct amide formation with high atom
+economy has been identified as a key green chemistry
+research area by a panel of pharmaceutical companies.[141]
+Biocatalysis could provide a possible solution for this
+challenge with a range of hydrolases (lipases, esterases,
+acylases) and ATP-dependent enzymes.[142] The Penicillin G
+acylase had been well-established for the production of semi-
+synthetic penicillins and cephalosporins in industry.[143] Fur-
+thermore, lipase-catalyzed amide-bond forming is the basis
+for the kinetic resolution of racemic amines (Chapter 3).
+While many lipases, amidases, and esterases are available,
+their application for amide formation is mainly limited to
+activated substrates (e.g. esters). Recently, a unique lipase
+was discovered for aminolysis of several esters (even acids)
+with several amines to produce amides in high yields in the
+presence of water (partially hydrated hexane).[144]
+
+Amide synthesis with ATP-activation can directly use
+acids and amines in an aqueous environment. A team from
+GSK combined CoA ligases (CLs) and N-acyltransferases
+(NATs) to produce amides (Scheme 33).[145] The preparative
+scale synthesis (< 1 g) of an amide precursor (95) of
+Losmapimod was demonstrated with E. coli cells co-express-
+ing 4-chlorobenzoate CoA ligase (CBL) and a serotonin
+hydroxycinnamoyl
+transferase (66CaAT). Glycerol was
+added to provide ATP through cellular metabolism. Acid 93
+(10 mm) and an equimolar amount of amine 94 were
+successfully transformed to amide 95 in 83 % conversion
+and 74 % isolated yield.
+
+Scheme 33. Production of amide 95 from acid 93 and amine 94 using
+a combination of a CoA ligase (CBL) and a N-acyltransferase
+(66CaAT).
+
+Another recent example for amide synthesis with ATP
+activation is from Grogan et al.[146] An ATP-dependent amide
+bond synthetase (McbA) from Marinactinospora thermoto-
+lerans displayed a broad aryl acid specificity and gave access
+to a range of pharmaceutical-type amides. It was applied to
+synthesize Moclobemide (98) from the corresponding acid 96
+(4 mm) and amine 97 (6 mm) with a facile ATP recycling
+system (Scheme 34).[146b] 98 was produced at 70 % conversion
+and 64 % isolated yield. Although these cascades are not
+efficient yet, enzyme engineering and optimized ATP recy-
+cling (Chapter 7.1) may enhance these concepts for environ-
+mentally friendly amide syntheses, particularly if the final
+driving energy is pulled from cheap inorganic polyphosphate.
+
+Scheme 34. Production of amide 98 from acid 96 and amine 97 using
+the ATP-dependent amide bond synthetase McbA and an ATP recycling
+system.
+
+4.4. Sulfoxidations
+
+A more recent addition to the biocatalysis portfolio has
+been the synthesis of chiral sulfoxides as synthons and
+precursors for API synthesis. Flavoproteins such as Baeyer-
+Villiger or styrene monooxygenases mainly provide access to
+these compounds. For the synthesis of Esomeprazole (API
+Nexium), the enantioselectivity of a Baeyer–Villiger mono-
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+103
+
+Reviews
+
+Angewandte
+
+Chemie
+
+oxygenase was inverted and the enzyme was then improved
+for activity, stability and chemoselectivity by researchers from
+Codexis.[147] Another example is the flavoprotein monooxy-
+genase AbIMO from Acinetobacter baylyi ADP1, which was
+known to oxidize indole or styrene, but later it was found that
+it also accepts alkyl aryl sulfides and transforms them into the
+(S)-sulfoxides with high enantioselectivity (95- > 99 %ee).
+Using a whole-cell biocatalyst specific production rates of
+@1 were reported. This styrene monooxyge-
+up to 370 U gCDW
+nase was then used to make (S)-2-chloro-4-(methylsulfinyl-
+methyl)pyridine at 30 g L@1 h@1 on the multi-kilogram scale.[148]
+
+5. Glycosylation
+
+Carbohydrates have the highest importance in the bio-
+sphere, not only because polysaccharides carry the largest
+part of organic biomass, but also because most other
+biopolymers (proteins and DNA/RNA) as well as many
+small biologically active compounds comprise sugar units.
+Latest since the Corona crisis the strive for antiviral drugs and
+vaccines has gained highest attention—and this is inevitably
+linked to carbohydrate chemistry since virus-host interaction
+is guided by glycans. However, carbohydrates are a particular
+challenge for the synthetic organic chemist, because the high
+number of marginally differentiated alcohol functions require
+sophisticated protecting group strategies to achieve selectivity
+in bond formation. The heavy use of protecting groups makes
+conventional organic synthesis inefficient. Since enzymes are
+inherently selective, they can bring tremendous efficiency
+gains to carbohydrate/glycan synthesis.
+
+The very high activity of glycohydrolases has been
+commercially exploited for a long time: amylase, cellulases,
+and pectinases (to name just a few examples) have wide-
+spread use in polysaccharide hydrolysis and glucose produc-
+tion and have completely replaced acids as catalysts. A more
+synthetic use-case is the application of glucose isomerase for
+the production of fructose. With 14 million metric tons (dry
+weight) of high fructose corn syrup (HFCS; 42–55 % fructose,
+rest glucose and 1–4 % oligosaccharides) produced annu-
+ally[149] this is by far the largest (synthetic) biocatalytic
+process. The process is run continuously over immobilized
+glucose isomerase (IGI) at 60 88C. STY is approximately
+1 kg L@1 h@1 (calc. on dry HFCS) and the catalyst consumption
+is low (ca. 0.05 g immob. enzyme kg@1 HFCS).[150] The high
+activity of the isomerase allows work below the temperatures
+needed for base or Sn-catalysis,
+leading to a clean and
+selective reaction.[151]
+
+Three types of carbohydrate active enzymes can be used
+
+synthetically to build anomeric bonds:
+1. Leloir-type glycosyltransferases (“GTs”)—natureQs tool to
+build up carbohydrates and glycosylate proteins. GTs need
+nucleoside diphosphate (NDP) activated glycosyldonors.
+This activation makes glycosylation energetically favor-
+able and usually irreversible. GTs are highly selective
+without concomitant hydrolysis of products, but they are
+rather slow. Many of them are membrane-bound and often
+express poorly in E. coli. Hence, GTs have been accepted
+
+for lab scale preparation of complicated carbohydrates[152]
+but have rarely found their way into kg-scale production.
+2. Transglycosidases (“TGs”): These are glycoside hydro-
+lases which have naturally or by mutation a reduced
+affinity for water as glycosyl acceptor. Thus, they can
+break glycosidic bonds and transfer the glycosyl donor to
+another sugar, establishing a new glycosidic bond. Since
+TGs are derived from glycosyl hydrolases, they are fast.
+However, hydrolysis is a frequent side-reaction. Withers
+has demonstrated a way to systematically avoid water
+activation and thus make hydrolases artificial “glycosyn-
+thases”.[153] Since starting material and products of TG’s
+reaction often have similar glycosidic bonds, synthetic
+applications need to find ways to shift the equilibrium
+favorably.
+
+3. Phosphorylases (“GPs”): Intermediate between the two
+classes above. Designed by nature to break down poly-
+saccharides and maintain some of the energy of the
+anomeric bond. The glycosyldonor is not transferred to
+a water molecule (as in hydrolysis) but to phosphate. The
+reaction is reversible and a phosphorylase can use
+a glycosylphosphate as donor to make a new glycosidic
+bond.
+
+A full and much more differentiated picture of carbohy-
+drate active enzymes is given in the CAZy database (http://
+www.cazy.org).[154]
+
+The number of preparatively useful enzymatic glycosyla-
+tion has increased strongly over the last years. In the following
+paragraphs we can just give a few examples for illustration of
+the opportunities. The first example, Stevia,
+is meant to
+address the initial prejudice of GTs being too inefficient for
+large scale in vitro use.
+
+5.1. Stevia Glucosides/ Rebaudiosides
+
+Overweight and obesity has become more prevalent than
+hunger and poses enormous health problems. Hence, there is
+a need to reduce or replace caloric sweeteners like sucrose
+and HFCS from food and beverages. High intensity sweet-
+eners like Aspartame can serve this need but lack full
+consumer acceptance as they are not perceived as natural.
+Stevia is a natural high intensity sweetener formed in high
+concentrations in the leaves of the plant Stevia rebaudiana. It
+is 200–300 times sweeter than sucrose and has thus a great
+substitution potential for sugar.
+
+Stevia is a mixture of different steviol glucosides. Good
+cultivars of the Stevia plant deliver a mixture that is mainly
+composed of stevioside (Stev) 99 a and rebaudioside (Reb) A
+99 b. The taste profile improves with the degree of glucosy-
+lation: while stevioside 99 a has an unpleasant after taste, Reb
+A 99 b taste is good. Best taste, almost as clean as sucrose, is
+delivered by Reb M 99 d. Unfortunately, the best tasting
+rebaudiosides Reb D 99 c and Reb M 99 d are only trace
+components in the plant extract.[155] There is a race for the
+best way to Reb M on-going: the in vitro glucosylation of 99 a
+and 99 b to 99 c and 99 d was first demonstrated and patented
+by PureCircle/Coca Cola after the discovery of Reb M’s
+
+104
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+process advantages: The E. coli background enzymes can be
+deactivated by heat shock, making enzyme purification
+intermediates, and
+obsolete. The solubility of substrates,
+product is increased, and the reaction is accelerated, deliver-
+ing good STY. The starting material is a basic commercial
+material (“Reb A60”; composed of 60 % 99 b, 30 % 99 a, 10 %
+other steviol glucosides) which exhibits surprisingly high
+solubility compared to pure Reb A 99 b. After full conversion,
+the product Reb M 99 d crystallizes out of the reaction
+mixture (residual solubility:[156a] 1 g L@1), making separation
+and work-up easy. Enzyme consumption is quite low (ca. 5 g
+CFE kg@1 product, 0.5 g kg@1 ADP), giving up to 130 g L@1
+product in 1 day (Table 6).[160]
+
+The taste of Stev 99 a and Reb A 99 b can also be
+improved by a-1,4-glucosylation of the C19 sugar. Cyclo-
+dextrin glucotransferase (CGTase, a TG, not a GT!) transfers
+a string of 1–20 glucose units (mostly one to four) from
+cyclodextrin or from starch onto the stevioside backbone
+(“Hayashibara process”).[161] The product is approved and
+introduced to some markets as “Glucosylated Stevia Leaf
+Extract”. CarbExplore utilizes a glucansucrase to glucosylate
+on the C19-sugar—here the new bond is a-1,6.[162] This
+synthesis is highly efficient, reaching 270 g L@1 in 3 h with
+94 % conversion.[163] However, the a-glucosidic products are
+not truly natural. Grace to their high STY these combined
+plant extraction & in vitro glucosylation approaches may be
+competitive with the fully fermentative approaches
+in
+recombinant yeast, spear-headed by Evolva/Cargill[164] and
+now best developed by DSM[165] and Amyris.[166]
+
+5.2. Nucleotide Activated Sugars
+
+GT-catalyzed glycosylations require nucleotide activation
+of the donor-sugars. In the above illustrated b-glucosidation
+of Stevia, UDP-glucose (101) is the natural donor, but ADP-
+glucose or other nucleoside diphosphate glucose (NDP-glu)
+can also be used in vitro. Stoichiometric use of 101 would be
+too expensive for large scale application, despite the recently
+
+Scheme 35. Natural steviol glucosides.
+
+taste profile.[156] The Stevia plant b-1,3-GT
+superior
+UGT76G1, expressed in E. coli, was the enzyme of choice,
+because it selectively glucosylates the 3-position only after
+introduction of a first b-1,2-branching glucose (avoiding
+a non-natural glucosylation pattern). With UGT91D2 the b-
+1,2-glucosylation of Reb A 99 b to Reb D 99 c was achieved,
+but with low and slow conversion (2 orders of magnitude
+slower than UGT76G1). PureCircle has cooperated with c-
+LEcta to engineer the GTs and claimed a transformation of
+Reb A 99 b to RebM 99 d scaled to the pilot plant and to the
+25 g L@1 concentration level.[157] The glucose donor is UDP-
+glucose (101) which is recharged with glucose from sucrose/
+sucrose synthase (SuSy; Chapter 5.2). CJ Cheiljedang
+patented the glucosylation of Stev 99 a to Reb A 99 b on the
+100 g L@1 level, also using Stevia rebaudiana GTs expressed in
+E. coli.[158]
+
+In an impressive piece of work, Codexis has engineered
+and optimized GT for a truly efficient process: all required
+enzymes (b-1,2-GT, b-1,3-GT and SuSy for glucosyldonor
+regeneration) have been engineered for higher activity, use of
+ADP-glucose instead of UDP-glucose as glucosyldonor, and
+heat stability at 60 88C.[159] The heat stability and increase of
+reaction temperature from 40 to 60 88C delivered several
+
+Table 6: KPIs of different carbohydrate processes.
+
+Technology/
+Enzyme
+
+Glucose
+isomerase
+
+Product
+
+Fructose in HFCS
+
+GT
+
+Reb M
+
+TG (Glucansucrase)
+
+Reb A a-glucosides
+
+GT (SuSy)
+GP (LmSP)
+
+UDP-glu
+Gly-glu
+
+GP (BaSP)
+GP (SuSy + CBP)
+TG (Glucansucrase)
+
+TG (Hexoseamini-
+dase)
+
+Kojibiose
+Cellobiose
+Poly-a-1,3-glucan
+(mutan)
+Lacto-N-triose II
+
+Yield
+[%]
+
+Product conc.
+[g L@1]
+
+STY
+[g L@1 h@1]
+
+TTN
+(estim.)
+
+Catalyst load
+[g kg@1 product]
+
+Ref.
+
+200
+
+250
+
+105
+
+0.05 (immob. cat)
+
+[150a,c]
+
+42 % conv.,
+> 99 %
+yield
+> 95 %
+
+94 %
+(conv.)
+86 %
+89 %
+
+83 %
+70 %
+20–80 %
+
+130 (insolu-
+ble)
+270
+
+5
+
+90
+
+100
+224
+
+10
+10 (initial rate
+> 300)
+8
+570
+7
+170
+20 (insoluble) 1
+
+86 %
+
+280
+
+3 W 103
+
+–
+
+–
+
+–
+–
+
+–
+–
+–
+
+–
+
+5 (CFE)
+
+ca. 60
+
+10 (CDW)
+0.5 (calc. as pure
+enzyme)
+4 (CFE)
+–
+2 (protein in CFE)
+
+3 (CFE)
+
+[160]
+
+[163]
+
+[167]
+[171b, 176]
+
+[172]
+[174]
+[177]
+
+[178]
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+105
+
+Reviews
+
+Angewandte
+
+Chemie
+
+described efficient synthesis on the 100 g scale.[167] Thus, it is
+common art to recycle the nucleoside diphosphate in situ by
+glucosylation of the NDP with sucrose (100) under catalysis of
+sucrose synthase (SuSy; Scheme 36; shown for UDP).[168]
+
+Scheme 36. Sucrose synthase (SuSy)-catalyzed recycling of nucleoside
+diphosphates such as UDP.[168]
+
+than DGhyd
+
+free energy of hydrolysis DGhyd of
+higher
+
+Sucrose contains a very energy-rich anomeric bond. The
+sucrose is
+Gibbs
+@27 kJ mol@1, much
+of maltose
+(@15 kJ mol@1) or cellobiose (@12 kJ mol@1), even higher
+than DGhyd of glucose-a-1-phosphate (102). This is the basis
+for all sucrose driven glucosylations.[169] It allows to have high
+concentration of 101 in the equilibrium (the lower the pH the
+more). The subsequent GT-catalyzed glucosylation of an
+acceptor other than fructose (e.g. the C19-glucose of Stev
+99 a) with liberation of UDP is practically irreversible.
+
+Scheme 38. Direct and selective glucose transfer from sucrose 100 to
+glycerol using a sucrose phosphorylase.[171]
+
+The Desmet group has designed a process to make the
+rare sugar kojibiose (2-O-a-d-glucopyranosyl-d-glucopyrano-
+side, 104) on the kg-scale with lab equipment.[172] Mutants of
+the Bifidobacterium adolescentis
+sucrose phosphorylase
+(BaSP) selectively transfer the glucose unit of sucrose onto
+the 2-hydroxy position of a second molecule of glucose
+(Scheme 39). The liberated fructose molecule is transformed
+with glucose isomerase (GI) to glucose and serves as acceptor
+molecule, thus making the process highly atom efficient and
+elegant.
+
+5.3. a-Glucosylation using Sucrose Phosphorylases
+
+Sucrose phosphorylase (SP) catalyzes the reversible
+conversion of sucrose with inorganic phosphate to a-glu-
+cose-1-phosphate (102) and fructose (Scheme 37).
+
+Scheme 39. Synthesis of Kojibiose with a sucrose phosphorylase
+(BaSP) and a glucose isomerase (GI).[172]
+
+Scheme 37. a-Glycosylation using sucrose phosphorylase (SP).
+
+SP has an interesting promiscuity, allowing phosphate to
+be replaced by other acceptors while at the same time
+showing little tendency to hydrolyze substrate or products.
+This makes SP valuable for preparative glucosylations.[170] The
+Nidetzky group took advantage of the promiscuity of the
+sucrose phosphorylase of Leuconostoc mesenteroides (LmSP)
+and transferred glucose from sucrose directly and selectively
+onto the secondary alcohol position in glycerol (Scheme 38).
+The transfer works under phosphate-free conditions; 102 does
+not appear as intermediate. 2-(a-Glucosyl)-glycerol (103) is
+formed in 90 % crude yield (63 % after chromatography) if
+glycerol is applied in excess (0.8 m sucrose; 2.0 m glycerol).[171]
+The synthesis has been scaled to several hundred kg-scale
+(Table 6) by bitop AG that sells 103 as moisturizer for
+cosmetics.
+
+Sucrose phosphorylase is just one of many glycoside
+phosphorylases. The combination of the sucrose phosphor-
+ylase (to make a-glucose-1-phosphate in situ) and the
+inverting cellobiose phosphorylase (CBP) has been employed
+already by Kitaoka in the 90’s to make cellobiose (4-O-b-
+glucopyranosyl-glucose), a disaccharide with a b-anomeric
+linkage.[173] This enzymatic synthesis has now been developed
+to the 100 t/a scale by Pfeifer & Langen in cooperation with c-
+LEcta for diverse food applications.[174] For a broader over-
+view on the opportunities of phosphorylases the reader is
+referred to Field et al. and Desmet et al.[175]
+
+5.4. Glucansucrase-Catalyzed Polymerization
+
+Another way to utilize the high energy of sucrose is the
+polymerization achieved by a class of transglycosidases (TGs)
+called “sucrases”—either “glucansucrases”, if they polymer-
+ize the glucose unit of sucrose, or “fructansucrases”, if they
+polymerize the fructose unit. Different glucans are formed,
+depending on the bond-formation of the sucrase: for example,
+dextrans with a-1,6-linkages between the glucose units, or
+mutans 105 with a-1,3-linkages (Scheme 40). Glucansucrases
+are processively working enzymes. As TGs they are fast
+(kcat > 100 s@1) and do not need co-factors or nucleotides. Very
+
+106
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Scheme 40. Sucrase-catalyzed conversion of sucrose to the a-1,3-
+polyglucan Mutan 105: an enzyme catalyzed polymerization.
+
+high molecular weights (Mw of 109 for a dextran) have been
+reported by the group of Remaud-Sim8on.[179] Glucansucrases
+and their application in nutrition have been pioneered and
+reviewed by the groups of Monsan[180] and Dijkhuizen.[181]
+
+DuPont has investigated the use of low molecular weight
+glucans (mostly a-1,3-glucans) as low-glycemic soluble fiber
+in food.[182] A mutanase was added to the sucrase-catalyzed
+polymerization to cut growing chains and keep polymers
+soluble. Unless heavily protected by a-1,2-glucosyl-branches
+these polyglucans
+remain more readily digestible than
+anticipated and led to the failure of the project. In recent
+patents DuPont describes glucansucrases that give a decent
+degree of a-1,2-glucosyl branches on the mutan backbone.[183]
+Remaud-Sim8on has also reported specialized sucrases to
+graft a-1,2-glucosyl-branches on polysaccharide back-
+bones.[184] Thus, the target to make nutritional valuable fiber
+may still be accessible.
+
+DuPont has further engineered the synthesis and proper-
+ties of the high molecular weight glucans and carried the
+glucan polymerization on the 20 m3 scale (Table 6). The
+obtained polyglucans went into application testing as compo-
+site fiber/filler for thermoplastics and rubber (to replace
+carbon black and silica in tires), coatings, paper coating,
+laundry, and adhesives.[185] Yields of the insoluble polyglucan
+ranged between 20 % to 80 % of theory based on consumed
+sucrose, since considerable amounts of oligosaccharides were
+formed. A major challenge in up-scaling is probably the
+separation of the hydrated but insoluble, non-crystalline, low
+density polymer from the fructose solution by filtration or
+centrifugation.
+
+Interestingly, even the a-1,4-glycosidic bond carries still
+enough free energy to enable molecular weight increase, if
+relaxed to an a-1,6-glycosidic bond: Ezaki Glico has devel-
+oped a process to convert starch derived low molecular weight
+amylose (only a-1,4-links; Mw ca 104 Da) to higher molecular
+weight glycogen mimics composed of a-1,4-linked polyglu-
+cose with a high density of a-1,6-branches (Mw range 3 to 30 X
+106 Da).[186] The key enzyme is a TG, the amylase related
+“branching enzyme” from A. aeolicus supported by an
+amylomaltase. This process offers access to plant based
+glycogen for food purposes (e.g., athleteQs nutrition).
+
+5.5. Perspectives of Biocatalytic Carbohydrate Production
+
+There is a rapid increase of examples of successful
+biocatalytic syntheses in the carbohydrate arena which will
+give the rising research field of carbohydrates an important
+impulse. As it can be concluded from the KPIs of the
+described processes (Table 6), biocatalysis on carbohydrates
+can work at very high concentrations. In fact, many carbohy-
+drate active enzymes are rather stabilized by high sugar
+concentrations, in clear contrast to enzymes that are chal-
+lenged with less polar, second phase forming organic sub-
+strates or solvents. Thus, biocatalysis will become an increas-
+ingly important
+to provide the larger amounts of
+carbohydrates necessary for clinical studies on health benefits
+and eventually commercial production. An up-coming topic
+in this field will be the human milk oligosaccharides which
+currently profit mostly from fermentation technology but may
+require additional biocatalytic glycosylation for second and
+third generation products.[178, 187]
+
+tool
+
+6. Complex Molecules
+
+Biocatalysis has traditionally been used for functional
+group interconversion as highlighted by the examples in the
+previous chapters. Within the last decade however, the
+biocatalysis community has begun to actively investigate the
+development of molecular complexity and scaffold synthesis
+that traditionally has been the purview of the organic chemist.
+Of particular focus has been the carbon-carbon bond-forming
+reactions (reviewed previously[97]), many of which introduce
+only small changes in molecular weight and complexity.
+However, a few have demonstrated the potential to suggest
+new routes to stitching molecules together. These include the
+carbon-carbon bond forming enzymes of the lyase family,
+such as norcoclaurine synthase (Chapter 6.1.1, officially
+classified as a carbon-oxygen lyase), the aldolases described
+in Schemes 21 and Chapter 6.1.3) and the tryptophan syn-
+thases highlighted in Chapter 6.1.2 as examples. Molecular
+complexity is also developed in carbon-nitrogen bond form-
+ing enzymes like the reductive aminase IREDs (Scheme 14
+and Vernakalant[79] as examples), the amide forming peptide
+synthases and carboxylic acid reductases (Schemes 34 and 45,
+respectively), and the nucleoside phosphorylases for nucleo-
+sides exemplified above. Some of these chemistries also take
+advantage of high energy phosphate bonds in order to drive
+reactions forward (Schemes 34, 43 and 45) highlighting an
+increasing interest
+in kinases, phosphorylases and ATP
+recycling systems.
+
+6.1. Reactions Developing Molecular Complexity
+6.1.1. Norcoclaurine Synthase
+
+Norcoclaurine synthase (NCS) is a single enzyme that in
+nature brings together dopamine and 4-hydroxyphenylace-
+taldehyde to form (S)-norcoclaurine (Scheme 41 a). Mecha-
+nistically, the enzyme forms an imine between the amine and
+aldehyde, then creates a C@C bond between an aromatic
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+107
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Scheme 42. Tryptophan synthase (TrpB)-catalyzed C@C bond formation
+to produce a) b-methyl tryptophan derivatives;[193] b) tryptophan
+derivatives with quaternary carbons.[194]
+
+6.1.3. Aldolase and Nucleoside Phosphorylase
+
+Enzymes are well suited to cascade reactions, because
+they are naturally designed to work in similar environments of
+solvent, temperature and other environmental conditions, and
+because they come with an inherent selectivity that allows
+several catalysts to work in concert with little fear of cross-
+reactivity. In cases where the cascades are designed to develop
+molecular complexity, complex molecules can be built with
+remarkable efficiency. An additional collection of enzymes in
+the lyase family that creates difficulty to achieve complexity is
+the aldolases. The degree of complexity introduced by the
+aldolases is low when examined by molecular weight of the
+corresponding products, but they are responsible for the
+synthesis of a wide variety of sugars, which makes them
+valuable. By combining the sugar made with a second
+complexity generating step, a C@N forming enzyme from
+the nucleoside phosphorylase family, a complex nucleoside
+could be readily made. In fact, this is the synthesis design for
+the manufacturing route to Islatravir 123 (Scheme 43) for the
+treatment and pre-exposure prophylaxis of HIV.[195]
+
+This synthesis is a three-step, one-pot cascade starting
+from alkynyl glycerol, with the molecular complexity forma-
+tion coming from deoxyribose phosphate aldolase (DERA)
+and purine nucleoside phosphorylase (PNP) in the third and
+final step. The first reaction sets up the aldolase by producing
+the necessary aldehyde and simultaneously desymmetrizing
+alkynyl glycerol. The second reaction utilizes a kinase to
+introduce the phosphate that will eventually serve as the
+
+Scheme 41. Norcoclaurine synthase (NCS)-catalyzed reactions with a)
+production of (S)-norcoclaurine;[188] b) expanded scope for different
+aldehydes;[189] c) expanded scope for different phenylethylamines and
+aldehydes.[190]
+
+carbon and the carbon of an imine using a Pictet-Spengler
+reaction mechanism, leading to the benzylated tetrahydro-
+isoquinoline privileged scaffold.[188] The enzyme has demon-
+strated a broad substrate scope for aldehyde substrates
+(Schemes 41 b,c), and under non-optimized laboratory con-
+ditions delivered non-canonical tetrahydroisoquinoline prod-
+ucts with a remarkable STY of 7 g L@1 h@1 (Scheme 41 b).[189, 190]
+In addition, the enzyme has responded to mutation with
+improved performance, highlighting its evolvability toward
+increasingly-complex reaction partners.[190] A final example
+demonstrates this enzymeQs ability to function in cascade
+reactions, further highlighting its utility.[191]
+
+6.1.2. Tryptophan Synthase
+
+Tryptophan synthase synthesizes tryptophan from the
+substrates serine and indole as a second example of a lyase
+family member. Mechanistically, the enzyme forms an imine
+between the amine in l-serine and the aldehyde of the PLP
+cofactor, allowing through a series of concerted aldimine-
+ketimine intermediates, the removal of the serine alcohol to
+form a terminal alkene in its place, followed by subsequent
+attack of the alkene by the indole. The reaction was initially
+valuable for its ability to execute this chemistry on a variety of
+substituted indoles that are synthetically challenging to
+make.[192]
+
+Recent advances call attention to the unique molecular
+complexity that this enzyme can provide. Variants developed
+added methylserine as an accepted substrate, leading to the
+formation of b-methyl
+(Sche-
+me 42 a)[193] and 3-substituted oxindoles, leading to quater-
+nary centers on the indole at the point of attachment
+(Scheme 42 b).[194]
+
+tryptophan derivatives
+
+108
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Scheme 43. An enzyme cascade with nine enzymes to produce Islatra-
+vir from simple starting materials.[195]
+
+Reviews
+
+Angewandte
+
+Chemie
+
+leaving group during installation of the fluoroadenine base.
+Note that this reaction uses catalytic ATP that is recycled with
+acetyl-phosphate and acetate kinase, different from ATP
+recycling previously described (Scheme 34). The third and
+final reaction contains all of the complexity building steps: the
+DERA begins by combining the alkynyl aldehyde and
+acetaldehyde added at this step to form the 5’-phosphate
+alkynyldeoxyribose. After phosphopentomutase
+(PPM)
+moves the 5’-phosphate to the 1’-position, the second com-
+plexity building step is executed when PNP catalyzes the
+displacement of the 1’-phosphate with fluoroadenine. The
+cascade produces the active pharmaceutical ingredient in
+a single reaction vessel from simple, low molecular weight
+building blocks and fluoroadenine in 51 % overall yield, and
+represents the state of the art in chemical synthesis for this
+molecule. This last step has the lowest volumetric productivity
+of the three, with a STY of 16.6 g L@1 d@1.
+
+produced Ikarugamycin in 27, 29 and 32 steps. In contrast, the
+three His-tagged and affinity-purified natural enzymes when
+mixed together with acetyl-CoA, malonyl-CoA, and the
+amino acid l-ornithine produced Ikarugamycin in a single
+overnight reaction in 9 % isolated yield. Adding three addi-
+tional enzymes and the substrates acetic acid and malonic acid
+allowed the recycling of catalytic amounts of CoA cofactor,
+still in a single reaction. Although the reaction productivity is
+low (STY 0.08 g L@1 d@1) and the reaction has not been scaled
+(largest reaction reported in 3.7 mL volume), the reaction has
+also not undergone process intensification, and the enzymes
+have not been evolved to optimize their performance ex vivo.
+In this case, the polyketide synthase (ikaA) was responsible
+for the complexity as defined by molecular weight increase,
+while the second enzyme (ikaB),
+is
+responsible for the initial formation of the broader scaffold.
+
+likely a desaturase,
+
+6.2. Ex vivo Natural Product Biocatalysis
+
+zation
+
+7. Biocatalytic Reactions for Potential Industriali-
+
+The high complexity achieved in the biosynthesis of
+metabolically engineered whole-cell systems have inspired
+biochemists to re-establish anabolic enzyme cascades in vitro/
+ex vivo and to avoid the side-reactions of the full metabolism
+of a living cell. While not yet ready for large scale production,
+recent progress is remarkable (STY and product titers in some
+cases already exceeding fermentation yields) and the space
+between single step biocatalysis (in vitro) and fermentation
+(in vivo) is being filled.[196] The advantages and disadvantages
+of cell free cascades have been critically discussed recently.[197]
+A very recent development in the biocatalytic arsenal is
+the ability to overexpress and isolate the enzymes in natural
+polyketide synthesis pathways and execute a natural product
+synthesis in a chemical facility. While only a handful of
+examples exist (for the earliest publications see ref. [198]),
+and these examples are not commercialized and therefore not
+scaled, they do represent an amazing feat of complexity-
+building biocatalysis. A recent example for this success is the
+Ikarugamycin (126) synthesis[199] (Scheme 44).
+
+In this example, three competing chemical routes to
+Ikarugamycin starting from commercially available materials
+
+Over the last decade, a range of novel enzymes have been
+(re)-discovered for future applications in organic synthesis.
+Many of them have been known for decades and they often
+their use in
+had been biochemically characterized, but
+biocatalysis only became prominent recently. Reasons have
+been that either their potential had been overlooked, new
+reactions types catalyzed by them were just discovered,
+intelligent solutions to overcome practical limitations have
+been developed, and most importantly, or methodology to
+discover and develop good quality enzymes (such as novel
+tools for enzyme discovery in sequence databases, better
+expression systems to make them, enzyme engineering to
+improve their performance, selectivity and substrate scope)
+have been developed.
+
+A very recent example has been the development of an
+efficient enzymatic process for the recycling of PET (poly-
+ethylene terephthalate), in which pretreatment of PET from
+waste bottles, substantial enzyme engineering and bioprocess
+development enabled to isolate the monomer terephthalic
+acid (TA) after 90 % depolymerization at a mean productivity
+of & 17 g L@1 h@1. New PET made from this monomer matches
+the quality of virgin PET and the overall process now provides
+the basis for a higher circularity for the widely used polyester
+PET despite the additional cost associated with the enzyme
+and base demanding depolymerization.[200] Furthermore,
+thanks to advanced methods for enzyme engineering, com-
+putational enzyme design and research across catalytic
+disciplines, a range of novel often called “new-to-nature”
+chemistry reactions have been implemented into biocatalysts.
+This section will therefore briefly exemplify where the
+biocatalysts are to our knowledge not yet used on large
+(industrial) scale, but the potential is present.
+
+7.1. Carboxylic Acid Reductases
+
+Scheme 44. An ex vivo enzyme cascade to produce Ikarugamycin 126
+from simple starting materials.[199]
+
+Carboxylic acid reductases (CARs) are useful biocatalysts
+to make aldehydes from carboxylic acids under mild reaction
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+109
+
+Reviews
+
+Angewandte
+
+Chemie
+
+conditions. These reactions are especially of interest for the
+flavor and fragrance industry where aldehydes are important
+products, but also for various applications in chemistry as
+summarized in recent reviews, which also cover in detail the
+current status on the discovery, structures and applications of
+CARs.[201] Compared to chemical catalysts to reduce a carbox-
+ylic acid to the aldehyde, the commonly observed undesired
+over reduction to the alcohol does not take place with CAR
+(unless in a whole-cell system where other reductases from
+the host are present). Expression of active CARs requires
+a suitable phosphopantetheinyl transferase (PPTase), and for
+the reduction reaction they also require the cofactors
+NADPH and ATP in stoichiometric amounts. In addition to
+the discovery of various CARs and PPTases from various
+microorganisms, one breakthrough was the recent elucidation
+of the first structures of the CARs from Nocardia iowensis
+and Segniliparus rugosus.[202] For this, a high-throughput assay
+has been described and successfully applied to identify better
+CAR variants in mutant libraries.[203] For their application,
+whole-cell systems appear suitable as the ATP can be readily
+recycled, but the aldehydes formed are usually toxic to the
+host such as E. coli. This was overcome by Bayer et al. by
+coexpression of an alcohol dehydrogenase and a CAR to
+ensure that only a tolerated aldehyde concentration was
+present in the host cell while a co-expressed dihydroxyace-
+tone-dependent aldolase then readily converted the aldehyde
+formed with DHA to yield the desired aldolase product in
+70 % overall yield.[204] Alternatively, Turner and co-workers
+have shown that CARs can be used as isolated enzymes in
+a reaction cascade.[205] This allows a combination with two
+further enzymes to afford substituted piperidines and pyrro-
+lidines.
+
+Thus, the aldehyde formed by the CAR was converted by
+an amine transaminase (ATA) to the w-amine a-carboxylic
+acid that underwent in situ ring closure to the imine followed
+by stereoselective reduction catalyzed by an imine reductase
+(IRED) to the product at excellent overall conversion and
+optical purities (Scheme 45).[205] Notably, CARs have also
+been used for the reduction of dicarboxylic acids to afford the
+corresponding diols such as 1,4-butanediol or 1,6-hexanediol,
+useful precursors to make polymers.[206]
+
+Interestingly, Flitsch et al. demonstrated that CARs can
+also be used to convert carboxylic acids into the correspond-
+
+ing carboxylic amides, where the adenylation domain of the
+CAR in the presence of ATP and nucleophiles such as amines,
+directly yields the target tertiary amide, notably only in the
+absence of NADPH to avoid aldehyde formation.[207] Very
+important for larger scale applications of CARs, it could be
+shown that ATP recycling from AMP can be performed
+efficiently in vitro using pyrophosphate (PPi) in combination
+with a polyphosphate kinase,[208] a system initially developed
+for SAM-dependent methyltransferases.[209] As pointed out in
+a recent review,[201b] at present the productivities of CAR-
+catalyzed reactions and the scale on which they have been
+performed are some way off being viable for truly large scale
+industrial synthesis. Nevertheless, these obstacles also applied
+to many other enzyme classes until some years ago and efforts
+in enzyme discovery, engineering and bioprocess design
+allowed to overcome these limitations.[1c]
+
+7.2. Methylation and Demethylation Reactions
+
+Regioselective methylation as well as demethylation play
+an important role in natural product and metabolite modifi-
+cation as well as in the synthesis of pharmaceuticals.
+Naturally, methylation is commonly catalyzed by S-adenosyl
+(MT)
+methionine (SAM)-dependent methyltransferases
+which can transfer the methyl group from this cofactor to
+oxygen, carbon, sulfur, nitrogen, or phosphorous. Until
+recently, the biocatalytic application of MTs, of which many
+could be expressed as recombinant enzymes and also
+engineered for new target reactions,[211] has been hampered
+by the stoichiometric requirement of SAM (132). One option
+is the use of pyrophosphate with a polyphosphate kinase as
+described above in section 7.1, but this requires in total
+addition of six enzymes,[209, 212] making it rather complex.
+Another recently published alternative is the use of a halide
+methyltransferase (HMT) where methyl iodide is used as
+donor, and for five different MTs up to 290 cycles were
+reported (Scheme 46).[210] It should be noted, however, that
+methyl iodide is a rather toxic and expensive reagent.
+
+Scheme 46. A halide methyltransferase (HMT) converts S-adenosyl
+homocysteine (SAH, 131) with methyl iodide into S-adenosyl methio-
+nine (SAM, 132) serving as methyl donor for methyl transferases.[210]
+
+Similar to methylation, the regioselective demethylation,
+especially under mild conditions, is an important biocatalytic
+reaction. This reaction can be catalyzed by P450-monooxy-
+genases via hydroxylation of the methyl group using molec-
+ular oxygen and NADPH, where the resulting unstable
+product undergoes decomposition into the free hydroxyl
+group and formaldehyde. The Flitsch group described a range
+of
+robust and practically versatile self-sufficient P450
+enzymes, which were able to demethylate a range of
+substrates (Scheme 47).[213] The Bornscheuer group discov-
+
+Scheme 45. An enzyme cascade comprising a carboxylic acid reductase
+(CAR), a transaminase (ATA) and an imine reductase (IRED) enables
+production of piperidines and pyrrolidines in high yield and optical
+purity.[205] (n = 0, 1).
+
+110
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+ered P450s in marine bacteria, which selectively demethylate
+6-O-methyl-d-galactose 135 present in algal polysaccharides,
+such as agar and porphyran. These enzymes need redox
+partner proteins for their activity, and their biochemical
+function as well as their structural
+features have been
+elucidated.[214]
+
+of radical halogenases were described, which produce mono-
+and dichlorinated, as well as brominated and azidated, amino
+acids.[225]
+
+Recently the chemo-, regio- and diastereoselective chlori-
+nation of an unactivated C(sp3)-H bond was achieved after
+directed evolution of the FeII and a-ketoglutarate-dependent
+halogenase from Westiella intricate (WelO5, Scheme 48).[220]
+In another study, the related enzyme WelO5* as well as the
+halogenase AmbO5 were evolved and showed distinct
+patterns of regioselectivity (Scheme 48).[221]
+
+Scheme 47. Demethylation was shown using several self-sufficient
+P450-monooxygenases for a range of methyl-product aryl ketones[215] as
+well as for the demethylation of 6-O-methyl d-galactose using an
+enzyme from a marine bacteria, which requires redox partner proteins
+(FoR, FoX).[214] These reactions yield formaldehyde as by-product.
+
+Scheme 48. Examples for regioselective halogenations using
+WelO15[220] or WelO5*[221] (distinct mutants to afford either of the
+chlorinated products as indicated by the dashed bond) for chlorina-
+tion, a ThaI variant for bromination[222] and VirX1 for iodination.[223]
+
+7.3. Halogenation Reactions
+
+Enzymatic halogenation has the potential to develop
+greener and more selective processes for the production of
+important halogenated compounds as the use of halogenases
+in aqueous reaction media at ambient temperatures with
+distinct chemo- and regioselectivity has substantial advan-
+tages over chemical halogenation methods. Although the first
+halogenating enzymes were discovered a long time ago, the
+past few years have seen substantial progress in the discovery
+of novel enzymes as well as their improvement by enzyme-
+engineering including their application in preparative scale
+synthesis. Biohalogenation has been reported for a broad
+range of enzymes including heme-iron or vanadium-depen-
+dent haloperoxidases, a-ketoglutarate-dependent halogen-
+ases, flavin-dependent halogenases as well as monooxyge-
+nase, fluorinases[216] and very recently iodanases. Excellent
+recent reviews[217] cover this area in detail and in the following
+hence only selected examples are covered.
+
+Stimulated by the discovery and structure elucidation of
+the l-Trp 7-halogenase (PrnA), which regioselectively chlori-
+nates tryptophan, by the van P8e group,[218] numerous
+scientists studied since then these biocatalysts with focus on
+alteration of halide preference, regioselectivity, activity and
+stability. The best studied enzymes are RebH, ThaI, PrnA and
+PyrH, which were subjected to substrate profiling for a range
+of anilines, indoles, pyrroles and azoles.[217b, 219]
+
+The Sewald group demonstrated gram scale synthesis of 7-
+Br-l-Trp using RebH in combination with the flavin reductase
+PrnF[224] and cofactor recycling of NADH using an alcohol
+dehydrogenase as immobilized “Combi-CLEC” catalysts.[222a]
+More recently, the same group substantially improved the
+thermostability of the ThaI halogenase by directed evolution
+and semi-rational design to yield 6-Br-l-Trp.[222b] Also a family
+
+Halogenation is not restricted to chloride or bromide and
+recently the first iodinase was described.[223] By genome
+mining, a viral halogenase (VirX1) was discovered that
+catalyzes the halogenation of a range of arenes as exemplified
+for 32 different heterocyclic compounds. This enzyme shows
+substantially higher activity for iodide over bromide and very
+poor chlorination.[226] Thus, halogenase enzymes are on the
+way to become useful biocatalysts, especially for late-stage
+functionalization of pharmaceuticals.
+
+7.4. Aldoxime Dehydratases
+
+Nitriles are produced chemically on large industrial scale
+especially for bulk chemicals such as acetonitrile or acryloni-
+trile, but also are important intermediates for pharmaceut-
+icals. However, synthetic routes to nitriles require the use of
+highly toxic cyanide. An attractive alternative is are aldoxime
+dehydratases, first described for synthetic use by Kato and
+Asano.[227] These enzymes can convert an aldoxime in one
+step through dehydration directly into nitriles and have
+a surprisingly large substrate scope: aliphatic and aromatic
+aldoximes are converted into the corresponding nitriles.[228]
+The enzymes are robust and can dehydrate essentially pure
+substrate without the need for dilution. BASF has developed
+a synthesis of fragrance nitriles (example: citronellylnitrile
+142, Scheme 49) by treating crude citronellyloxime 141
+undiluted with Bacillus sp. phenylacetoxime dehydratase
+
+Scheme 49. Synthesis of the fragrance citronellynitrile using a phenyl-
+acetoxime dehydratase (PAOx).[229]
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+111
+
+Reviews
+
+Angewandte
+
+Chemie
+
+(PAOx) overexpressed in E. coli.[229] A high STY (19 g L@1 h@1
+until 50 % conversion, 8 g L@1 h@1 until total conversion) and
+titer of 0.7 kg L@1 were observed. Grçger et al.
+a final
+described very high titers when converting neat octanaloxime
+to
+enantioselectivities
+as
+octylnitrile
+(Scheme 50).[230]
+
+as well
+
+high
+
+Interestingly, as the enantiopreference depends on the E
+and Z isomers of the aldoxime, opposite enantiomers can be
+obtained from the same racemic aldehyde.[231] The combina-
+tion of hydroformylation and biocatalysis has been shown.[232]
+
+Scheme 50. An aldoxime dehydratase (OxdA, used as whole cell
+system) catalyzes the stereoselective formation of a nitrile from the
+aldoxime.[231]
+
+7.5. “New-to-Nature” Chemistry
+
+In the past decade, a range of novel biocatalytic applica-
+tions have been developed, especially via enzyme engineer-
+ing, where reactions have been made possible, for which no
+counterpart is known from nature. These examples have in
+common that larger scale applications have not been shown
+yet, but the potential is there. Readers are referred to a range
+reviews covering also artificial metalloenzymes and
+of
+biocatalysts based on non-natural genetically encoded
+amino acids.[233]
+
+One example is the formation of cyclopropanes (146)
+from styrene using an engineered P450 monooxygenase (P411
+variants derived from the P450 enzyme BM3 from Bacillus
+megaterium). These P411 biocatalysts can react with the diazo
+reagent ethyl diazoacetate to catalyze a carbene transfer
+instead of natural oxygen incorporation (Scheme 51).[234] This
+was also shown to work with high diastereo- and enantiose-
+lectivity using engineered myoglobin.[235] Similarly, aziri-
+dines[236] could be accessed from tosyl azide as precursor,
+but the TTNs are rather low.
+
+The Hyster group pioneered the asymmetric dehalogena-
+tion of a-bromo-a-aryl/alkyl lactones such as 147 using an
+NADPH-dependent KRED as protein scaffold, which upon
+light irradiation afforded the dehalogenated chiral lactone
+product 148 (Scheme 51).[237] This concept was then expanded
+to the photoexcitation of flavin-dependent ene reductases
+(ERED).[238] With an artificial metalloenzyme the olefin
+metathesis using Grubbs catalyst within a streptavidin scaf-
+fold, expressed in the periplasm of E. coli, was possible but
+not efficient (Scheme 51).[239]
+
+Scheme 51. Examples for “new-to-nature” chemistry catalyzed by engi-
+neered biocatalysts.
+
+8. Conclusion and Outlook
+
+An impressive range of
+
+industrial scale biocatalytic
+applications have been developed since the previous
+reviews[2] were published. When looking at recent examples,
+a remarkable achievement emerges—novel enzymes, which
+were discovered in academic laboratories only 5–7 years ago,
+have already been engineered and applied on scale. This
+shortened development time, expanded enzymatic portfolio
+and advanced applications, for example, demonstration of an
+enzymatic cascade for preparation of an API, will contribute
+to the continued adoption of biocatalysis
+in synthetic
+chemistry, overcoming the inertia we have seen in the
+previous decade.
+
+Process engineers may be pleased to see that many
+biocatalytic reactions now achieve STY comparable to
+conventional chemical transformations. Most enzymes are
+highly efficient—it takes very little enzyme to make a lot of
+chemistry. Thus, it only takes small pilot-plant equipment
+(and very standard expression technology) to supply enough
+catalyst for regular production. More and more biocatalysts
+are available commercially on kg-scale. High selectivities and
+clean reactions facilitate down-stream-processing. This makes
+biocatalysis easier to adopt in chemical production than
+fermentation, as fermentation has a 1–2 orders of magnitude
+lower STY—and hence a need for huge fermenter volumes
+and sophisticated metabolic engineering to create the pro-
+ducing organism. Effectively, the problem statements given in
+Table 1 have been overcome.
+
+Looking ahead, further advances in enzyme and reaction
+engineering, machine learning, dynamic enzyme reaction
+modelling, and predictive retrosynthetic tools, will embed
+enzymatic synthesis as a green, sustainable, cost- and atom-
+efficient method for the manufacture of ever-increasing
+molecular complexity across the chemical, pharma, and
+food industries.
+
+112
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+Acknowledgements
+
+S.W. thanks the Alexander von Humboldt foundation for
+a Humboldt research fellowship. Open access funding ena-
+bled and organized by Projekt DEAL.
+
+Conflict of interest
+
+R.S. is an employee of Novartis, J.C.M. is an employee of
+Merck & Co, Inc. All have been involved in inventions cited
+in this review. K.B. declares to own stock of several of the
+companies mentioned in the review.
+
+[1] a) U. T. Bornscheuer, G. W. Huisman, R. J. Kazlauskas, S. Lutz,
+J. C. Moore, K. Robins, Nature 2012, 485, 185 – 194; b) R. A.
+Sheldon, D. Brady, ChemSusChem 2019, 12, 2859 – 2881; c) A.
+Fryszkowska, P. N. Devine, Curr. Opin. Chem. Biol. 2020, 55,
+151 – 160; d) R. A. Sheldon, J. M. Woodley, Chem. Rev. 2018,
+118, 801 – 838; e) R. A. Sheldon, D. Brady, M. L. Bode, Chem.
+Sci. 2020, 11, 2587 – 2605.
+
+[2] a) M. Breuer, K. Ditrich, T. Habicher, B. Hauer, M. Keßeler, R.
+Stgrmer, T. Zelinski, Angew. Chem. Int. Ed. 2004, 43, 788 – 824;
+Angew. Chem. 2004, 116, 806 – 843; b) A. Schmid, J. S. Dordick,
+B. Hauer, A. Kiener, M. Wubbolts, B. Witholt, Nature 2001, 409,
+258 – 268.
+
+[3] a) A. Liese, K. Seelbach, C. Wandrey, Industrial Biotransfor-
+mations, 2nd ed., Wiley-VCH, Weinheim, 2006; b) F. Rudroff,
+M. D. Mihovilovic, H. Grçger, R. Snajdrova, H. Iding, U. T.
+Bornscheuer, Nat. Catal. 2018, 1, 12 – 22; c) K. Faber, Biotrans-
+formations in Organic Chemistry, 7th ed., Springer, Berlin,
+2018; d) Pharmaceutical Biocatalysis—Chemoenzymatic Syn-
+thesis of Active Pharmaceutical Ingredients (Ed.: P. Grunwald),
+Jenny Stanford Publishing, Singapore, 2020; e) Enzyme Catal-
+ysis in Organic Synthesis, 3rd ed. (Eds.: K. Drauz, H. Grçger, O.
+May), Wiley-VCH, Weinheim, 2012; f) K. Buchholz, V. Kasche,
+U. T. Bornscheuer, Biocatalysts and Enzyme Technology,
+2nd ed., Wiley-VCH, Weinheim, 2012; g) U. T. Bornscheuer,
+R. J. Kazlauskas, Hydrolases in Organic Synthesis—Regio- and
+Stereoselective Biotransformations, 2nd ed., Wiley-VCH, Wein-
+heim, 2006; h) Biocatalysis in the Pharmaceutical and Biotech-
+nology Industries (Ed.: R. N. Patel), CRC Press, Boca Raton,
+2006; i) Industrial Enzyme Applications (Eds.: A. Vogel, O.
+May), Wiley-VCH, Weinheim, 2019; j) Practical Methods for
+Biocatalysis and Biotransformations 3 (Eds.: J. Whittall, P. W.
+Sutton, W. Kroutil), Wiley-VCH, Weinheim, 2016.
+
+[4] a) H. Renata, Z. J. Wang, F. H. Arnold, Angew. Chem. Int. Ed.
+2015, 54, 3351 – 3367; Angew. Chem. 2015, 127, 3408 – 3426;
+b) S. Galanie, D. Entwistle, J. Lalonde, Nat. Prod. Rep. 2020,
+https://doi.org/10.1039/C9NP00071B.
+
+[5] H. Yamada, M. Kobayashi, Biosci. Biotechnol. Biochem. 1996,
+
+60, 1391 – 1400.
+
+[6] U. T. Bornscheuer, Philos. Trans. R. Soc. A 2018, 376, 20170063.
+[7] a) G. Qu, A. Li, C. G. Acevedo-Rocha, Z. Sun, M. T. Reetz,
+Angew. Chem. Int. Ed. 2020, 59, 13204 – 13231; Angew. Chem.
+2020, 132, 13304 – 13333; b) M. T. Reetz, Angew. Chem. Int. Ed.
+2011, 50, 138 – 174; Angew. Chem. 2011, 123, 144 – 182.
+
+[8] a) F. H. Arnold, Angew. Chem. Int. Ed. 2019, 58, 14420 – 14426;
+Angew. Chem. 2019, 131, 14558 – 14565; b) U. T. Bornscheuer,
+B. Hauer, K. E. Jaeger, U. Schwaneberg, Angew. Chem. Int. Ed.
+2019, 58, 36 – 40; Angew. Chem. 2019, 131, 36 – 41.
+
+[9] a) R. O. M. A. de Souza, L. S. M. Miranda, U. T. Bornscheuer,
+Chem. Eur. J. 2017, 23, 12040 – 12063; b) M. Hçnig, P.
+Sondermann, N. J. Turner, E. M. Carreira, Angew. Chem. Int.
+
+Ed. 2017, 56, 8942 – 8973; Angew. Chem. 2017, 129, 9068 – 9100;
+c) N. J. Turner, E. OQReilly, Nat. Chem. Biol. 2013, 9, 285 – 288.
+[10] N. J. Turner, L. Humphreys, Biocatalysis in Organic Synthesis:
+The Retrosynthesis Approach, Royal Soc. Chem., London,
+2018.
+
+[11] B. Hauer, ACS Catal. 2020, 10, 8418 – 8427.
+[12] M. D. Truppo, ACS Med. Chem. Lett. 2017, 8, 476 – 480.
+[13] a) V. Heinrichs, O. Thum, Lipid Technol. 2005, 17, 82 – 87; b) O.
+
+Thum, Tenside Surfactants Deterg. 2004, 41, 287 – 290.
+
+[14] S. K. Ma, J. Gruber, C. Davis, L. Newman, D. Gray, A. Wang, J.
+Grate, G. W. Huisman, R. A. Sheldon, Green Chem. 2010, 12,
+81 – 86.
+
+[15] a) B.-S. Chen, F. Z. R. de Souza, RSC Adv. 2019, 9, 2102 – 2115;
+b) C. K. Prier, B. Kosjek, Curr. Opin. Chem. Biol. 2019, 49,
+105 – 112.
+
+[16] a) F. Hollmann, I. W. C. E. Arends, D. Holtmann, Green Chem.
+2011, 13, 2285 – 2314; b) C. Micklitsch, D. Duan, M. Borra-
+Garske, in Industrial Enzyme Applications (Eds.: A. Vogel, O.
+May), Wiley-VCH, Weinheim, 2019, pp. 351 – 383; c) F. Holl-
+mann, D. J. Opperman, C. E. Paul, Angew. Chem. Int. Ed. 2020,
+https://doi.org/10.1002/anie.202001876; Angew. Chem. 2020,
+https://doi.org/10.1002/ange.202001876.
+
+[17] P. D. de Mar&a, G. de Gonzalo, A. R. Alc#ntara, Catalysts 2019,
+
+9, 802.
+
+[18] a) R. Stgrmer, M. Kesseler, B. Hauer, T. Friedrich, M. Breuer,
+H. Schrçder, (BASF), DE102005062662, 2007; b) S. Leuchs, L.
+Greiner, Chem. Biochem. Eng. Q. 2011, 25, 267 – 281.
+
+[19] a) R. Stgrmer, M. Kesseler, B. Hauer, T. Friedrich, M. Breuer,
+H. Schrçder, (BASF), WO2005108590, 2005; b) N. Schneider,
+W. Hçffken, (BASF), WO2010079068, 2010.
+
+[20] X. Chen, Z.-Q. Liu, C.-P. Lin, Y.-G. Zheng, Bioorg. Chem. 2016,
+
+65, 82 – 89.
+
+[21] D. Dascier, S. Kambourakis, L. Hua, J. D. Rozzell, J. D. Stewart,
+
+Org. Process Res. Dev. 2014, 18, 793 – 800.
+
+[22] a) B. Hauer, C. Dingler, R. Van Gorcom, C. Van Zeijl, (BASF),
+WO9950420A1, 1999; b) C. Dingler, W. Ladner, G. A. Krei,
+(BASF), DE4414548A1, 1995.
+
+[23] a) M. Xu, C. Yang, B. Qin, N. Li, X. Liu,
+
+(Cathay),
+EP3533879A1, 2019; b) W. Liu, M. Xu, H. Chou, X. Liu,
+(Cathay), EP3550014A1, 2019; c) B. Qin, Y. Yang, X. Liu,
+(Cathay), WO2018010057A1, 2018.
+
+[24] I. Kaluzna, T. Schmitges, H. Straatman, D. van Tegelen, M.
+Mgller, M. Schgrmann, D. Mink, Org. Process Res. Dev. 2016,
+20, 814 – 819.
+
+[25] a) I. Kaluzna, J. Brummund, M. Schuermann, Chim. Oggi 2017,
+35, 55 – 58; b) ROBOX EU project consortium, https://
+h2020robox.eu/, 2019.
+
+[26] L. Garel, M. Gelo-Pujic, T. Schlama, (Rhodia Chimie SAS),
+
+US20080039635, 2008.
+
+[27] R. Schgtz, A. V. Rawlings, E. Wandeler, E. Jackson, S. Trevisan,
+J.-M. Monneuse, I. Bendik, M. Massironi, D. Imfeld, Int. J.
+Cosmet. Sci. 2019, 41, 240 – 256.
+
+[28] P. Fu, Y. Gai, F. Gao, W. Kong, Y. Lu, Z. Min, S. Rong, C. Shu,
+C. Wang, R. Wang, J. Zhao, X. Zhao, Y. Zhao, J. Zhou, B.
+Martin, (Novartis), WO2020016749, 2020.
+
+[29] M. Burns, C. A. Martinez, B. Vanderplas, R. Wisdom, S. Yu,
+R. A. Singer, Org. Process Res. Dev. 2017, 21, 871 – 877.
+[30] X.-M. Gong, Z. Qin, F.-L. Li, B.-B. Zeng, G.-W. Zheng, J.-H.
+
+Xu, ACS Catal. 2019, 9, 147 – 153.
+
+[31] G.-W. Zheng, Y.-Y. Liu, Q. Chen, L. Huang, H.-L. Yu, W.-Y.
+Lou, C.-X. Li, Y.-P. Bai, A.-T. Li, J.-H. Xu, ACS Catal. 2017, 7,
+7174 – 7181.
+
+[32] Y. Xu, Q. Chen, Z.-J. Zhang, J.-H. Xu, G.-W. Zheng,
+
+ChemBioChem 2020, 21, 1341 – 1346.
+
+[33] X. Chen, H. Zhang, M. A. Maria-Solano, W. Liu, J. Li, J. Feng,
+X. Liu, S. Osuna, R.-T. Guo, Q. Wu, D. Zhu, Y. Ma, Nat. Catal.
+2019, 2, 931 – 941.
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+113
+
+Reviews
+
+Angewandte
+
+Chemie
+
+[34] K. d. G. Daiha, R. Angeli, S. D. de Oliveira, R. V. Almeida,
+
+Plos One 2015, 10, e0131624.
+
+[35] a) D. H. Peterson, J. Am. Chem. Soc. 1952, 74, 5933 – 5936;
+b) N. Serizawa, K. Hamano, Y. Tsujita, A. Terahara, H.
+Kuwano, J. Antibiot. 1983, 36, 604 – 607.
+
+[36] C. Dingler, W. Ladner, G. A. Krei, B. Cooper, B. Hauer, Pestic.
+
+Sci. 1996, 46, 33 – 35.
+
+[37] a) M. Hofrichter, R. Ullrich, Curr. Opin. Chem. Biol. 2014, 19,
+116 – 125; b) M. Hofrichter, H. Kellner, M. J. Pecyna, R.
+Ullrich,
+in Monooxygenase, Peroxidase and Peroxygenase
+Properties and Mechanisms of Cytochrome P450 (Eds.: E. G.
+Hrycay, S. M. Bandiera), Springer International Publishing,
+Cambridge, 2015, pp. 341 – 368.
+
+[38] a) Y. Ni, E. Fern#ndez-Fueyo, A. G. Baraibar, R. Ullrich, M.
+Hofrichter, H. Yanase, M. Alcalde, W. J. H. van Berkel, F.
+Hollmann, Angew. Chem. Int. Ed. 2016, 55, 798 – 801; Angew.
+Chem. 2016, 128, 809 – 812; b) W. Zhang, B. O. Burek, E.
+Fern#ndez-Fueyo, M. Alcalde, J. Z. Bloh, F. Hollmann, Angew.
+Chem. Int. Ed. 2017, 56, 15451 – 15455; Angew. Chem. 2017,
+129, 15654 – 15658; c) S. J. Freakley, S. Kochius, J. van Marwijk,
+C. Fenner, R. J. Lewis, K. Baldenius, S. S. Marais, D. J. Opper-
+man, S. T. L. Harrison, M. Alcalde, M. S. Smit, G. J. Hutchings,
+Nat. Commun. 2019, 10, 4178.
+
+[39] J. Dong, E. Fern#ndez-Fueyo, F. Hollmann, C. E. Paul, M.
+Pesic, S. Schmidt, Y. Wang, S. Younes, W. Zhang, Angew. Chem.
+Int. Ed. 2018, 57, 9238 – 9261; Angew. Chem. 2018, 130, 9380 –
+9404.
+
+[40] R. P. Hausinger,
+
+in 2-Oxoglutarate-Dependent Oxygenases
+(Eds.: C. Schofield, R. Hausinger), The Royal Society of
+Chemist, Cambridge UK, 2015, pp. 1 – 58.
+[41] C. Peters, R. Buller, Catalysts 2019, 9, 221.
+[42] a) T. Shibasaki, H. Mori, A. Ozaki, Biosci. Biotechnol. Bio-
+chem. 2000, 64, 746 – 750; b) H. Chen, Y. K. Bong, F. L. Cabirol,
+A. G. Prafulchandra, T. Li, J. C. Moore, M. Quintanar-Audelo,
+Y. Hong, S. J. Collier, D. Smith, (Codexis Inc.), US20150118719,
+2015.
+
+[43] a) M. Engleder, H. Pichler, Appl. Microbiol. Biotechnol. 2018,
+102, 5841 – 5858; b) J. Ogawa, M. Takeuchi, S. Kishino, in Lipid
+Modification by Enzymes and Engineered Microbes, Vol. 1
+(Ed.: U. T. Bornscheuer), AOCS Press/Academic Press,
+London, 2018, pp. 119 – 137; c) J. Jin, U. Hanefeld, Chem.
+Commun. 2011, 47, 2502 – 2510.
+
+[44] a) J.-W. Song, E.-Y. Jeon, D.-H. Song, H.-Y. Jang, U. T.
+Bornscheuer, D.-K. Oh, J.-B. Park, Angew. Chem. Int. Ed.
+2013, 52, 2534 – 2537; Angew. Chem. 2013, 125, 2594 – 2597;
+b) D.-S. Lee, J.-W. Song, M. Voss, E. Schuiten, R. K. Akula, Y.-
+U. Kwon, U. Bornscheuer, J.-B. Park, Adv. Synth. Catal. 2019,
+361, 1359 – 1367.
+
+[45] M. Engleder, T. Pavkov-Keller, A. Emmerstorfer, A. Hromic,
+S. Schrempf, G. Steinkellner, T. Wriessnegger, E. Leitner, G. A.
+Strohmeier, I. Kaluzna, D. Mink, M. Schgrmann, S. Wallner, P.
+Macheroux, K. Gruber, H. Pichler, ChemBioChem 2015, 16,
+1730 – 1734.
+
+[46] a) R. M. Demming, S. C. Hammer, B. M. Nestl, S. Gergel, S.
+Fademrecht, J. Pleiss, B. Hauer, Angew. Chem. Int. Ed. 2019, 58,
+173 – 177; Angew. Chem. 2019, 131, 179 – 183; b) R. M. Dem-
+ming, K. B. Otte, B. M. Nestl, B. Hauer, ChemCatChem 2017, 9,
+758 – 766.
+
+[47] a) H. U. Blaser, F. Spindler, M. Studer, Appl. Catal. A 2001, 221,
+119 – 143; b) T. C. Nugent, M. El-Shazly, Adv. Synth. Catal.
+2010, 352, 753 – 819.
+
+[48] a) E. E. Ferrandi, D. Monti, World J. Microbiol. Biotechnol.
+2018, 34, 13; b) H. Kohls, F. Steffen-Munsberg, M. Hçhne, Curr.
+Opin. Chem. Biol. 2014, 19, 180 – 192.
+
+[49] a) F. Guo, P. Berglund, Green Chem. 2017, 19, 333 – 360;
+b) S. A. Kelly, S. Pohle, S. Wharry, S. Mix, C. C. R. Allen, T. S.
+Moody, B. F. Gilmore, Chem. Rev. 2018, 118, 349 – 367; c) A.
+
+Gomm, E. OQReilly, Curr. Opin. Chem. Biol. 2018, 43, 106 –
+112; d) M. D. Patil, G. Grogan, A. Bommarius, H. Yun,
+Catalysts 2018, 8, 254; e) F. Steffen-Munsberg, C. Vickers, H.
+Kohls, H. Land, H. Mallin, A. Nobili, L. Skalden, T. van den
+Bergh, H.-J. Joosten, P. Berglund, M. Hçhne, U. T. Bornsche-
+uer, Biotechnol. Adv. 2015, 33, 566 – 604; f) M. Fuchs, J. E.
+Farnberger, W. Kroutil, Eur. J. Org. Chem. 2015, 6965 – 6982;
+g) W. Kroutil, E.-M. Fischereder, C. S. Fuchs, H. Lechner, F. G.
+Mutti, D. Pressnitz, A. Rajagopalan, J. H. Sattler, R. C. Simon,
+E. Siirola, Org. Process Res. Dev. 2013, 17, 751 – 759; h) S.
+Mathew, H. Yun, ACS Catal. 2012, 2, 993 – 1001; i) P. Tufvesson,
+J. Lima-Ramos, J. S. Jensen, N. Al-Haque, W. Neto, J. M.
+j) M.
+Woodley, Biotechnol. Bioeng. 2011, 108, 1479 – 1493;
+Hçhne, U. T. Bornscheuer, ChemCatChem 2009, 1, 42 – 51.
+[50] a) D. I. Sterling, A. L. Zeitlin, G. W. Matcham, (CelgeneCorp.),
+US 4950606, 1989; b) D. I. Sterling, A. L. Zeitlin, G. W.
+Matcham, J. J. D. Rozzell, (CelgeneCorp.), US 4950606, 1990.
+[51] a) W. Wu, M. B. Bhatia, C. M. Lewis, W. Lang, A. Wang, G. W.
+Matcham, (Celgro, USA), WO9946398A1, 1999.; b) P. Tufves-
+son, C. Bach, J. M. Woodley, Biotechnol. Bioeng. 2014, 111,
+309 – 319; c) P. Kelefiotis-Stratidakis, T. Tyrikos-Ergas, I. V.
+Pavlidis, Org. Biomol. Chem. 2019, 17, 1634 – 1642; d) A. W. H.
+Dawood, M. S. Weiss, C. Schulz, I. V. Pavlidis, H. Iding,
+R. O. M. A. de Souza, U. T. Bornscheuer, ChemCatChem
+2018, 10, 3943 – 3949.
+
+[52] G. Matcham, M. Bhatia, W. Lang, C. Lewis, R. Nelson, A.
+
+Wang, W. Wu, Chimia 1999, 53, 584 – 589.
+
+[53] H.-U. Blaser, F. Spindler, Chimia 1997, 51, 297 – 299.
+[54] a) F. Balkenhohl, H. Hauer, W. Ladner, U. Pressler, C. Ngbling,
+(BASF), WO1995008636, 1993; b) U. Stelzer, C. Draisbach,
+Bayer, WO199720946, 1997.
+
+[55] K. Ditrich, Synthesis 2008, 2283 – 2287.
+[56] a) F. Balkenhohl, K. Ditrich, W. Ladner,
+
+(BASF),
+WO1997010201, 1995; b) K. Ditrich, W. Ladner, J. H. Melder,
+(BASF), WO200056699, 2000.
+
+[57] K. Ditrich, U. Block, (BASF), WO2000046177, 1999.
+[58] a) H. Riechers, J. Simon, A. Hçhn, A. Kramer, F. Funke, W.
+Siegel, C. Ngbling, (BASF), WO200047545, 2000; b) H. Riech-
+ers, J. Simon, A. Hçhn, A. Kramer, F. Funke, W. Siegel, C.
+Ngbling, (BASF), WO2000047546, 2000.
+
+[59] C. K. Savile, J. M. Janey, E. C. Mundorff, J. C. Moore, S. Tam,
+W. R. Jarvis, J. C. Colbeck, A. Krebber, F. J. Fleitz, J. Brands,
+P. N. Devine, G. W. Huisman, G. J. Hughes, Science 2010, 329,
+305 – 309.
+
+[60] A. A. Desai, Angew. Chem. Int. Ed. 2011, 50, 1974 – 1976;
+
+Angew. Chem. 2011, 123, 2018 – 2020.
+
+[61] L. Feng, P. H. Karpinski, P. Sutton, Y. Liu, D. F. Hook, B. Hu,
+T. J. Blacklock, P. E. Fanwick, M. Prashad, S. Godtfredsen, C.
+Ziltener, Tetrahedron Lett. 2012, 53, 275 – 276.
+
+[62] S. J. Novick, N. Dellas, O. Alvizo, R. D. Garcia, C. Ching, D.
+
+Entwistle, (Codexis Inc), WO/2018/231462, 2018.
+
+[63] a) F. K. Kleinbecker-Riniker, B. Martin, G. Penn, F. Venturoni,
+T. Schlama, T. Ruch, T. Allmendinger, B. Wietfeld, P. Filipponi,
+(Novartis), WO/2017/098430, 2017; b) X. Gu, et al., J. Org.
+Chem. 2020, 85, 6844 – 6853.
+
+[64] W. Bryker, L. A. Avila, (Hexcel), US4983771A, 1989.
+[65] W. Han, E. S. Park, J. Y. Dong, J. S. Shin, Adv. Synth. Catal.
+
+2015, 357, 1732 – 1740.
+
+[66] H. Chen, Y. K. Bong, J. Wang, B. Cai, C. Shang, M. Bocola,
+(Enzymaster Ningbo Bio-Engineering Co.), WO2019128894,
+2019.
+
+[67] M. D. Truppo, J. D. Rozzell, N. J. Turner, Org. Process Res. Dev.
+
+2010, 14, 234 – 237.
+
+[68] a) C. Nuebling, K. Ditrich, C. Dully,
+
+(BASF AG),
+WO2000011203, 2000; b) K. Ditrich, at the Amine Biocatalysis
+4.0 conference, Stuttgart, 2020.
+
+114
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+[69] M. Schober, C. MacDermaid, A. A. Ollis, S. Chang, D. Khan, J.
+Hosford, J. Latham, L. A. F. Ihnken, M. J. B. Brown, D. Fuerst,
+M. J. Sanganee, G.-D. Roiban, Nat. Catal. 2019, 2, 909 – 915.
+
+[70] S. Bartsch, A. Vogel, in Science of Synthesis: Biocatalysis in
+Organic Synthesis, Vol. 2 (Eds.: K. Faber, W. D. Fessner, N. J.
+Turner), Georg Thieme, Stuttgart, 2015, pp. 291 – 311.
+
+[71] V. F. Batista, J. L. Galman, D. C. G. A. Pinto, A. M. S. Silva,
+
+N. J. Turner, ACS Catal. 2018, 8, 11889 – 11907.
+
+[72] D. Ghislieri, A. P. Green, M. Pontini, S. C. Willies, I. Rowles, A.
+Frank, G. Grogan, N. J. Turner, J. Am. Chem. Soc. 2013, 135,
+10863 – 10869.
+
+[73] a) B. Mijts, S. Muley, J. Liang, L. M. Newman, X. Zhang, J.
+LaLonde, M. D. Clay, J. Zhu, J. M. Gruber, J. Colbeck, J. D.
+Munger, Jr.,
+Inc.),
+WO2010008828, 2010; b) T. Li, J. Liang, A. Ambrogelly, T.
+Brennan, G. Gloor, G. Huisman, J. Lalonde, A. Lekhal, B.
+Mijts, S. Muley, L. Newman, M. Tobin, G. Wong, A. Zaks, X.
+Zhang, J. Am. Chem. Soc. 2012, 134, 6467 – 6472.
+
+J. Mavinhalli, R. Sheldon (Codexis,
+
+[74] a) H. Li, P. Williams, J. Micklefield, J. M. Gardiner, G.
+Stephens, Tetrahedron 2004, 60, 753 – 758; b) A. Chadha,
+Tetrahedron: Asymmetry 2008, 19, 93 – 96; c) S. Stell, A.
+Chadha, in Practical methods for biocatalysis and biotransfor-
+mations, Vol. 2 (Eds.: J. Whittall, P. W. Sutton), Wiley-VCH,
+Weinheim, 2012, pp. 83 – 86; d) T. Nagasawa, T. Yoshida, K.
+Ishida, H. Yamamoto, N. Kimoto, Daicel, WO2010024445,
+2010.
+
+[75] K. Mitsukura, M. Suzuki, S. Shinoda, T. Kuramoto, T. Yoshida,
+T. Nagasawa, Biosci. Biotechnol. Biochem. 2011, 75, 1778 –
+1782.
+
+[76] a) J. Mangas-Sanchez, S. P. France, S. L. Montgomery, G. A.
+Aleku, H. Man, M. Sharma, J. I. Ramsden, G. Grogan, N. J.
+Turner, Curr. Opin. Chem. Biol. 2017, 37, 19 – 25; b) M. Hçhne,
+Nat. Catal. 2019, 2, 841 – 842.
+
+[77] a) N. Zumbr-gel, P. Machui, J. Nonnhoff, H. Grçger, J. Org.
+Chem. 2019, 84, 1440 – 1447; b) N. Zumbr-gel, H. Grçger, J.
+Biotechnol. 2019, 291, 35 – 40.
+
+[78] Pfizer, Imine reductase mediated synthesis of (S,S)-sertraline in
+
+IP.com, 2017.
+
+[79] J. Limanto, E. R. Ashley, J. Yin, G. L. Beutner, B. T. Grau,
+A. M. Kassim, M. M. Kim, A. Klapars, Z. Liu, H. R. Strotman,
+M. D. Truppo, Org. Lett. 2014, 16, 2716 – 2719.
+
+[80] a) C. Haibin, S. J. Collier, J. Nazor, J. Sukumaran, D. Smith, J. C.
+Moore, G. Hughes, J. Janey, G. Huisman, S. Novick, N. Agard,
+O. Alvizo, G. Cope, W. L. Yeo, S. Ng (Codexis Inc.), US Patent
+2013/0302859, 2013; b) O. Alvizo, M. Mayo, N. Agard, S.
+Collier, J. Sukumaran, S. Jenne, A. Bautista, S. Novick, W. Yeo,
+D. Smith, J. Riggins, S. Ng, D. Entwistle, A. Krebber, G.
+Huisman, J. Nazar, H. Chen, G. Hughes, J. Jacob, G. Cope, P.
+Orth, N. Elsen, J. Moore, 2014, poster presentation at
+Biocat2014: 7th International Congress on Biocatalysis,
+31.08. – 04.09.2014, Hamburg (Germany).
+
+[81] G. A. Aleku, S. P. France, H. Man, J. Mangas-Sanchez, S. L.
+Montgomery, M. Sharma, F. Leipold, S. Hussain, G. Grogan,
+N. J. Turner, Nat. Chem. 2017, 9, 961 – 969.
+
+[82] M. Sharma, J. Mangas-Sanchez, S. P. France, G. A. Aleku, S. L.
+Montgomery, J. I. Ramsden, N. J. Turner, G. Grogan, ACS
+Catal. 2018, 8, 11534 – 11541.
+
+[83] a) A. Fischer, T. Mallat, A. Baiker, Catal. Today 1997, 37, 167 –
+189; b) F. Haese, A. Bçttcher, B. Stein, W. Reif, J.-P. Melder, K.-
+H. Ross, H. Rgtter, S. Liang, S. Rittinger,
+(BASF),
+WO2005110969, 2005.
+
+[84] a) J. H. Sattler, M. Fuchs, K. Tauber, F. G. Mutti, K. Faber, J.
+Pfeffer, T. Haas, W. Kroutil, Angew. Chem. Int. Ed. 2012, 51,
+9156 – 9159; Angew. Chem. 2012, 124, 9290 – 9293; b) C. M.
+Palacio, C. G. Crismaru, S. Bartsch, V. Navickas, K. Ditrich, M.
+Breuer, R. Abu, J. M. Woodley, K. Baldenius, B. Wu, D. B.
+
+Janssen, Biotechnol. Bioeng. 2016, 113, 1853 – 1861; c) S. Klatte,
+V. F. Wendisch, Bioorg. Med. Chem. 2014, 22, 5578 – 5585.
+[85] a) F. G. Mutti, T. Knaus, N. S. Scrutton, M. Breuer, N. J. Turner,
+Science 2015, 349, 1525 – 1529; b) K.-U. Baldenius, M. Breuer,
+K. Ditrich, V. Navickas, F. Mutti, T. Knaus, N. Turner, (BASF),
+WO2016001362, 2016.
+
+[86] M. J. Abrahamson, E. V#zquez-Figueroa, N. B. Woodall, J. C.
+Moore, A. S. Bommarius, Angew. Chem. Int. Ed. 2012, 51,
+3969 – 3972; Angew. Chem. 2012, 124, 4036 – 4040.
+
+[87] J. Citoler, S. R. Derrington, J. L. Galman, H. Bevinakatti, N. J.
+
+Turner, Green Chem. 2019, 21, 4932 – 4935.
+
+[88] M. Mindt, T. Walter, P. Kugler, V. F. Wendisch, Biotechnol. J.
+
+2020, 15, 1900451.
+
+[89] a) M. Schrewe, N. Ladkau, B. Bghler, A. Schmid, Adv. Synth.
+Catal. 2013, 355, 1693 – 1697; b) H. Grçger, Appl. Microbiol.
+Biotechnol. 2019, 103, 83 – 95.
+
+[90] F. W. Parmeggiani, S. T. Ahmed, N. J. Turner, Chem. Rev. 2018,
+
+118, 73 – 118.
+
+[91] a) Y. Qian, J. Liu, W. Song, X. Chen, Q. Luo, L. Liu,
+ChemCatChem 2018, 10, 4984 – 4991; b) A. Vogel, R. Schmie-
+del, U. Hofmann, K. Gruber, K. Zangger, ChemCatChem 2014,
+6, 965 – 968; c) R. Li, H. J. Wijma, L. Song, Y. Cui, M. Otzen, Y.
+Tian, J. Du, T. Li, D. Niu, Y. Chen, J. Feng, J. Han, H. Chen, Y.
+Tao, D. B. Janssen, B. Wu, Nat. Chem. Biol. 2018, 14, 664 – 670.
+[92] H. Poddar, J. de Villiers, J. Zhang, V. Puthan Veetil, H. Raj,
+A. W. H. Thunnissen, G. J. Poelarends, Biochemistry 2018, 57,
+3752 – 3763.
+
+[93] J. Zhang, E. Grandi, H. Fu, T. Saravanan, L. Bothof, P. G.
+Tepper, A.-M. W. H. Thunnissen, G. J. Poelarends, Angew.
+Chem. Int. Ed. 2020, 59, 429 – 435; Angew. Chem. 2020, 132,
+437 – 443.
+
+[94] B. de Lange, D. J. Hyett, P. J. D. Maas, D. Mink, F. B. J.
+van Assema, N. Sereinig, A. H. M. de Vries, J. G. de Vries,
+ChemCatChem 2011, 3, 289 – 292.
+
+[95] F. Gao, L. A. Hardegger, R. Humair, F. K. Kleinbeck-Riniker,
+F. A. Rampf, T. Ruch, T. Schlama, B. Wietfeld, Novartis, WO
+2020/012266 A1, 2020.
+
+[96] a) W. Kroutil, H. Mang, K. Edegger, K. Faber, Adv. Synth.
+Catal. 2004, 346, 125 – 142; b) N. J. Turner, Chem. Rev. 2011,
+111, 4073 – 4087; c) J. Liu, S. Wu, Z. Li, Curr. Opin. Chem. Biol.
+2018, 43, 77 – 86.
+
+[97] a) P. Clap8s, W. D. Fessner, G. A. Sprenger, A. K. Samland,
+Curr. Opin. Chem. Biol. 2010, 14, 154 – 167; b) M. Brovetto, D.
+Gamenara, P. S. Mendez, G. A. Seoane, Chem. Rev. 2011, 111,
+4346 – 4403; c) K. Fesko, M. Gruber-Khadjawi, ChemCatChem
+2013, 5, 1248 – 1272; d) N. G. Schmidt, E. Eger, W. Kroutil, ACS
+Catal. 2016, 6, 4286 – 4311.
+
+[98] T. P. de Almeida, M. M. C. H. van Schie, A. Ma, F. Tieves,
+S. H. H. Younes, E. Fern#ndez-Fueyo, I. W. C. E. Arends, A.
+Riul, F. Hollmann, Adv. Synth. Catal. 2019, 361, 2668 – 2672.
+[99] R. S. Heath, W. R. Birmingham, M. P. Thompson, A. Taglieber,
+L. Daviet, N. J. Turner, ChemBioChem 2019, 20, 276 – 281.
+[100] a) M. Breuer, K.-U. Baldenius, (BASF SE), WO2019034461,
+2019; b) M. Breuer, K.-U. Baldenius, W. Birmingham, A. T.
+Pedersen, (BASF SE), WO2019034717, 2019.
+
+[101] a) K. Parikka, E. Master, M. Tenkanen, J. Mol. Catal. B 2015,
+120, 47 – 59; b) W. R. Birmingham, N. J. Turner, ACS Catal.
+2018, 8, 4025 – 4032.
+
+[102] J. Ni, Y. T. Wu, F. Tao, Y. Peng, P. Xu, J. Am. Chem. Soc. 2018,
+
+140, 16001 – 16005.
+
+[103] a) A. M. Kunjapur, Y. Tarasova, K. L. Prather, J. Am. Chem.
+Soc. 2014, 136, 11644 – 11654; b) A. M. Kunjapur, K. L. Prather,
+Appl. Environ. Microbiol. 2015, 81, 1892 – 1901.
+
+[104] J. Ni, Y. Y. Gao, F. Tao, H. Y. Liu, P. Xu, Angew. Chem. Int. Ed.
+
+2018, 57, 1214 – 1217; Angew. Chem. 2018, 130, 1228 – 1231.
+
+[105] F. Sha, Y. Zheng, J. Chen, K. Chen, F. Cao, M. Yan, P. Ouyang,
+
+Green Chem. 2018, 20, 2382 – 2391.
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+115
+
+Reviews
+
+Angewandte
+
+Chemie
+
+[106] L. Chuaboon, T. Wongnate, P. Punthong, C. Kiattisewee, N.
+Lawan, C. Y. Hsu, C. H. Lin, U. T. Bornscheuer, P. Chaiyen,
+Angew. Chem. Int. Ed. 2019, 58, 2428 – 2432; Angew. Chem.
+2019, 131, 2450 – 2454.
+
+[107] H. Wang, H. Fan, H. Sun, L. Zhao, D. Wei, Org. Process Res.
+
+Dev. 2015, 19, 2012 – 2016.
+
+[108] G. DeSantis, K. Wong, B. Farwell, K. Chatman, Z. Zhu, G.
+Tomlinson, H. Huang, X. Tan, L. Bibbs, P. Chen, K. Kretz, M. J.
+Burk, J. Am. Chem. Soc. 2003, 125, 11476 – 11477.
+
+[109] Z. Xu, N. Xiong, S. P. Zou, Y. X. Liu, Z. Q. Liu, Y. P. Xue, Y. G.
+
+Zheng, Bioprocess Biosyst. Eng. 2019, 42, 455 – 463.
+
+[110] C. A. Martinez, S. Hu, Y. Dumond, J. Tao, P. Kelleher, L. Tully,
+
+Org. Process Res. Dev. 2008, 12, 392 – 398.
+
+[111] A. Schgl8, A. Merschaert, C. Szczepaniak, C. Mar8chal, N.
+Carly, J. OQRourke, C. Ates, Org. Process Res. Dev. 2016, 20,
+1566 – 1575.
+
+[112] J.-W. Shen, J.-M. Qi, X.-J. Zhang, Z.-Q. Liu, Y.-G. Zheng, Catal.
+
+Sci. Technol. 2018, 8, 4718 – 4725.
+
+[113] A. Glieder, R. Weis, W. Skranc, P. Poechlauer, I. Dreveny, S.
+Majer, M. Wubbolts, H. Schwab, K. Gruber, Angew. Chem. Int.
+Ed. 2003, 42, 4815 – 4818; Angew. Chem. 2003, 115, 4963 – 4966.
+[114] J. Yang, S. Sun, Y. Men, Y. Zeng, Y. Zhu, Y. Sun, Y. Ma, Catal.
+
+Sci. Technol. 2017, 7, 3459 – 3463.
+
+[115] a) S. Junker, R. Roldan, H. J. Joosten, P. Clapes, W. D. Fessner,
+Angew. Chem. Int. Ed. 2018, 57, 10153 – 10157; Angew. Chem.
+2018, 130, 10310 – 10314; b) M. LorilliHre, C. Gu8rard-H8laine,
+T. Gefflaut, W. D. Fessner, P. Clap8s, F. Charmantray, L.
+Hecquet, ChemCatChem 2020, 12, 812 – 817.
+
+[124] a) Y. Duan, P. Yao, J. Ren, C. Han, Q. Li, J. Yuan, J. Feng, Q.
+Wu, D. Zhu, Sci. China Chem. 2014, 57, 1164 – 1171; b) S. Yu, P.
+Yao, J. Li, J. Feng, Q. Wu, D. Zhu, Catal. Sci. Technol. 2019, 9,
+1504 – 1510.
+
+[125] a) Q. Zhang, Z.-M. Wu, S. Liu, X.-L. Tang, R.-C. Zheng, Y.-G.
+Zheng, Org. Process Res. Dev. 2019, 23, 2042 – 2049; b) Q.
+Zhang, X. F. Lu, Y. Zhang, X. L. Tang, R. C. Zheng, Y. G.
+Zheng, Biotechnol. Bioeng. 2020, 117, 318 – 329.
+
+[126] a) D. L. Hughes, Org. Process Res. Dev. 2018, 22, 1063 – 1080;
+b) J. P. Adams, M. J. B. Brown, A. Diaz-Rodriguez, R. C. Lloyd,
+G. D. Roiban, Adv. Synth. Catal. 2019, 361, 2421 – 2432.
+[127] a) K.-E. Jaeger, B. W. Dijkstra, M. T. Reetz, Annu. Rev. Micro-
+biol. 1999, 53, 315 – 351; b) U. T. Bornscheuer, FEMS Micro-
+biol. Rev. 2002, 26, 73 – 81; c) F. Hasan, A. A. Shah, A. Hameed,
+Enzyme Microb. Technol. 2006, 39, 235 – 251; d) A. S. de Mi-
+randa, L. S. M. Miranda, R. O. M. A. de Souza, Biotechnol.
+Adv. 2015, 33, 372 – 393; e) D. Romano, F. Bonomi, M. C.
+de Mattos, T. de Sousa Fonseca, M. d. C. F. de Oliveira, F.
+Molinari, Biotechnol. Adv. 2015, 33, 547 – 565.
+
+[128] a) A. C. Carvalho, S. Fonseca Tde, M. C. de Mattos, C. de O-
+liveira Mda, T. L. de Lemos, F. Molinari, D. Romano, I. Serra,
+Int. J. Mol. Sci. 2015, 16, 29682 – 29716; b) J. Albarr#n-Velo, D.
+Gonz#lez-Mart&nez, V. Gotor-Fern#ndez, Biocatal. Biotrans-
+form. 2018, 36, 102 – 130; c) R. N. Patel, Bioorg. Med. Chem.
+2018, 26, 1252 – 1274.
+
+[129] R.-C. Zheng, L.-T. Ruan, H.-Y. Ma, X.-L. Tang, Y.-G. Zheng,
+
+Biochem. Eng. J. 2016, 113, 12 – 18.
+
+[130] J.-W. Shen, J.-M. Qi, X.-J. Zhang, Z.-Q. Liu, Y.-G. Zheng, Org.
+
+[116] M. Schgrmann, in Industrial Enzyme Applications (Eds.: A. M.
+
+Process Res. Dev. 2019, 23, 1017 – 1025.
+
+Vogel, O. May), Wiley-VCH, Weinheim, 2019, pp. 385 – 403.
+
+[117] a) S. P. France, L. J. Hepworth, N. J. Turner, S. L. Flitsch, ACS
+Catal. 2017, 7, 710 – 724; b) J. H. Schrittwieser, S. Velikogne, M.
+Hall, W. Kroutil, Chem. Rev. 2018, 118, 270 – 348; c) S. Wu, Z.
+Li, ChemCatChem 2018, 10, 2164 – 2178; d) S. Gandomkar, A.
+Z˙ a˛ dło-Dobrowolska, W. Kroutil, ChemCatChem 2019, 11, 225 –
+243; e) F. Rudroff, Curr. Opin. Chem. Biol. 2019, 49, 84 – 90.
+[118] a) R. N. Thuku, D. Brady, M. J. Benedik, B. T. Sewell, J. Appl.
+Microbiol. 2009, 106, 703 – 727; b) L. Mart&nkov#, V. Kren,
+Curr. Opin. Chem. Biol. 2010, 14, 130 – 137; c) J.-S. Gong, Z.-M.
+Lu, H. Li, J.-S. Shi, Z.-M. Zhou, Z.-H. Xu, Microb. Cell Fact.
+2012, 11, 142; d) Y. P. Xue, Y. K. Yang, S. Z. Lv, Z. Q. Liu, Y. G.
+Zheng, Appl. Microbiol. Biotechnol. 2016, 100, 3421 – 3432;
+e) Z. Chen, J. Zhao, S. Jiang, D. Wei, Appl. Microbiol.
+Biotechnol. 2019, 103, 6393 – 6405.
+
+[119] N. M. Shaw, K. T. Robins, A. Kiener, Adv. Synth. Catal. 2003,
+
+345, 425 – 435.
+
+[120] H. Wang, W. Gao, H. Sun, L. Chen, L. Zhang, X. Wang, D. Wei,
+
+Appl. Environ. Microbiol. 2015, 81, 8469 – 8477.
+
+[121] a) Z. Liu, B. Pscheidt, M. Avi, R. Gaisberger, F. S. Hartner, C.
+Schuster, W. Skranc, K. Gruber, A. Glieder, ChemBioChem
+2008, 9, 58 – 61; b) M. Dadashipour, Y. Ishida, K. Yamamoto, Y.
+Asano, Proc. Natl. Acad. Sci. USA 2015, 112, 10605 – 10610;
+c) Y. Asano, S. Chaikaew, A. Nuylert, F. Motojima, (Toyama
+Prefectural University), WO2020009168, 2020.
+
+[122] a) T. Purkarthofer, W. Skranc, C. Schuster, H. Griengl, Appl.
+Microbiol. Biotechnol. 2007, 76, 309 – 320; b) E. Lanfranchi, K.
+Steiner, A. Glieder, I. Hajnal, R. A. Sheldon, S. van Pelt, M.
+Winkler, Recent Pat. Biotechnol. 2013, 7, 197 – 206; c) P. Bracco,
+H. Busch, J. von Langermann, U. Hanefeld, Org. Biomol.
+Chem. 2016, 14, 6375 – 6389.
+
+[123] a) G. DeSantis, Z. Zhu, W. A. Greenberg, K. Wong, J. Chaplin,
+S. R. Hanson, B. Farwell, L. W. Nicholson, C. L. Rand, D. P.
+Weiner, D. E. Robertson, M. J. Burk, J. Am. Chem. Soc. 2002,
+124, 9024 – 9025; b) S. Bergeron, D. A. Chaplin, J. H. Edwards,
+B. S. W. Ellis, C. L. Hill, K. Holt-Tiffin, J. R. Knight, T.
+Mahoney, A. P. Osborne, G. Ruecroft, Org. Process Res. Dev.
+2006, 10, 661 – 665.
+
+[131] a) F. Hollmann, I. W. C. E. Arends, K. Bghler, A. Schallmey, B.
+Bghler, Green Chem. 2011, 13, 226 – 265; b) D. Romano, R.
+Villa, F. Molinari, ChemCatChem 2012, 4, 739 – 749; c) M.
+Schrewe, M. K. Julsing, B. Bghler, A. Schmid, Chem. Soc. Rev.
+2013, 42, 6346 – 6377.
+
+[132] H. Habe, Y. Shimada, T. Yakushi, H. Hattori, Y. Ano, T.
+Fukuoka, D. Kitamoto, M. Itagaki, K. Watanabe, H. Yanagish-
+ita, K. Matsushita, K. Sakaki, Appl. Environ. Microbiol. 2009,
+75, 7760 – 7766.
+
+[133] a) W. P. Dijkman, D. E. Groothuis, M. W. Fraaije, Angew.
+Chem. Int. Ed. 2014, 53, 6515 – 6518; Angew. Chem. 2014, 126,
+6633 – 6636; b) S. M. McKenna, P. Mines, P. Law, K. Kovacs-
+Schreiner, W. R. Birmingham, N. J. Turner, S. Leimkuhler, A. J.
+Carnell, Green Chem. 2017, 19, 4660 – 4665; c) H. Y. Jia, M. H.
+Zong, G. W. Zheng, N. Li, ChemSusChem 2019, 12, 4764 – 4768;
+d) N. Wierckx, T. D. E. Schuurman, L. M. Blank, H. J. Ruijsse-
+naars, in Microorganisms in Biorefineries, Springer, Heidelberg,
+2015, pp. 207 – 223; e) N. J. P. Wierckx, T. D. E. Schuurman,
+(Purac Biochem), US
+S. M. Kuijper, H. J. Ruijssenaars,
+10023890, 2018; f) C. T. Hsu, Y. C. Kuo, Y. C. Liu, S. L. Tsai,
+Microb. Biotechnol. 2020, 13, 1094 – 1102; g) X. Wang, X.-Y.
+Zhang, M.-H. Zong, N. Li, ACS Sustainable Chem. Eng. 2020, 8,
+4341 – 4345.
+
+[134] a) L. Hu, A. He, X. Liu, J. Xia, J. Xu, S. Zhou, J. Xu, ACS
+Sustainable Chem. Eng. 2018, 6, 15915 – 15935; b) R. O. Rajesh,
+T. K. Godan, R. Sindhu, A. Pandey, P. Binod, Bioengineered
+2020, 11, 19 – 38; c) H. Yuan, H. Liu, J. Du, K. Liu, T. Wang, L.
+Liu, Appl. Microbiol. Biotechnol. 2020, 104, 527 – 543.
+
+[135] a) S. Staudt, U. T. Bornscheuer, U. Menyes, W. Hummel, H.
+Grçger, Enzyme Microb. Technol. 2013, 53, 288 – 292; b) J. H.
+Sattler, M. Fuchs, F. G. Mutti, B. Grischek, P. Engel, J. Pfeffer,
+J. M. Woodley, W. Kroutil, Angew. Chem. Int. Ed. 2014, 53,
+14153 – 14157; Angew. Chem. 2014, 126, 14377 – 14381; c) S.
+Schmidt, C. Scherkus, J. Muschiol, U. Menyes, T. Winkler, W.
+Hummel, H. Grçger, A. Liese, H. G. Herz, U. T. Bornscheuer,
+Angew. Chem. Int. Ed. 2015, 54, 2784 – 2787; Angew. Chem.
+2015, 127, 2825 – 2828; d) C. Scherkus, S. Schmidt, U. T.
+Bornscheuer, H. Grçger, S. Kara, A. Liese, ChemCatChem
+
+116
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+2016, 8, 3446 – 3452; e) V. S. T. Srinivasamurthy, D. Bçttcher,
+U. T. Bornscheuer, Z. Naturforsch. C 2019, 74, 71 – 76.
+[136] a) S. Kara, D. Spickermann, J. H. Schrittwieser, A. Weck-
+becker, C. Leggewie, I. W. C. E. Arends, F. Hollmann, ACS
+Catal. 2013, 3, 2436 – 2439; b) F. Hollmann, S. Kara, D. J.
+Opperman, Y. Wang, Chem. Asian J. 2018, 13, 3601 – 3610; c) C.
+Martin, M. Trajkovic, M. W. Fraaije, Angew. Chem. Int. Ed.
+2020, 59, 4869 – 4872; Angew. Chem. 2020, 132, 4899 – 4902.
+
+[137] J.-W. Song, J.-H. Seo, D.-K. Oh, U. T. Bornscheuer, J.-B. Park,
+
+Catal. Sci. Technol. 2020, 10, 46 – 64.
+
+[138] a) S. Wu, Y. Zhou, T. Wang, H. P. Too, D. I. Wang, Z. Li, Nat.
+Commun. 2016, 7, 11917; b) Y. Zhou, S. Wu, Z. Li, Adv. Synth.
+Catal. 2017, 359, 4305 – 4316; c) B. R. Lukito, B. S. Sekar, S. Wu,
+Z. Li, Adv. Synth. Catal. 2019, 361, 3560 – 3568; d) S. Wu, Y.
+Zhou, Z. Li, Chem. Commun. 2019, 55, 883 – 896.
+
+[139] a) S. Picataggio, T. Rohrer, K. Deanda, D. Lanning, R.
+Reynolds, J. Mielenz, L. D. Eirich, Nat. Biotechnol. 1992, 10,
+894 – 898; b) W. Lu, J. E. Ness, W. Xie, X. Zhang, J. Minshull,
+R. A. Gross, J. Am. Chem. Soc. 2010, 132, 15451 – 15455.
+[140] a) https://www.cathaybiotech.com/en/about.aspx; b) Y. Y. Qiu,
+N. Li, B. Hu, J. Zhong, (Shanghai Cathay Biotech), CN1570124,
+2005.
+
+[141] a) D. J. C. Constable, P. J. Dunn, J. D. Hayler, G. R. Humphrey,
+J. J. L. Leazer, R. J. Linderman, K. Lorenz, J. Manley, B. A.
+Pearlman, A. Wells, A. Zaks, T. Y. Zhang, Green Chem. 2007, 9,
+411 – 420; b) M. C. Bryan, P. J. Dunn, D. Entwistle, F. Gallou,
+S. G. Koenig, J. D. Hayler, M. R. Hickey, S. Hughes, M. E.
+Kopach, G. Moine, P. Richardson, F. Roschangar, A. Steven,
+F. J. Weiberth, Green Chem. 2018, 20, 5082 – 5103.
+
+[142] a) B. M. Dorr, D. E. Fuerst, Curr. Opin. Chem. Biol. 2018, 43,
+127 – 133; b) M. R. Petchey, G. Grogan, Adv. Synth. Catal. 2019,
+361, 3895 – 3914; c) M. Winn, S. M. Richardson, D. J. Campo-
+piano, J. Micklefield, Curr. Opin. Chem. Biol. 2020, 55, 77 – 85.
+[143] K. Buchholz, Appl. Microbiol. Biotechnol. 2016, 100, 3825 –
+
+3839.
+
+[144] S. Zeng, J. Liu, S. Anankanbil, M. Chen, Z. Guo, J. P. Adams, R.
+
+Snajdrova, Z. Li, ACS Catal. 2018, 8, 8856 – 8865.
+
+[145] H. K. Philpott, P. J. Thomas, D. Tew, D. E. Fuerst, S. L. Love-
+
+lock, Green Chem. 2018, 20, 3426 – 3431.
+
+[146] a) M. Petchey, A. Cuetos, B. Rowlinson, S. Dannevald, A.
+Frese, P. W. Sutton, S. Lovelock, R. C. Lloyd, I. J. S. Fairlamb,
+G. Grogan, Angew. Chem. Int. Ed. 2018, 57, 11584 – 11588;
+Angew. Chem. 2018, 130, 11758 – 11762; b) M. R. Petchey, B.
+Rowlinson, R. C. Lloyd, I. J. S. Fairlamb, G. Grogan, ACS
+Catal. 2020, 10, 4659 – 4663.
+
+[147] Y. K. Bong, M. Clay, D. S. Collier, J. B. Mijts, M. Vogel, X.
+Zhang, J. Zhu, J. Nazor, D. Smtih, S. Song (Codexis Inc.), WO/
+2011/071982, 2011.
+
+[148] R. Koch, S. Klaffi, M. Spelberg, D. Tischler, M. Schlçmann, T.
+Heine, B. Bghler, A. Schmid, C. Willrodt (Bayer AG),
+WO2018/206823, 2018.
+
+[149] OECD-FAO Agricultural Outlook, 2019, https://doi.org/10.
+
+1787/agr-outl-data-en.
+
+[150] a) P. B. Poulsen, K. Buchholz, in Handbook of Food Enzymol-
+ogy (Eds.: J. R. Whitaker, D. W. S. Wong), CRC Press, 2002,
+pp. 11 – 20; b) K. Buchholz, J. Seibel, Carbohydr. Res. 2008, 343,
+1966 – 1979; c) “Enzymes at Work”: Novozymes, Vol. LUNA
+no. 2013-03911-01, Novozymes, 2013, p. 40; d) R. DiCosimo, J.
+McAuliffe, A. J. Poulose, G. Bohlmann, Chem. Soc. Rev. 2013,
+42, 6437 – 6474.
+
+[151] H. Li, S. Yang, S. Saravanamurugan, A. Riisager, ACS Catal.
+
+2017, 7, 3010 – 3029.
+
+[152] a) L. Krasnova, C.-H. Wong, J. Am. Chem. Soc. 2019, 141,
+3735 – 3754; b) A. R. Prudden, L. Liu, C. J. Capicciotti, M. A.
+Wolfert, S. Wang, Z. Gao, L. Meng, K. W. Moremen, G. J.
+Boons, Proc. Natl. Acad. Sci. USA 2017, 114, 6954 – 6959.
+
+[153] P. M. Danby, S. G. Withers, ACS Chem. Biol. 2016, 11, 1784 –
+
+1794.
+
+[154] B. L. Cantarel, P. M. Coutinho, C. Rancurel, T. Bernard, V.
+Lombard, B. Henrissat, Nucleic Acids Res. 2009, 37, D233 –
+D238.
+
+[155] G. J. Gerwig, E. M. Te Poele, L. Dijkhuizen, J. P. Kamerling,
+
+Adv. Carbohydr. Chem. Biochem. 2016, 73, 1 – 72.
+
+[156] a) I. Prakash, A. Markosyan, C. Bunders, Foods 2014, 3, 162 –
+175; b) A. Markosyan, I. Prakash, V. S. Prakash Chaturvedula,
+C. Jarrin, P. Robe, R. Ter Halle, (PureCircle; Coca-Cola),
+WO2013176738, 2013.
+
+[157] A. Markosyan, S. Purkayastha, C. Bayer, A. Vogel, S. Koepke,
+S. Bartsch, B. Brucher, C. Feller, S. Schoenert, M. Salomo, T.
+Schultchen, (Purecircle USA Inc.), WO2018213279A1, 2018.
+
+[158] S. H. Park, J. E. Kim, R. Y. Yoon, Y. H. Hong, S. B. Kim, S. W.
+Park, (CJ CheilJedang Corp.), WO2014133248A1, 2014.
+[159] J. Vroom, S. S. Galanie, J. Liang, J. Liu, N. Dellas, M. A. Mayo,
+D. Entwistle, (Codexis, Inc.), US20200032227A1, 2020.
+[160] J. Vroom, S. S. Galanie, N. Dellas, J. Liang, J. Liu, D. Entwistle,
+C. D. Moffett, (Codexis, Inc.), WO2018144679A2, 2018.
+[161] a) T. Miyake, (Hayashibara), US4219571, 1980; b) S. M. Pur-
+kayastha, A. Markosyan, (PureCircle Sdn Bhd), US9107436,
+2015.
+
+[162] T. Devlamynck, E. M. Te Poele, K. Quataert, G. J. Gerwig, D.
+Van de Walle, K. Dewettinck, J. P. Kamerling, W. Soetaert, L.
+Dijkhuizen, Food Chem. 2019, 272, 653 – 662.
+
+[163] E. M. Te Poele, T. Devlamynck, M. Jager, G. J. Gerwig, D.
+Van de Walle, K. Dewettinck, A. K. H. Hirsch, J. P. Kamerling,
+W. Soetaert, L. Dijkhuizen, Sci. Rep. 2018, 8, 1516.
+
+[164] K. Olsson, S. Carlsen, A. Semmler, E. Simon, M. D. Mikkelsen,
+
+B. L. Moeller, Microb. Cell Fact. 2016, 15, 207/201 – 207/214.
+
+[165] N. J. Broers, M. L. A. Jansen, (DSM), WO2018114995A1, 2018.
+[166] L. Zhao, W. Li, G. Wichmann, A. Khankhoje, C. Garcia de
+Gonzalo, T. Mahatdejkul-Meadows, S. Jackson, M. Leavell, D.
+Platt, (Amyris, Inc., USA), WO2018031955A2, 2018.
+
+[167] K. Schmçlzer, M. Lemmerer, A. Gutmann, B. Nidetzky,
+
+Biotechnol. Bioeng. 2017, 114, 924 – 928.
+
+[168] K. Schmçlzer, A. Gutmann, M. Diricks, T. Desmet, B. Nidetzky,
+
+Biotechnol. Adv. 2016, 34, 88 – 111.
+
+[169] a) Y. Tewari, R. Goldberg, Biophys. Chem. 1991, 40, 59 – 67;
+b) R. N. Goldberg, Y. B. Tewari, J. C. Ahluwalia, J. Biol. Chem.
+1989, 264, 9901 – 9904.
+
+[170] a) M. Yanase, T. Takaha, T. Kuriki, J. Sci. Food Agric. 2006, 86,
+1631 – 1635; b) C. Luley-Goedl, B. Nidetzky, Biotechnol. J.
+2010, 5, 1324 – 1338.
+
+[171] a) C. Goedl, T. Sawangwan, M. Mueller, A. Schwarz, B.
+Nidetzky, Angew. Chem. Int. Ed. 2008, 47, 10086 – 10089;
+Angew. Chem. 2008, 120, 10240 – 10243; b) C. Luley-Goedl, T.
+Sawangwan, M. Mueller, A. Schwarz, B. Nidetzky, Food
+Technol. Biotechnol. 2010, 48, 276 – 283.
+
+[172] K. Beerens, K. D. Winter, D. V. d. Walle, C. Grootaert, S.
+Kamiloglu, L. Miclotte, T. V. d. Wiele, J. V. Camp, K. Dew-
+ettinck, T. Desmet, J. Agric. Food Chem. 2017, 65, 6030 – 6041.
+[173] M. Kitaoka, T. Sasaki, H. Taniguchi, Denpun Kagaku 1992, 39,
+
+281 – 283.
+
+[174] B. Brucher, T. H-ßler,
+
+in Industrial Enzyme Applications,
+
+Wiley-VCH, Weinheim, 2019, pp. 167 – 178.
+
+[175] a) E. C. OQNeill, R. A. Field, Carbohydr. Res. 2015, 403, 23 – 37;
+b) J. Franceus, T. Desmet, Int. J. Mol. Sci. 2020, 21, 2526.
+[176] C. Goedl, A. Schwarz, A. Minani, B. Nidetzky, J. Biotechnol.
+
+2007, 129, 77 – 86.
+
+[177] a) R. Guan, M. D. Gagnon, N. Iltchenko, Y. Brun, L. A. Howe,
+(DuPont), WO2020086935A1, 2020; b) J. P. OQBrien, M. S.
+Payne, (DuPont), WO2013036918A2, 2013.
+
+[178] a) K. Schmçlzer, M. Weingarten, K. Baldenius, B. Nidetzky,
+ACS Catal. 2019, 9, 5503 – 5514; b) L. Ruzic, J. M. Bolivar, B.
+Nidetzky, Biotechnol. Bioeng. 2020, 117, 1597 – 1602.
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+117
+
+Reviews
+
+Angewandte
+
+Chemie
+
+[179] M. Vuillemin, F. Grimaud, M. Claverie, A. Rolland-Sabat8, C.
+Garnier, P. Lucas, P. Monsan, M. Dols-Lafargue, M. Remaud-
+Sim8on, C. Moulis, Carbohydr. Polym. 2018, 179, 10 – 18.
+[180] a) P. Monsan, G. Potocki de Montalk, P. SarÅabal, M. Remaud-
+Sim8on, R. M. Willemot, in Progress in Biotechnology, Vol. 17
+(Eds.: S. Bielecki, J. Tramper, J. Polak), Elsevier, Amsterdam,
+2000, pp. 115 – 122; b) I. Andr8, G. Potocki-V8ronHse, S. Morel,
+P. Monsan, M. Remaud-Sim8on, in Carbohydrates in Sustain-
+able Development I (Eds.: A. P. Rauter, P. Vogel, Y. Queneau),
+Springer, Heidelberg, 2010, pp. 25 – 48.
+
+[181] a) H. Leemhuis, T. Pijning, J. M. Dobruchowska, S. S. van
+Leeuwen, S. Kralj, B. W. Dijkstra, L. Dijkhuizen, J. Biotechnol.
+2013, 163, 250 – 272; b) J. Gangoiti, T. Pijning, L. Dijkhuizen,
+Biotechnol. Adv. 2018, 36, 196 – 207.
+
+[182] O. Hasselwander, R. DiCosimo, Z. You, Q. Cheng, S. C.
+Rothman, S. Suwannakham, Z. C. Baer, B. M. Roesch, K. D.
+Ruebling-Jass, J. P. Lai, R. E. Hurteau, M. L. Marquez, A. D.
+Kopatsis, A. C. Ouwehand, S. D. Forssten, P. Mukerji, J. M.
+Caverly Rae, Y. P. Dragan, J. R. Damewood, K. Tiihonen, A.
+Ibarra, Int. J. Food Sci. Nutr. 2017, 68, 849 – 864.
+
+[183] Q. Cheng, R. DiCosimo, A. Ouwehand, Z. You, M. S. Payne,
+(DuPont),
+
+J. P. Lai, K. Ruebling-Jass, S. C. Rothman,
+US10351633B2, 2019.
+
+[184] Y. Brison, S. Laguerre, F. Lefoulon, S. Morel, N. Monties, G.
+Potocki-Veronese, P. Monsan, M. Remaud-Simeon, Carbohydr.
+Polym. 2013, 94, 567 – 576.
+
+[185] a) R. Guan, N. Behabtu, R. DiCosimo, S. Hennessey, S. Kralj,
+C. Lenges, Y. Li, H. Lu, 2018, Abstracts of Papers, 256th ACS
+National Meeting, Boston, August 19 – 23, 2018; b) M. Harvey,
+N. Behabtu, C. Lenges, R. Milic, J. Vlasakova, CoatingsTech.
+2018, 15, 32 – 38; c) C. Lenges, at The second Michigan Forest
+Bioeconomy Conference, 2019; d) C. P. Lenges, at the Biobased
+Performance Materials Symposium, Wageningen, The Nether-
+lands, 2017; e) M. S. Payne, Y. Brun, R. R. Bott, (DuPont),
+WO2016205401A1, 2016.
+
+[186] H. Kajiura, R. Kakutani, T. Akiyama, H. Takata, T. Kuriki,
+
+Biocatal. Biotransform. 2008, 26, 133 – 140.
+
+[187] a) M. Faijes, M. Castejon-Vilatersana, C. Val-Cid, A. Planas,
+Biotechnol. Adv. 2019, 37, 667 – 697; b) D. Molnar-Gabor, M. J.
+Hederos, S. Bartsch, A. Vogel, in Industrial Enzyme Applica-
+tions (Eds.: A. M. Vogel, O. May), Wiley-VCH, Weinheim,
+2019, pp. 179 – 201; c) J. Muschiol, M. Vuillemin, A. S. Meyer,
+B. Zeuner, Catalysts 2020, 10, 365; d) B. Zeuner, D. Teze, J.
+Muschiol, A. S. Meyer, Molecules 2019, 24, 2033; e) K.
+Schmçlzer, M. Weingarten, K. Baldenius, B. Nidetzky, Org.
+Biomol. Chem. 2019, 17, 5661 – 5665.
+
+[188] A. Bonamore, M. Barba, B. Botta, A. Boffi, A. Macone,
+
+Molecules 2010, 15, 2070 – 2078.
+
+[189] M. Nishihachijo, Y. Hirai, S. Kawano, A. Nishiyama, H.
+Minami, T. Katayama, Y. Yasohara, F. Sato, H. Kumagai,
+Biosci. Biotechnol. Biochem. 2014, 78, 701 – 707.
+
+[190] R. Roddan, G. Gygli, A. Sula, D. M8ndez-S#nchez, J. Pleiss,
+J. M. Ward, N. H. Keep, H. C. Hailes, ACS Catal. 2019, 9, 9640 –
+9649.
+
+[191] V. Erdmann, B. R. Lichman, J. Zhao, R. C. Simon, W. Kroutil,
+J. M. Ward, H. C. Hailes, D. Rother, Angew. Chem. Int. Ed.
+2017, 56, 12503 – 12507; Angew. Chem. 2017, 129, 12677 – 12681.
+[192] A. R. Buller, S. Brinkmann-Chen, D. K. Romney, M. Herger, J.
+Murciano-Calles, F. H. Arnold, Proc. Natl. Acad. Sci. USA
+2015, 112, 14599 – 14604.
+
+[193] M. Herger, P. van Roye, D. K. Romney, S. Brinkmann-Chen,
+A. R. Buller, F. H. Arnold, J. Am. Chem. Soc. 2016, 138, 8388 –
+8391.
+
+[194] M. Dick, N. S. Sarai, M. W. Martynowycz, T. Gonen, F. H.
+
+Arnold, J. Am. Chem. Soc. 2019, 141, 19817 – 19822.
+
+[195] M. A. Huffman, A. Fryszkowska, O. Alvizo, M. Borra-Garske,
+K. R. Campos, K. A. Canada, P. N. Devine, D. Duan, J. H.
+
+Forstater, S. T. Grosser, H. M. Halsey, G. J. Hughes, J. Jo, L. A.
+Joyce, J. N. Kolev, J. Liang, K. M. Maloney, B. F. Mann, N. M.
+Marshall, M. McLaughlin, J. C. Moore, G. S. Murphy, C. C.
+Nawrat, J. Nazor, S. Novick, N. R. Patel, A. Rodriguez-
+Granillo, S. A. Robaire, E. C. Sherer, M. D. Truppo, A. M.
+Whittaker, D. Verma, L. Xiao, Y. Xu, H. Yang, Science 2019,
+366, 1255.
+
+[196] J. U. Bowie, S. Sherkhanov, T. P. Korman, M. A. Valliere, P. H.
+Opgenorth, H. Liu, Trends Biotechnol. 2020, 38, 766 – 778.
+[197] N. J. Claassens, S. Burgener, B. Vogeli, T. J. Erb, A. Bar-Even,
+
+Curr. Opin. Biotechnol. 2019, 60, 221 – 229.
+
+[198] a) B. Shen, C. R. Hutchinson, Science 1993, 262, 1535; b) Q.
+Cheng, L. Xiang, M. Izumikawa, D. Meluzzi, B. S. Moore, Nat.
+Chem. Biol. 2007, 3, 557 – 558; c) M. K. Kharel, P. Pahari, H.
+Lian, J. Rohr, Org. Lett. 2010, 12, 2814 – 2817.
+
+[199] C. Greunke, A. Glçckle, J. Antosch, T. A. M. Gulder, Angew.
+Chem. Int. Ed. 2017, 56, 4351 – 4355; Angew. Chem. 2017, 129,
+4416 – 4420.
+
+[200] V. Tournier, C. M. Topham, A. Gilles, B. David, C. Folgoas, E.
+Moya-Leclair, E. Kamionka, M. L. Desrousseaux, H. Texier, S.
+Gavalda, M. Cot, E. Gu8mard, M. Dalibey, J. Nomme, G. Cioci,
+S. Barbe, M. Chateau, I. Andr8, S. Duquesne, A. Marty, Nature
+2020, 580, 216 – 219.
+
+[201] a) W. Finnigan, A. Thomas, H. Cromar, B. Gough, R. Snaj-
+drova, J. P. Adams, J. A. Littlechild, N. J. Harmer, Chem-
+CatChem 2017, 9, 1005 – 1017; b) S. R. Derrington, N. J.
+Turner, S. P. France, J. Biotechnol. 2019, 304, 78 – 88; c) G.
+Qu, J. Guo, D. Yang, Z. Sun, Green Chem. 2018, 20, 777 – 792;
+d) M. Winkler, Curr. Opin. Chem. Biol. 2018, 43, 23 – 29.
+[202] D. Gahloth, M. S. Dunstan, D. Quaglia, E. Klumbys, M. P.
+Lockhart-Cairns, A. M. Hill, S. R. Derrington, N. S. Scrutton,
+N. J. Turner, D. Leys, Nat. Chem. Biol. 2017, 13, 975 – 981.
+[203] a) A. K. Ressmann, D. Schwendenwein, S. Leonhartsberger,
+M. D. Mihovilovic, U. T. Bornscheuer, M. Winkler, F. Rudroff,
+Adv. Synth. Catal. 2019, 361, 2538 – 2543; b) D. Schwenden-
+wein, A. K. Ressmann, M. Doerr, M. Hçhne, U. T. Bornsche-
+uer, M. D. Mihovilovic, F. Rudroff, M. Winkler, Adv. Synth.
+Catal. 2019, 361, 2544 – 2549.
+
+[204] T. Bayer, S. Milker, T. Wiesinger, M. Winkler, M. D. Mihovi-
+
+lovic, F. Rudroff, ChemCatChem 2017, 9, 2919 – 2923.
+
+[205] S. P. France, S. Hussain, A. M. Hill, L. J. Hepworth, R. M.
+Howard, K. R. Mulholland, S. L. Flitsch, N. J. Turner, ACS
+Catal. 2016, 6, 3753 – 3759.
+
+[206] A. N. Khusnutdinova, R. Flick, A. Popovic, G. Brown, A.
+Tchigvintsev, B. Nocek, K. Correia, J. C. Joo, R. Mahadevan,
+A. F. Yakunin, Biotechnol. J. 2017, 12, 1600751.
+
+[207] A. J. L. Wood, N. J. Weise, J. D. Frampton, M. S. Dunstan,
+M. A. Hollas, S. R. Derrington, R. C. Lloyd, D. Quaglia, F.
+Parmeggiani, D. Leys, N. J. Turner, S. L. Flitsch, Angew. Chem.
+Int. Ed. 2017, 56, 14498 – 14501; Angew. Chem. 2017, 129,
+14690 – 14693.
+
+[208] G. A. Strohmeier, U. C. Eiteljçrg, A. Schwarz, M. Winkler,
+
+Chem. Eur. J. 2019, 25, 6119 – 6123.
+
+[209] S. Mordhorst, J. Siegrist, M. Mgller, M. Richter, J. N. Andexer,
+Angew. Chem. Int. Ed. 2017, 56, 4037 – 4041; Angew. Chem.
+2017, 129, 4095 – 4099.
+
+[210] C. Liao, F. P. Seebeck, Nat. Catal. 2019, 2, 696 – 701.
+[211] C. Sommer-Kamann, A. Fries, S. Mordhorst, J. N. Andexer, M.
+Mgller, Angew. Chem. Int. Ed. 2017, 56, 4033 – 4036; Angew.
+Chem. 2017, 129, 4091 – 4094.
+
+[212] Q. Tang, U. T. Bornscheuer, I. V. Pavlidis, ChemCatChem 2019,
+
+11, 3227 – 3233.
+
+[213] A. C¸ elik, G. A. Roberts, J. H. White, S. K. Chapman, N. J.
+Turner, S. L. Flitsch, Chem. Commun. 2006, 4492 – 4494.
+[214] a) C. S. Robb, L. Reisky, U. T. Bornscheuer, J.-H. Hehemann,
+Biochem. J. 2018, 475, 3875 – 3886; b) L. Reisky, H. C. Bgch-
+
+118
+
+www.angewandte.org
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+Reviews
+
+Angewandte
+
+Chemie
+
+senschgtz, J. Engel, T. Song, T. Schweder, J.-H. Hehemann,
+U. T. Bornscheuer, Nat. Chem. Biol. 2018, 14, 342 – 344.
+[215] M. Tavanti, J. L. Porter, S. Sabatini, N. J. Turner, S. L. Flitsch,
+
+779; b) H. Grçger, Y. Asano, J. Org. Chem. 2020, 85, 6243 –
+6251.
+
+[229] A. Piatesi, W. Siegel, K.-U. Baldenius,
+
+(BASF SE),
+
+ChemCatChem 2018, 10, 1042 – 1051.
+
+WO2013135601A1, 2013.
+
+[216] P. T. Lowe, S. L. Cobb, D. OQHagan, Org. Biomol. Chem. 2019,
+
+[230] A. Hinzmann, S. Glinski, M. Worm, H. Grçger, J. Org. Chem.
+
+17, 7493 – 7496.
+
+2019, 84, 4867 – 4872.
+
+[217] a) J. Latham, E. Brandenburger, S. A. Shepherd, B. R. K.
+Menon, J. Micklefield, Chem. Rev. 2018, 118, 232 – 269;
+b) M. C. Andorfer, J. E. Grob, C. E. Hajdin, J. R. Chael, P.
+Siuti, J. Lilly, K. L. Tan, J. C. Lewis, ACS Catal. 2017, 7, 1897 –
+1904; c) M. Voss, S. Honda Malca, R. Buller, Chem. Eur. J.
+2020, 26, 7336 – 7345; d) L. Bgchler, A. Papadopoulou, R.
+Buller, Catalysts 2019, 9, 1030; e) V. Weichold, D. Milbredt, K.-
+H. van P8e, Angew. Chem. Int. Ed. 2016, 55, 6374 – 6389;
+Angew. Chem. 2016, 128, 6482 – 6498; f) D. OQHagan, H. Deng,
+Chem. Rev. 2019, 115, 634 – 649.
+
+[231] T. Betke, P. Rommelmann, K. Oike, Y. Asano, H. Grçger,
+Angew. Chem. Int. Ed. 2017, 56, 12361 – 12366; Angew. Chem.
+2017, 129, 12533 – 12538.
+
+[232] C. Plass, A. Hinzmann, M. Terhorst, W. Brauer, K. Oike, H.
+Yavuzer, Y. Asano, A. J. Vorholt, T. Betke, H. Grçger, ACS
+Catal. 2019, 9, 5198 – 5203.
+
+[233] a) K. Chen, F. H. Arnold, Nat. Catal. 2020, 3, 203 – 213; b) I.
+Drienovsk#, G. Roelfes, Nat. Catal. 2020, 3, 193 – 202; c) M.
+Jeschek, S. Panke, T. R. Ward, Trends Biotechnol. 2018, 36, 60 –
+72; d) U. T. Bornscheuer, Nature 2016, 540, 345 – 346.
+
+[218] C. Dong, S. Flecks, S. Unversucht, C. Haupt, K.-H. van P8e,
+
+[234] P. S. Coelho, E. M. Brustad, A. Kannan, F. H. Arnold, Science
+
+J. H. Naismith, Science 2005, 309, 2216 – 2219.
+
+2013, 339, 307 – 310.
+
+[219] M. C. Andorfer, H. J. Park, J. Vergara-Coll, J. C. Lewis, Chem.
+
+[235] M. Bordeaux, V. Tyagi, R. Fasan, Angew. Chem. Int. Ed. 2015,
+
+Sci. 2016, 7, 3720 – 3729.
+
+[220] S. Duewel, L. Schmermund, T. Faber, K. Harms, V. Srinivasan,
+E. Meggers, S. Hçbenreich, ACS Catal. 2020, 10, 1272 – 1277.
+[221] T. Hayashi, M. Ligibel, E. Sager, M. Voss, J. Hunziker, K.
+Schroer, R. Snajdrova, R. Buller, Angew. Chem. Int. Ed. 2019,
+58, 18535 – 18539; Angew. Chem. 2019, 131, 18706 – 18711.
+[222] a) M. Frese, N. Sewald, Angew. Chem. Int. Ed. 2015, 54, 298 –
+301; Angew. Chem. 2015, 127, 302 – 305; b) H. Minges, C.
+Schnepel, D. Bçttcher, M. S. Weiß, J. Sproß, U. T. Bornscheuer,
+N. Sewald, ChemCatChem 2020, 12, 818 – 831.
+
+[223] D. S. Gkotsi, H. Ludewig, S. V. Sharma, J. A. Connolly, J.
+Dhaliwal, Y. Wang, W. P. Unsworth, R. J. K. Taylor, M. M. W.
+McLachlan, S. Shanahan, J. H. Naismith, R. J. M. Goss, Nat.
+Chem. 2019, 11, 1091 – 1097.
+
+[224] S. Keller, T. Wage, K. Hohaus, M. Hçlzer, E. Eichhorn, K.-H.
+van P8e, Angew. Chem. Int. Ed. 2000, 39, 2300 – 2302; Angew.
+Chem. 2000, 112, 2380 – 2382.
+
+[225] M. E. Neugebauer, K. H. Sumida, J. G. Pelton, J. L. McMurry,
+J. A. Marchand, M. C. Y. Chang, Nat. Chem. Biol. 2019, 15,
+1009 – 1016.
+
+[226] C. Schnepel, N. J. Turner, Nat. Chem. 2019, 11, 1076 – 1078.
+[227] Y. Asano, Y. Kato, FEMS Microbiol. Lett. 1998, 158, 185 – 190.
+[228] a) T. Betke, J. Higuchi, P. Rommelmann, K. Oike, T. Nomura,
+Y. Kato, Y. Asano, H. Grçger, ChemBioChem 2018, 19, 768 –
+
+54, 1744 – 1748; Angew. Chem. 2015, 127, 1764 – 1768.
+
+[236] C. C. Farwell, R. K. Zhang, J. A. McIntosh, T. K. Hyster, F. H.
+
+Arnold, ACS Cent. Sci. 2015, 1, 89 – 93.
+
+[237] a) K. F. Biegasiewicz, S. J. Cooper, M. A. Emmanuel, D. C.
+Miller, T. K. Hyster, Nat. Chem. 2018, 10, 770 – 775; b) M. A.
+Emmanuel, N. R. Greenberg, D. G. Oblinsky, T. K. Hyster,
+Nature 2016, 540, 414 – 417.
+
+[238] a) K. F. Biegasiewicz, S. J. Cooper, X. Gao, D. G. Oblinsky, J. H.
+Kim, S. E. Garfinkle, L. A. Joyce, B. A. Sandoval, G. D.
+Scholes, T. K. Hyster, Science 2019, 364, 1166 – 1169; b) M. J.
+Black, K. F. Biegasiewicz, A. J. Meichan, D. G. Oblinsky, B.
+Kudisch, G. D. Scholes, T. K. Hyster, Nat. Chem. 2020, 12, 71 –
+75; c) Y. Nakano, M. J. Black, A. J. Meichan, B. A. Sandoval,
+M. Chung, K. Biegasiewicz, T. Zhu, T. Hyster, Angew. Chem.
+Int. Ed. 2020, 59, 10484 – 10488; Angew. Chem. 2020, 132,
+10570 – 10574; d) B. A. Sandoval, S. I. Kurtoic, M. M. Chung,
+K. F. Biegasiewicz, T. K. Hyster, Angew. Chem. Int. Ed. 2019,
+58, 8714 – 8718; Angew. Chem. 2019, 131, 8806 – 8810.
+
+[239] M. Jeschek, R. Reuter, T. Heinisch, C. Trindler, J. Klehr, S.
+
+Panke, T. R. Ward, Nature 2016, 537, 661 – 665.
+
+Manuscript received: May 18, 2020
+Accepted manuscript online: June 18, 2020
+Version of record online: August 17, 2020
+
+Angew. Chem. Int. Ed. 2021, 60, 88 – 119
+
+T 2020 The Authors. Published by Wiley-VCH GmbH
+
+www.angewandte.org
+
+119
+
+

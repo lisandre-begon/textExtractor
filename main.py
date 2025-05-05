@@ -1,6 +1,7 @@
 from cleanTxt import process_text_file
 import os
 
+
 folder = "textFiles"
 
 for file in os.listdir(folder):
