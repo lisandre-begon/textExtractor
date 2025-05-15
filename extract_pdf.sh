@@ -1,3 +1,4 @@
+# Ancient method to extract text from PDF files using pdf2txt.py
 input_dir="pdfFiles"
 output_dir="textFiles"
 

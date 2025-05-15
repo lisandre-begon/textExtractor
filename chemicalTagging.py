@@ -35,7 +35,5 @@ methodology_keywords = [
 ]
 
 
-keywords = {
-    transformation_keywords + result_keywords + agent_keywords + condition_keywords + methodology_keywords
-}
 
+# Didnt use it yet because I don't know if it's needed 
