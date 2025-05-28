@@ -3,3 +3,5 @@ textFiles/
 teiFiles/
 extractedSentences/
 venv10/
+envipathData/
+first_attempts/**/*.json
