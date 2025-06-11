@@ -1,5 +1,5 @@
 import json
-from first_attemps.pathways_json.model_Pathways import Pathway , PathwayNode, PathwayLink
+from model_Pathways import Pathway , PathwayNode, PathwayLink
 
 def load_pathways():
     with open("./envipathData/soil.json", "r", encoding="utf-8") as f:
