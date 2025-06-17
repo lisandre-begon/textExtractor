@@ -1,6 +1,6 @@
-pdfFiles/
-textFiles/
-teiFiles/
 venv10/
 envipathData/
-first_attempts/**/*.json
+first_attempts/
+data/
+results/
+models/
