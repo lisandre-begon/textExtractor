@@ -2,8 +2,10 @@ import re
 import csv 
 import json
 from Bio import Entrez
+import time
 
 Entrez.email = "lisandre.begon1@gmail.com"
+Entrez.api_key = "44f17efcba4e206d6cfa2e05a38c3932d009"
 
 def load_pathway_descriptions(json_file="envipathData/bbd.json"):
     with open(json_file, 'r', encoding='utf-8') as f:
@@ -20,19 +22,29 @@ def load_pathway_descriptions(json_file="envipathData/bbd.json"):
 def extract_pubmed_ids(text):
     return re.findall(r'(?:pubmed\.ncbi\.nlm\.nih\.gov|www\.ncbi\.nlm\.nih\.gov/pubmed)/(\d+)', text)
 
+import xml.etree.ElementTree as ET
 
-def fetch_pubmed_metadata(pmid):
+def fetch_pubmed_metadata(pmid, pathway_name=""):
     try:
-        handle = Entrez.efetch(db="pubmed", id=pmid, retmode="xml")
-        records = Entrez.read(handle)
-        article = records[0]["MedlineCitation"]["Article"]
-        article_ids = records[0]["PubmedData"]["ArticleIdList"]
+        with Entrez.efetch(db="pubmed", id=pmid, retmode="xml") as handle:
+            xml_content = handle.read()
+        
+        root = ET.fromstring(xml_content)
+        article = root.find(".//PubmedArticle/MedlineCitation/Article")
 
-        title = article["ArticleTitle"]
-        journal = article["Journal"]["Title"]
-        authors = ", ".join(f"{a['LastName']} {a['Initials']}" for a in article.get("AuthorList", []))
-        abstract = article.get("Abstract", {}).get("AbstractText", [""])[0]
-        doi = next((x for x in article_ids if x.attributes["IdType"] == "doi"), "")
+        title = article.findtext("ArticleTitle", "")
+        journal = article.findtext("Journal/Title", "")
+        abstract_elem = article.find("Abstract/AbstractText")
+        abstract = abstract_elem.text if abstract_elem is not None else ""
+        authors_list = article.findall("AuthorList/Author")
+        authors = ", ".join(f"{a.findtext('LastName', '')} {a.findtext('Initials', '')}".strip() for a in authors_list if a.find("LastName") is not None)
+
+        # Extract DOI from the ArticleIdList
+        doi = ""
+        for id_elem in root.findall(".//ArticleIdList/ArticleId"):
+            if id_elem.attrib.get("IdType") == "doi":
+                doi = id_elem.text
+                break
 
         return {
             "PMID": pmid,
@@ -41,11 +53,17 @@ def fetch_pubmed_metadata(pmid):
             "Authors": authors,
             "Abstract": abstract,
             "DOI": doi,
-            "SciHub": f"https://sci-hub.se/{doi}" if doi else ""
+            "SciHub": f"https://sci-hub.se/{doi}" if doi else "",
+            "PathwayName": pathway_name
         }
-    
+
     except Exception as e:
-        return {"PMID": pmid, "Error": str(e)}
+        return {
+            "PMID": pmid,
+            "Error": str(e),
+            "PathwayName": pathway_name
+        }
+
 
 def main():
     pathway_entries = load_pathway_descriptions()
@@ -57,7 +75,9 @@ def main():
         for pmid in pmids:
             metadata = fetch_pubmed_metadata(pmid)
             metadata["PathwayName"] = pathway_name
+            print(f"Fetched: {metadata}")
             results.append(metadata)
+            time.sleep(0.5)
 
     if results:
         with open("pubmed_articles.csv", "w", newline='', encoding='utf-8') as csvfile:
