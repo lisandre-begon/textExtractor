@@ -3,6 +3,7 @@ import csv
 import json
 from Bio import Entrez
 import time
+import xml.etree.ElementTree as ET
 
 Entrez.email = "lisandre.begon1@gmail.com"
 Entrez.api_key = "44f17efcba4e206d6cfa2e05a38c3932d009"
@@ -21,8 +22,6 @@ def load_pathway_descriptions(json_file="envipathData/bbd.json"):
 
 def extract_pubmed_ids(text):
     return re.findall(r'(?:pubmed\.ncbi\.nlm\.nih\.gov|www\.ncbi\.nlm\.nih\.gov/pubmed)/(\d+)', text)
-
-import xml.etree.ElementTree as ET
 
 def fetch_pubmed_metadata(pmid, pathway_name=""):
     try:
@@ -53,6 +52,7 @@ def fetch_pubmed_metadata(pmid, pathway_name=""):
             "Authors": authors,
             "Abstract": abstract,
             "DOI": doi,
+            "PubMedURL": f"https://pubmed.ncbi.nlm.nih.gov/{pmid}",
             "SciHub": f"https://sci-hub.se/{doi}" if doi else "",
             "PathwayName": pathway_name
         }
