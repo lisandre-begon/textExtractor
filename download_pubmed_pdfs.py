@@ -1,4 +1,6 @@
 import os
+import json
+import re
 import csv
 import time
 import requests
@@ -20,7 +22,10 @@ SCI_HUB_MIRRORS = [
 def try_scihub_url(scihub_url):
     print(f"  └─ Tentative d'accès à : {scihub_url}")
     try:
-        response = requests.get(scihub_url, timeout=15)
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+        }
+        response = requests.get(scihub_url, headers=headers, timeout=15)
         if response.status_code != 200:
             print(f"  ✘ Échec de chargement (status {response.status_code})")
             return False, None
@@ -57,6 +62,7 @@ def try_all_scihub_mirrors(doi):
 
 def main():
     print("=== 📥 Lancement du téléchargement des PDF PubMed ===\n")
+    logs = []
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         total = 0
@@ -66,49 +72,93 @@ def main():
             pmid = row.get("PMID")
             doi = row.get("DOI")
             title = row.get("Title", "").strip()[:100]
+            pathway = row.get("PathwayName", "").strip()
             if not doi:
                 print(f"[{pmid}] ❌ Aucun DOI — article ignoré")
+                logs.append({
+                    "PMID": pmid,
+                    "PathwayName": pathway,
+                    "Filename": None,
+                    "Downloaded": False,
+                    "Reason": "No DOI"
+                })
                 continue
-
-            filename = f"{pmid}.pdf"
+            safe_pathway = re.sub(r"[^\w\-_\. ]", "_", pathway) or f"article_{pmid}"
+            filename = f"{safe_pathway}__{pmid}.pdf"
             output_path = os.path.join(OUTPUT_DIR, filename)
-
             print(f"\n=== ▶️ Traitement de PMID {pmid} ===")
-            print(f"    Titre : {title}")
-            print(f"    DOI   : {doi}")
-
+            print(f"    Titre       : {title}")
+            print(f"    DOI         : {doi}")
+            print(f"    Pathway     : {pathway}")
+            print(f"    Fichier     : {filename}")
             if os.path.exists(output_path):
                 print(f"    🟡 Déjà téléchargé : {filename}")
+                logs.append({
+                    "PMID": pmid,
+                    "PathwayName": pathway,
+                    "Filename": filename,
+                    "Downloaded": True,
+                    "Reason": "Already exists"
+                })
                 continue
-
             print(f"    📡 Tentative de téléchargement du PDF...")
             pdf_url = try_all_scihub_mirrors(doi)
-
             if pdf_url:
                 try:
                     print(f"    ⬇️ Téléchargement du fichier PDF...")
-                    pdf_response = requests.get(pdf_url, stream=True, timeout=20)
+                    headers = {
+                        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
+                    }
+                    pdf_response = requests.get(pdf_url, headers=headers, stream=True, timeout=20)
                     if pdf_response.status_code == 200:
                         with open(output_path, "wb") as f_out:
                             for chunk in pdf_response.iter_content(1024):
                                 f_out.write(chunk)
                         print(f"    ✅ PDF enregistré : {output_path}")
                         downloaded += 1
+                        logs.append({
+                            "PMID": pmid,
+                            "PathwayName": pathway,
+                            "Filename": filename,
+                            "Downloaded": True,
+                            "Reason": "Downloaded"
+                        })
                     else:
                         print(f"    ❌ PDF non téléchargeable (status {pdf_response.status_code})")
+                        logs.append({
+                            "PMID": pmid,
+                            "PathwayName": pathway,
+                            "Filename": filename,
+                            "Downloaded": False,
+                            "Reason": f"HTTP {pdf_response.status_code}"
+                        })
                 except Exception as e:
                     print(f"    ❌ Erreur pendant le téléchargement : {e}")
+                    logs.append({
+                        "PMID": pmid,
+                        "PathwayName": pathway,
+                        "Filename": filename,
+                        "Downloaded": False,
+                        "Reason": f"Exception: {str(e)}"
+                    })
             else:
                 fallback_url = f"https://sci-hub.se/{doi}"
-                print(f"    🚪 Ouverture dans le navigateur : {fallback_url}")
+                print(f"    🚪 PDF introuvable — ouverture manuelle : {fallback_url}")
                 webbrowser.open(fallback_url)
-
+                logs.append({
+                    "PMID": pmid,
+                    "PathwayName": pathway,
+                    "Filename": filename,
+                    "Downloaded": False,
+                    "Reason": "PDF not found on Sci-Hub"
+                })
             time.sleep(1.5)
-
     print("\n=== ✅ Terminé ===")
     print(f"Articles traités : {total}")
     print(f"PDF téléchargés  : {downloaded}")
     print(f"PDF manquants    : {total - downloaded}")
-
+    with open("log_downloads.json", "w", encoding="utf-8") as log_file:
+        json.dump(logs, log_file, indent=2, ensure_ascii=False)
+    print("\n📝 Fichier log_downloads.json généré.")
 if __name__ == "__main__":
     main()
