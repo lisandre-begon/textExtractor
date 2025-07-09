@@ -8,7 +8,7 @@ import xml.etree.ElementTree as ET
 Entrez.email = "lisandre.begon1@gmail.com"
 Entrez.api_key = "44f17efcba4e206d6cfa2e05a38c3932d009"
 
-def load_pathway_descriptions(json_file="envipathData/bbd.json"):
+def load_pathway_descriptions(json_file="pathways_raw.json"):
     with open(json_file, 'r', encoding='utf-8') as f:
         data = json.load(f)
 
