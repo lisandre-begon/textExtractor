@@ -11,29 +11,30 @@ INPUT_FILE = "pubmed_articles.csv"
 OUTPUT_DIR = "pdfs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-# Miroirs Sci-Hub connus
+#We test all the diffrent sci hub mirrors to be sure we can access the PDF
 SCI_HUB_MIRRORS = [
     "https://sci-hub.se",
     "https://sci-hub.ru",
     "https://sci-hub.st",
     "https://sci-hub.hkvisa.net",
 ]
-
+#Fucntion where we try to access the PDF via the Sci-Hub urls
 def try_scihub_url(scihub_url):
-    print(f"  └─ Tentative d'accès à : {scihub_url}")
+    print(f"  └─ Access attempt : {scihub_url}")
     try:
+        #We mimic the browser user agent to avoid blocks frm the site
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
         }
         response = requests.get(scihub_url, headers=headers, timeout=15)
         if response.status_code != 200:
-            print(f"  ✘ Échec de chargement (status {response.status_code})")
+            print(f" X Loading fail (status {response.status_code})")
             return False, None
 
         soup = BeautifulSoup(response.content, "html.parser")
         iframe = soup.find("iframe")
         if not iframe or not iframe.get("src"):
-            print(f"  ✘ Aucune iframe trouvée (pas de PDF visible)")
+            print(f" X No PDF found in iframe")
             return False, None
 
         pdf_url = iframe["src"]
@@ -43,25 +44,25 @@ def try_scihub_url(scihub_url):
             parts = scihub_url.split("/")
             pdf_url = parts[0] + "//" + parts[2] + pdf_url
 
-        print(f"  ✔ Lien PDF trouvé : {pdf_url}")
+        print(f"PDF found : {pdf_url}")
         return True, pdf_url
     except Exception as e:
-        print(f"  ✘ Erreur lors de l'accès à {scihub_url} → {e}")
+        print(f"X Error trying to access {scihub_url} → {e}")
         return False, None
 
 def try_all_scihub_mirrors(doi):
-    print(f"🔍 Recherche du PDF pour DOI: {doi}")
+    print(f"Search PDF by DOI : {doi}")
     for mirror in SCI_HUB_MIRRORS:
         scihub_url = f"{mirror}/{doi}"
         success, pdf_url = try_scihub_url(scihub_url)
         if success:
-            print(f"✅ PDF localisé via {mirror}")
+            print(f"PDF found by {mirror}")
             return pdf_url
-    print(f"❌ Aucun miroir Sci-Hub n'a permis d'accéder au PDF.")
+    print(f"X None of the Sci-Hub mirrors could access the PDF for DOI {doi}")
     return None
 
 def main():
-    print("=== 📥 Lancement du téléchargement des PDF PubMed ===\n")
+    print(" Downloading PubMed PDFs from Sci-Hub")
     logs = []
     with open(INPUT_FILE, "r", encoding="utf-8") as f:
         reader = csv.DictReader(f)
@@ -74,7 +75,7 @@ def main():
             title = row.get("Title", "").strip()[:100]
             pathway = row.get("PathwayName", "").strip()
             if not doi:
-                print(f"[{pmid}] ❌ Aucun DOI — article ignoré")
+                print(f"[{pmid}] X No DOI found, skipping...")
                 logs.append({
                     "PMID": pmid,
                     "PathwayName": pathway,
@@ -86,13 +87,13 @@ def main():
             safe_pathway = re.sub(r"[^\w\-_\. ]", "_", pathway) or f"article_{pmid}"
             filename = f"{safe_pathway}__{pmid}.pdf"
             output_path = os.path.join(OUTPUT_DIR, filename)
-            print(f"\n=== ▶️ Traitement de PMID {pmid} ===")
+            print(f"\n[{pmid}]")
             print(f"    Titre       : {title}")
             print(f"    DOI         : {doi}")
             print(f"    Pathway     : {pathway}")
             print(f"    Fichier     : {filename}")
             if os.path.exists(output_path):
-                print(f"    🟡 Déjà téléchargé : {filename}")
+                print(f"Already download, skipping : {filename}")
                 logs.append({
                     "PMID": pmid,
                     "PathwayName": pathway,
@@ -101,20 +102,21 @@ def main():
                     "Reason": "Already exists"
                 })
                 continue
-            print(f"    📡 Tentative de téléchargement du PDF...")
+            print(f"Searching PDF for DOI : {doi}")
             pdf_url = try_all_scihub_mirrors(doi)
             if pdf_url:
                 try:
-                    print(f"    ⬇️ Téléchargement du fichier PDF...")
+                    print(f"Downloading PDF from {pdf_url}")
                     headers = {
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36"
                     }
+
                     pdf_response = requests.get(pdf_url, headers=headers, stream=True, timeout=20)
                     if pdf_response.status_code == 200:
                         with open(output_path, "wb") as f_out:
                             for chunk in pdf_response.iter_content(1024):
                                 f_out.write(chunk)
-                        print(f"    ✅ PDF enregistré : {output_path}")
+                        print(f"PDF downloaded : {output_path}")
                         downloaded += 1
                         logs.append({
                             "PMID": pmid,
@@ -124,7 +126,7 @@ def main():
                             "Reason": "Downloaded"
                         })
                     else:
-                        print(f"    ❌ PDF non téléchargeable (status {pdf_response.status_code})")
+                        print(f" X Unable to download the PDF (status {pdf_response.status_code})")
                         logs.append({
                             "PMID": pmid,
                             "PathwayName": pathway,
@@ -133,7 +135,7 @@ def main():
                             "Reason": f"HTTP {pdf_response.status_code}"
                         })
                 except Exception as e:
-                    print(f"    ❌ Erreur pendant le téléchargement : {e}")
+                    print(f" X Error : {e}")
                     logs.append({
                         "PMID": pmid,
                         "PathwayName": pathway,
@@ -142,9 +144,7 @@ def main():
                         "Reason": f"Exception: {str(e)}"
                     })
             else:
-                fallback_url = f"https://sci-hub.se/{doi}"
-                print(f"    🚪 PDF introuvable — ouverture manuelle : {fallback_url}")
-                webbrowser.open(fallback_url)
+                print(f" X PDF not found for DOI {doi} on Sci-Hub")
                 logs.append({
                     "PMID": pmid,
                     "PathwayName": pathway,
@@ -153,12 +153,12 @@ def main():
                     "Reason": "PDF not found on Sci-Hub"
                 })
             time.sleep(1.5)
-    print("\n=== ✅ Terminé ===")
-    print(f"Articles traités : {total}")
-    print(f"PDF téléchargés  : {downloaded}")
-    print(f"PDF manquants    : {total - downloaded}")
+    print("Download done.")
+    print(f"Processed articles : {total}")
+    print(f"PDF downloaded : {downloaded}")
+    print(f"PDF absent : {total - downloaded}")
     with open("log_downloads.json", "w", encoding="utf-8") as log_file:
         json.dump(logs, log_file, indent=2, ensure_ascii=False)
-    print("\n📝 Fichier log_downloads.json généré.")
+    print("Log saved in log_downloads.json")
 if __name__ == "__main__":
     main()

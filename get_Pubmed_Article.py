@@ -38,7 +38,6 @@ def fetch_pubmed_metadata(pmid, pathway_name=""):
         authors_list = article.findall("AuthorList/Author")
         authors = ", ".join(f"{a.findtext('LastName', '')} {a.findtext('Initials', '')}".strip() for a in authors_list if a.find("LastName") is not None)
 
-        # Extract DOI from the ArticleIdList
         doi = ""
         for id_elem in root.findall(".//ArticleIdList/ArticleId"):
             if id_elem.attrib.get("IdType") == "doi":
