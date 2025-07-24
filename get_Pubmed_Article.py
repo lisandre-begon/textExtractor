@@ -79,14 +79,24 @@ def main():
             time.sleep(0.5)
 
     if results:
+        # Ensure consistent fieldnames
+        fieldnames = [
+            "PMID", "Title", "Journal", "Authors", "Abstract",
+            "DOI", "PubMedURL", "SciHub", "PathwayName", "Error"
+        ]
+
+        # Fill missing keys with empty strings
+        for r in results:
+            for fn in fieldnames:
+                if fn not in r:
+                    r[fn] = ""
+
         with open("pubmed_articles.csv", "w", newline='', encoding='utf-8') as csvfile:
-            fieldnames = list(results[0].keys())
             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(results)
         print(f" Saved {len(results)} articles to pubmed_articles.csv")
-    else:
-        print(" No PubMed articles found in the pathway descriptions.")
+
 
 if __name__ == "__main__":
     main()

@@ -9,3 +9,4 @@ pdfs/
 log_downloads.json
 pathways_raw.json
 clean_pdfs/
+filtered_sentences/
